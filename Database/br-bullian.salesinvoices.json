@@ -1,0 +1,3334 @@
+[{
+  "_id": {
+    "$oid": "6a0b4ff785d384e22b982dd5"
+  },
+  "salesInvoiceNo": "SALE-202605-0005",
+  "partyId": {
+    "$oid": "6a0b4b5c85d384e22b982d11"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-18T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a0b46d4053a8e1039e25ef3"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25ef6"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25ef8"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25ef9"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25efa"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25efb"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25efe"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-18T17:44:23.258Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-18T17:44:23.258Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0b512685d384e22b982ddf"
+  },
+  "salesInvoiceNo": "SALE-202605-0006",
+  "partyId": {
+    "$oid": "6a0b4b5185d384e22b982d0e"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-18T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a0b46d4053a8e1039e25f05"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25ef4"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25ef5"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25efc"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25efd"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25eff"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25f00"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25f01"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25f02"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25f04"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25f0f"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-18T17:49:26.747Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-18T17:49:26.747Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0b528f85d384e22b982e43"
+  },
+  "salesInvoiceNo": "SALE-202605-0007",
+  "partyId": {
+    "$oid": "6a0b4b6685d384e22b982d14"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-18T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a0b46d4053a8e1039e25f06"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25f07"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25f08"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25f09"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25f0a"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25f0b"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25f0c"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25f0d"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25f0e"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25f10"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25f11"
+    },
+    {
+      "$oid": "6a0b4d9685d384e22b982d90"
+    },
+    {
+      "$oid": "6a0b4d9685d384e22b982d91"
+    },
+    {
+      "$oid": "6a0b4dd285d384e22b982d9c"
+    },
+    {
+      "$oid": "6a0b4dd285d384e22b982d9d"
+    },
+    {
+      "$oid": "6a0b4dd285d384e22b982d9e"
+    },
+    {
+      "$oid": "6a0b4e4185d384e22b982da9"
+    },
+    {
+      "$oid": "6a0b4e4185d384e22b982daa"
+    },
+    {
+      "$oid": "6a0b4e4185d384e22b982dab"
+    },
+    {
+      "$oid": "6a0b4e4185d384e22b982dac"
+    },
+    {
+      "$oid": "6a0b4e4185d384e22b982dad"
+    },
+    {
+      "$oid": "6a0b4e5d85d384e22b982db8"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-18T17:55:27.411Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-18T17:55:27.411Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0c19bfa9d65380f5a09ef0"
+  },
+  "salesInvoiceNo": "SALE-202605-0008",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-19T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a0b46d4053a8e1039e25ef7"
+    },
+    {
+      "$oid": "6a0b46d4053a8e1039e25f03"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-19T08:05:19.706Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-19T08:05:19.706Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0c19f1a9d65380f5a09efd"
+  },
+  "salesInvoiceNo": "SALE-202605-0009",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-19T00:00:00.000Z"
+  },
+  "paggaIds": [],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-19T08:06:09.048Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-19T13:12:13.188Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0c30e7a9d65380f5a0a09c"
+  },
+  "salesInvoiceNo": "SALE-202605-0010",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-19T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a0c249ca9d65380f5a09f8e"
+    },
+    {
+      "$oid": "6a0c249ca9d65380f5a09f8f"
+    },
+    {
+      "$oid": "6a0c249ca9d65380f5a09f90"
+    },
+    {
+      "$oid": "6a0c249ca9d65380f5a09f91"
+    },
+    {
+      "$oid": "6a0c249ca9d65380f5a09f92"
+    },
+    {
+      "$oid": "6a0c249ca9d65380f5a09f93"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a064"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a065"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a066"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a068"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a069"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a06c"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a06e"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a070"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a075"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-19T09:44:07.939Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-19T09:44:07.939Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0c312ea9d65380f5a0a0a9"
+  },
+  "salesInvoiceNo": "SALE-202605-0011",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-19T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a0c1e3da9d65380f5a09f2e"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a05f"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a060"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a061"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a062"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a063"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a067"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a06a"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a06b"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a06d"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a06f"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a071"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a072"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a073"
+    },
+    {
+      "$oid": "6a0c2f76a9d65380f5a0a074"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-19T09:45:18.667Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-19T09:45:18.667Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0cae392248e67e11abb83f"
+  },
+  "salesInvoiceNo": "SALE-202605-0012",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-19T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a0c672517997035f5ecf804"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-19T18:38:49.620Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-19T18:38:49.620Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0cb3732248e67e11abb8b2"
+  },
+  "salesInvoiceNo": "SALE-202605-0013",
+  "partyId": {
+    "$oid": "6a0b4b6685d384e22b982d14"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-19T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a0ca87f2248e67e11abb7fc"
+    },
+    {
+      "$oid": "6a0ca87f2248e67e11abb7fd"
+    },
+    {
+      "$oid": "6a0ca87f2248e67e11abb7fe"
+    },
+    {
+      "$oid": "6a0ca87f2248e67e11abb7ff"
+    },
+    {
+      "$oid": "6a0ca87f2248e67e11abb800"
+    },
+    {
+      "$oid": "6a0ca87f2248e67e11abb801"
+    },
+    {
+      "$oid": "6a0ca87f2248e67e11abb802"
+    },
+    {
+      "$oid": "6a0ca87f2248e67e11abb803"
+    },
+    {
+      "$oid": "6a0ca87f2248e67e11abb804"
+    },
+    {
+      "$oid": "6a0ca87f2248e67e11abb805"
+    },
+    {
+      "$oid": "6a0ca87f2248e67e11abb806"
+    },
+    {
+      "$oid": "6a0ca87f2248e67e11abb807"
+    },
+    {
+      "$oid": "6a0ca87f2248e67e11abb808"
+    },
+    {
+      "$oid": "6a0ca87f2248e67e11abb809"
+    },
+    {
+      "$oid": "6a0ca87f2248e67e11abb80a"
+    },
+    {
+      "$oid": "6a0ca87f2248e67e11abb80b"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-19T19:01:07.561Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-19T19:01:07.561Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0cb3b02248e67e11abb8bf"
+  },
+  "salesInvoiceNo": "SALE-202605-0014",
+  "partyId": {
+    "$oid": "6a0b4b5c85d384e22b982d11"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-19T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a0ca87f2248e67e11abb80c"
+    },
+    {
+      "$oid": "6a0ca87f2248e67e11abb80d"
+    },
+    {
+      "$oid": "6a0ca87f2248e67e11abb80e"
+    },
+    {
+      "$oid": "6a0ca87f2248e67e11abb80f"
+    },
+    {
+      "$oid": "6a0cacea2248e67e11abb81a"
+    },
+    {
+      "$oid": "6a0cacea2248e67e11abb81b"
+    },
+    {
+      "$oid": "6a0cacea2248e67e11abb81c"
+    },
+    {
+      "$oid": "6a0cacea2248e67e11abb81d"
+    },
+    {
+      "$oid": "6a0cacea2248e67e11abb81e"
+    },
+    {
+      "$oid": "6a0cacea2248e67e11abb81f"
+    },
+    {
+      "$oid": "6a0cacea2248e67e11abb820"
+    },
+    {
+      "$oid": "6a0cacea2248e67e11abb821"
+    },
+    {
+      "$oid": "6a0cacea2248e67e11abb822"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-19T19:02:08.350Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-19T19:02:08.350Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0e05f6b2e432ef7f6a36ef"
+  },
+  "salesInvoiceNo": "SALE-202605-0015",
+  "partyId": {
+    "$oid": "6a0b4b5185d384e22b982d0e"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-20T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35e1"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35e2"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35e3"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35e4"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35e5"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35e6"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35e7"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35e8"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35e9"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35ea"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35eb"
+    },
+    {
+      "$oid": "6a0e09c6b2e432ef7f6a3727"
+    },
+    {
+      "$oid": "6a0e09c6b2e432ef7f6a3726"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-20T19:05:26.342Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-20T19:39:41.675Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0e06edb2e432ef7f6a36fc"
+  },
+  "salesInvoiceNo": "SALE-202605-0016",
+  "partyId": {
+    "$oid": "6a0b4b6685d384e22b982d14"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-20T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35ec"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35ed"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35ee"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35ef"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35f0"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35f1"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35f2"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35f3"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35f4"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35f5"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35f6"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35f7"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35f8"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35f9"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35fa"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35fb"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35fc"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a3617"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a361e"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a361f"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-20T19:09:33.615Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-20T19:09:33.615Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0e07b7b2e432ef7f6a3709"
+  },
+  "salesInvoiceNo": "SALE-202605-0017",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-20T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35fd"
+    },
+    {
+      "$oid": "6a0da4e2b2e432ef7f6a35fe"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a3609"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a360a"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a360b"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a360c"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a360d"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a360f"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a3610"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a3611"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a3612"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a3613"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a3614"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a3615"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a3616"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a3618"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a3619"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a361a"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a361b"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a361c"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a361d"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-20T19:12:55.732Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-20T19:12:55.732Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0f42eba768c017ecc6393d"
+  },
+  "salesInvoiceNo": "SALE-202605-0019",
+  "partyId": {
+    "$oid": "6a0b4b5185d384e22b982d0e"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-21T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a0f3568a768c017ecc6387e"
+    },
+    {
+      "$oid": "6a0f3568a768c017ecc6387f"
+    },
+    {
+      "$oid": "6a0f3568a768c017ecc63880"
+    },
+    {
+      "$oid": "6a0f3568a768c017ecc63881"
+    },
+    {
+      "$oid": "6a0f3568a768c017ecc63884"
+    },
+    {
+      "$oid": "6a0f3568a768c017ecc63885"
+    },
+    {
+      "$oid": "6a0f3568a768c017ecc63886"
+    },
+    {
+      "$oid": "6a0f3568a768c017ecc63887"
+    },
+    {
+      "$oid": "6a0f3568a768c017ecc63888"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-21T17:37:47.124Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T17:37:47.124Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0f43d0a768c017ecc6394a"
+  },
+  "salesInvoiceNo": "SALE-202605-0020",
+  "partyId": {
+    "$oid": "6a0b4b6685d384e22b982d14"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-21T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a0f3568a768c017ecc63882"
+    },
+    {
+      "$oid": "6a0f3568a768c017ecc63883"
+    },
+    {
+      "$oid": "6a0f3568a768c017ecc63889"
+    },
+    {
+      "$oid": "6a0f3568a768c017ecc6388a"
+    },
+    {
+      "$oid": "6a0f3568a768c017ecc6388b"
+    },
+    {
+      "$oid": "6a0f3568a768c017ecc6388c"
+    },
+    {
+      "$oid": "6a0f3568a768c017ecc6388d"
+    },
+    {
+      "$oid": "6a0f3676a768c017ecc6389e"
+    },
+    {
+      "$oid": "6a0f3676a768c017ecc6389f"
+    },
+    {
+      "$oid": "6a0f3676a768c017ecc638a1"
+    },
+    {
+      "$oid": "6a0f3676a768c017ecc638a2"
+    },
+    {
+      "$oid": "6a0f3676a768c017ecc638a6"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-21T17:41:36.879Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T17:41:36.879Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0f4495a768c017ecc63957"
+  },
+  "salesInvoiceNo": "SALE-202605-0021",
+  "partyId": {
+    "$oid": "6a0b4b5c85d384e22b982d11"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-21T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a0f3568a768c017ecc6388e"
+    },
+    {
+      "$oid": "6a0f3676a768c017ecc638a0"
+    },
+    {
+      "$oid": "6a0f3676a768c017ecc638a4"
+    },
+    {
+      "$oid": "6a0f3676a768c017ecc638a5"
+    },
+    {
+      "$oid": "6a0f3676a768c017ecc638a8"
+    },
+    {
+      "$oid": "6a0f3676a768c017ecc638a7"
+    },
+    {
+      "$oid": "6a0f3fd7a768c017ecc638b4"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-21T17:44:53.669Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T17:44:53.669Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0f4504a768c017ecc63964"
+  },
+  "salesInvoiceNo": "SALE-202605-0022",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-21T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a0f3676a768c017ecc638a3"
+    },
+    {
+      "$oid": "6a0f3fd7a768c017ecc638b5"
+    },
+    {
+      "$oid": "6a0f3fd7a768c017ecc638b6"
+    },
+    {
+      "$oid": "6a0f4075a768c017ecc638c2"
+    },
+    {
+      "$oid": "6a0f4075a768c017ecc638c3"
+    },
+    {
+      "$oid": "6a0f4075a768c017ecc638c4"
+    },
+    {
+      "$oid": "6a0f4075a768c017ecc638c5"
+    },
+    {
+      "$oid": "6a0f4075a768c017ecc638c6"
+    },
+    {
+      "$oid": "6a0f4075a768c017ecc638c7"
+    },
+    {
+      "$oid": "6a0f4075a768c017ecc638c8"
+    },
+    {
+      "$oid": "6a0f4075a768c017ecc638c9"
+    },
+    {
+      "$oid": "6a0f4293a768c017ecc63919"
+    },
+    {
+      "$oid": "6a0f4293a768c017ecc6391a"
+    },
+    {
+      "$oid": "6a0f4293a768c017ecc6391b"
+    },
+    {
+      "$oid": "6a0f4293a768c017ecc6391c"
+    },
+    {
+      "$oid": "6a0f4293a768c017ecc6391d"
+    },
+    {
+      "$oid": "6a0f4293a768c017ecc6391e"
+    },
+    {
+      "$oid": "6a0f4293a768c017ecc6391f"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-21T17:46:44.133Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T17:46:44.133Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a10147da768c017ecc63a01"
+  },
+  "salesInvoiceNo": "SALE-202605-0023",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-22T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a1013ada768c017ecc639d0"
+    },
+    {
+      "$oid": "6a1013ada768c017ecc639d1"
+    },
+    {
+      "$oid": "6a1013ada768c017ecc639d2"
+    },
+    {
+      "$oid": "6a1013ada768c017ecc639d3"
+    },
+    {
+      "$oid": "6a1013ada768c017ecc639d4"
+    },
+    {
+      "$oid": "6a1013ada768c017ecc639d5"
+    },
+    {
+      "$oid": "6a1013ada768c017ecc639d6"
+    },
+    {
+      "$oid": "6a1013ada768c017ecc639d7"
+    },
+    {
+      "$oid": "6a1013ada768c017ecc639d8"
+    },
+    {
+      "$oid": "6a1013ada768c017ecc639d9"
+    },
+    {
+      "$oid": "6a1013ada768c017ecc639da"
+    },
+    {
+      "$oid": "6a1013ada768c017ecc639db"
+    },
+    {
+      "$oid": "6a1013ada768c017ecc639dc"
+    },
+    {
+      "$oid": "6a1013ada768c017ecc639dd"
+    },
+    {
+      "$oid": "6a1013ada768c017ecc639de"
+    },
+    {
+      "$oid": "6a1013ada768c017ecc639df"
+    },
+    {
+      "$oid": "6a1013ada768c017ecc639e0"
+    },
+    {
+      "$oid": "6a1013ada768c017ecc639e1"
+    },
+    {
+      "$oid": "6a1013ada768c017ecc639e2"
+    },
+    {
+      "$oid": "6a1013ada768c017ecc639e3"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-22T08:31:57.477Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T08:31:57.477Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a109a595baf13d6251ed9e2"
+  },
+  "salesInvoiceNo": "SALE-202605-0025",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-22T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a1093965baf13d6251ed930"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed931"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed932"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed933"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed934"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed935"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed936"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed937"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed938"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed939"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed93a"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed93b"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed93c"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed93d"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed93e"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed93f"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed941"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed942"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed944"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed946"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed947"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed948"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed949"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed94a"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed94b"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed94c"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed94d"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed94e"
+    },
+    {
+      "$oid": "6a1096c35baf13d6251ed9ba"
+    },
+    {
+      "$oid": "6a1096c35baf13d6251ed9bb"
+    },
+    {
+      "$oid": "6a1096c35baf13d6251ed9bc"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-22T18:03:05.453Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T18:08:14.580Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a109c1e5baf13d6251eda78"
+  },
+  "salesInvoiceNo": "SALE-202605-0026",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-22T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a1096c35baf13d6251ed9c4"
+    },
+    {
+      "$oid": "6a1096c35baf13d6251ed9c3"
+    },
+    {
+      "$oid": "6a1096c35baf13d6251ed9c2"
+    },
+    {
+      "$oid": "6a1096c35baf13d6251ed9c1"
+    },
+    {
+      "$oid": "6a1096c35baf13d6251ed9c0"
+    },
+    {
+      "$oid": "6a1096c35baf13d6251ed9bf"
+    },
+    {
+      "$oid": "6a1096c35baf13d6251ed9be"
+    },
+    {
+      "$oid": "6a1096c35baf13d6251ed9bd"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-22T18:10:38.593Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T18:10:38.593Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11e00bd9260df8c0d9b782"
+  },
+  "salesInvoiceNo": "SALE-202605-0027",
+  "partyId": {
+    "$oid": "6a11c9b1704df4ab8ecd3331"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-23T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a11c7fa704df4ab8ecd327f"
+    },
+    {
+      "$oid": "6a11c6e5704df4ab8ecd3250"
+    },
+    {
+      "$oid": "6a11c6e5704df4ab8ecd324f"
+    },
+    {
+      "$oid": "6a11c6e5704df4ab8ecd324e"
+    },
+    {
+      "$oid": "6a11c690704df4ab8ecd3242"
+    },
+    {
+      "$oid": "6a11c690704df4ab8ecd3241"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed945"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed943"
+    },
+    {
+      "$oid": "6a1039c6a768c017ecc63a4c"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T17:12:43.408Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T17:12:43.408Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11e2f8d9260df8c0d9b803"
+  },
+  "salesInvoiceNo": "SALE-202605-0028",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-23T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a11cf5e704df4ab8ecd349b"
+    },
+    {
+      "$oid": "6a11cf5e704df4ab8ecd349a"
+    },
+    {
+      "$oid": "6a11cf5e704df4ab8ecd34a2"
+    },
+    {
+      "$oid": "6a11cf5e704df4ab8ecd3498"
+    },
+    {
+      "$oid": "6a11cf5e704df4ab8ecd3497"
+    },
+    {
+      "$oid": "6a11cf5e704df4ab8ecd3496"
+    },
+    {
+      "$oid": "6a11cf5e704df4ab8ecd3495"
+    },
+    {
+      "$oid": "6a11cf5e704df4ab8ecd3493"
+    },
+    {
+      "$oid": "6a11cf5e704df4ab8ecd3492"
+    },
+    {
+      "$oid": "6a11cf5e704df4ab8ecd3491"
+    },
+    {
+      "$oid": "6a11cf5e704df4ab8ecd3490"
+    },
+    {
+      "$oid": "6a11cf5e704df4ab8ecd3499"
+    },
+    {
+      "$oid": "6a11cf5e704df4ab8ecd34a4"
+    },
+    {
+      "$oid": "6a11cf5e704df4ab8ecd34a3"
+    },
+    {
+      "$oid": "6a11cfdc704df4ab8ecd34e6"
+    },
+    {
+      "$oid": "6a11d10a704df4ab8ecd34f3"
+    },
+    {
+      "$oid": "6a11d10a704df4ab8ecd34f4"
+    },
+    {
+      "$oid": "6a11d10a704df4ab8ecd34f5"
+    },
+    {
+      "$oid": "6a11d10a704df4ab8ecd34f6"
+    },
+    {
+      "$oid": "6a11d10a704df4ab8ecd34f7"
+    },
+    {
+      "$oid": "6a11d10a704df4ab8ecd34f8"
+    },
+    {
+      "$oid": "6a11d10a704df4ab8ecd34f9"
+    },
+    {
+      "$oid": "6a11d10a704df4ab8ecd34fa"
+    },
+    {
+      "$oid": "6a11d10a704df4ab8ecd34fc"
+    },
+    {
+      "$oid": "6a11d10a704df4ab8ecd34fd"
+    },
+    {
+      "$oid": "6a11d10a704df4ab8ecd34fe"
+    },
+    {
+      "$oid": "6a11d10a704df4ab8ecd34ff"
+    },
+    {
+      "$oid": "6a11d10a704df4ab8ecd34fb"
+    },
+    {
+      "$oid": "6a11d34a704df4ab8ecd350c"
+    },
+    {
+      "$oid": "6a11d34a704df4ab8ecd350d"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T17:25:12.642Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T17:26:00.680Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11e469d9260df8c0d9b830"
+  },
+  "salesInvoiceNo": "SALE-202605-0029",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-23T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a11d34a704df4ab8ecd3517"
+    },
+    {
+      "$oid": "6a11d34a704df4ab8ecd3516"
+    },
+    {
+      "$oid": "6a11d34a704df4ab8ecd3515"
+    },
+    {
+      "$oid": "6a11d34a704df4ab8ecd3514"
+    },
+    {
+      "$oid": "6a11d34a704df4ab8ecd3513"
+    },
+    {
+      "$oid": "6a11d34a704df4ab8ecd3512"
+    },
+    {
+      "$oid": "6a11d34a704df4ab8ecd3511"
+    },
+    {
+      "$oid": "6a11d34a704df4ab8ecd3510"
+    },
+    {
+      "$oid": "6a11d34a704df4ab8ecd350f"
+    },
+    {
+      "$oid": "6a11d34a704df4ab8ecd350e"
+    },
+    {
+      "$oid": "6a11d34a704df4ab8ecd350b"
+    },
+    {
+      "$oid": "6a11cf5e704df4ab8ecd349e"
+    },
+    {
+      "$oid": "6a11cd4b704df4ab8ecd3480"
+    },
+    {
+      "$oid": "6a11cd4b704df4ab8ecd347f"
+    },
+    {
+      "$oid": "6a11c8ce704df4ab8ecd32c1"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T17:31:21.177Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T17:32:30.244Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11e889d9260df8c0d9b8ab"
+  },
+  "salesInvoiceNo": "SALE-202605-0030",
+  "partyId": {
+    "$oid": "6a0b4b6685d384e22b982d14"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-23T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a11dd64d9260df8c0d9ad86"
+    },
+    {
+      "$oid": "6a11cf5e704df4ab8ecd349c"
+    },
+    {
+      "$oid": "6a11cf5e704df4ab8ecd34a1"
+    },
+    {
+      "$oid": "6a11cf5e704df4ab8ecd34a0"
+    },
+    {
+      "$oid": "6a11cf5e704df4ab8ecd349f"
+    },
+    {
+      "$oid": "6a11cf5e704df4ab8ecd349d"
+    },
+    {
+      "$oid": "6a11cd4b704df4ab8ecd3481"
+    },
+    {
+      "$oid": "6a11cd4b704df4ab8ecd347e"
+    },
+    {
+      "$oid": "6a11cd10704df4ab8ecd3472"
+    },
+    {
+      "$oid": "6a11cce6704df4ab8ecd3466"
+    },
+    {
+      "$oid": "6a11c8bb704df4ab8ecd32b5"
+    },
+    {
+      "$oid": "6a11c856704df4ab8ecd328c"
+    },
+    {
+      "$oid": "6a11c856704df4ab8ecd328d"
+    },
+    {
+      "$oid": "6a11c856704df4ab8ecd328e"
+    },
+    {
+      "$oid": "6a11c856704df4ab8ecd328f"
+    },
+    {
+      "$oid": "6a11c856704df4ab8ecd3290"
+    },
+    {
+      "$oid": "6a11c856704df4ab8ecd3291"
+    },
+    {
+      "$oid": "6a11c856704df4ab8ecd328b"
+    },
+    {
+      "$oid": "6a11c7c5704df4ab8ecd3272"
+    },
+    {
+      "$oid": "6a11c7c5704df4ab8ecd3271"
+    },
+    {
+      "$oid": "6a11c7c5704df4ab8ecd326f"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T17:48:57.548Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T17:48:57.548Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11eb02d9260df8c0d9b8b8"
+  },
+  "salesInvoiceNo": "SALE-202605-0031",
+  "partyId": {
+    "$oid": "6a0b4b5c85d384e22b982d11"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-23T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a11c7c5704df4ab8ecd326e"
+    },
+    {
+      "$oid": "6a11c7c5704df4ab8ecd3270"
+    },
+    {
+      "$oid": "6a11c7c5704df4ab8ecd3269"
+    },
+    {
+      "$oid": "6a11c7c5704df4ab8ecd326a"
+    },
+    {
+      "$oid": "6a11c7c5704df4ab8ecd326b"
+    },
+    {
+      "$oid": "6a11c7c5704df4ab8ecd326c"
+    },
+    {
+      "$oid": "6a11c7c5704df4ab8ecd326d"
+    },
+    {
+      "$oid": "6a11c711704df4ab8ecd325c"
+    },
+    {
+      "$oid": "6a11c711704df4ab8ecd325d"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T17:59:30.622Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T17:59:43.669Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a129df2f92e27dc70e8deff"
+  },
+  "salesInvoiceNo": "SALE-202605-0032",
+  "partyId": {
+    "$oid": "6a0b4b5185d384e22b982d0e"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-24T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a129d67f92e27dc70e8deda"
+    },
+    {
+      "$oid": "6a129d67f92e27dc70e8dedb"
+    },
+    {
+      "$oid": "6a129d67f92e27dc70e8dedc"
+    },
+    {
+      "$oid": "6a129d67f92e27dc70e8dedd"
+    },
+    {
+      "$oid": "6a129d67f92e27dc70e8dede"
+    },
+    {
+      "$oid": "6a129d67f92e27dc70e8dedf"
+    },
+    {
+      "$oid": "6a129d67f92e27dc70e8dee0"
+    },
+    {
+      "$oid": "6a129d67f92e27dc70e8dee1"
+    },
+    {
+      "$oid": "6a129d67f92e27dc70e8ded5"
+    },
+    {
+      "$oid": "6a129d67f92e27dc70e8ded6"
+    },
+    {
+      "$oid": "6a129d67f92e27dc70e8ded7"
+    },
+    {
+      "$oid": "6a129d67f92e27dc70e8ded8"
+    },
+    {
+      "$oid": "6a129d67f92e27dc70e8ded9"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-24T06:42:58.803Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-24T06:42:58.803Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a13f3b57cc140ddc78cc504"
+  },
+  "salesInvoiceNo": "SALE-202605-0034",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-25T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a13efce7cc140ddc78cc42e"
+    },
+    {
+      "$oid": "6a13efce7cc140ddc78cc42f"
+    },
+    {
+      "$oid": "6a13efce7cc140ddc78cc430"
+    },
+    {
+      "$oid": "6a13efce7cc140ddc78cc429"
+    },
+    {
+      "$oid": "6a13efce7cc140ddc78cc42a"
+    },
+    {
+      "$oid": "6a13efce7cc140ddc78cc42b"
+    },
+    {
+      "$oid": "6a13efce7cc140ddc78cc42c"
+    },
+    {
+      "$oid": "6a13efce7cc140ddc78cc42d"
+    },
+    {
+      "$oid": "6a13efce7cc140ddc78cc428"
+    },
+    {
+      "$oid": "6a13e1a3664e5d13f03c9bd2"
+    },
+    {
+      "$oid": "6a13e18c664e5d13f03c9bbd"
+    },
+    {
+      "$oid": "6a13e18c664e5d13f03c9bb4"
+    },
+    {
+      "$oid": "6a13e18c664e5d13f03c9bb5"
+    },
+    {
+      "$oid": "6a13e18c664e5d13f03c9bb6"
+    },
+    {
+      "$oid": "6a13e18c664e5d13f03c9bb7"
+    },
+    {
+      "$oid": "6a13e18c664e5d13f03c9bb8"
+    },
+    {
+      "$oid": "6a13e18c664e5d13f03c9bb9"
+    },
+    {
+      "$oid": "6a13e18c664e5d13f03c9bba"
+    },
+    {
+      "$oid": "6a13e18c664e5d13f03c9bbb"
+    },
+    {
+      "$oid": "6a13e18c664e5d13f03c9bbc"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-25T07:01:09.632Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T07:01:09.632Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a147d46522fd5a91f58820e"
+  },
+  "salesInvoiceNo": "SALE-202605-0035",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-25T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a14744a522fd5a91f5881d5"
+    },
+    {
+      "$oid": "6a1471b8522fd5a91f58811f"
+    },
+    {
+      "$oid": "6a1471b8522fd5a91f588120"
+    },
+    {
+      "$oid": "6a1471b8522fd5a91f588121"
+    },
+    {
+      "$oid": "6a1471b8522fd5a91f58811d"
+    },
+    {
+      "$oid": "6a1471b8522fd5a91f58811e"
+    },
+    {
+      "$oid": "6a1471b8522fd5a91f58811a"
+    },
+    {
+      "$oid": "6a1471b8522fd5a91f58811b"
+    },
+    {
+      "$oid": "6a1471b8522fd5a91f58811c"
+    },
+    {
+      "$oid": "6a1471b8522fd5a91f588116"
+    },
+    {
+      "$oid": "6a1471b8522fd5a91f588117"
+    },
+    {
+      "$oid": "6a1471b8522fd5a91f588118"
+    },
+    {
+      "$oid": "6a1471b8522fd5a91f588119"
+    },
+    {
+      "$oid": "6a1471b8522fd5a91f588115"
+    },
+    {
+      "$oid": "6a1471b8522fd5a91f588112"
+    },
+    {
+      "$oid": "6a1471b8522fd5a91f588113"
+    },
+    {
+      "$oid": "6a1471b8522fd5a91f588114"
+    },
+    {
+      "$oid": "6a1471b8522fd5a91f58810e"
+    },
+    {
+      "$oid": "6a1471b8522fd5a91f58810f"
+    },
+    {
+      "$oid": "6a1471b8522fd5a91f588110"
+    },
+    {
+      "$oid": "6a1471b8522fd5a91f588111"
+    },
+    {
+      "$oid": "6a1471b8522fd5a91f58810d"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-25T16:48:06.432Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T16:48:06.432Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a15b9157d95a66e83d08054"
+  },
+  "salesInvoiceNo": "SALE-2026-05-26-0001",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-26T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a154a1b5c1f1072cc828deb"
+    },
+    {
+      "$oid": "6a154a1b5c1f1072cc828de8"
+    },
+    {
+      "$oid": "6a154a1b5c1f1072cc828de3"
+    },
+    {
+      "$oid": "6a154a1b5c1f1072cc828dea"
+    },
+    {
+      "$oid": "6a154a1b5c1f1072cc828de9"
+    },
+    {
+      "$oid": "6a154a1b5c1f1072cc828de1"
+    },
+    {
+      "$oid": "6a154a1b5c1f1072cc828de2"
+    },
+    {
+      "$oid": "6a154a1b5c1f1072cc828de4"
+    },
+    {
+      "$oid": "6a154a1b5c1f1072cc828de5"
+    },
+    {
+      "$oid": "6a154a1b5c1f1072cc828de6"
+    },
+    {
+      "$oid": "6a154a1b5c1f1072cc828de7"
+    },
+    {
+      "$oid": "6a154a1b5c1f1072cc828ddf"
+    },
+    {
+      "$oid": "6a154a1b5c1f1072cc828dde"
+    },
+    {
+      "$oid": "6a154a1b5c1f1072cc828ddc"
+    },
+    {
+      "$oid": "6a154a1b5c1f1072cc828de0"
+    },
+    {
+      "$oid": "6a154a1b5c1f1072cc828ddb"
+    },
+    {
+      "$oid": "6a154a1b5c1f1072cc828dda"
+    },
+    {
+      "$oid": "6a1548115c1f1072cc828dc4"
+    },
+    {
+      "$oid": "6a1548115c1f1072cc828dc3"
+    },
+    {
+      "$oid": "6a1548115c1f1072cc828dc2"
+    },
+    {
+      "$oid": "6a1548115c1f1072cc828dc1"
+    },
+    {
+      "$oid": "6a1548115c1f1072cc828dc0"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-26T15:15:33.060Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-26T15:15:33.060Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a15b9697d95a66e83d08086"
+  },
+  "salesInvoiceNo": "SALE-2026-05-26-0002",
+  "partyId": {
+    "$oid": "6a0b4b5c85d384e22b982d11"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-26T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a1542dd5c1f1072cc828d9d"
+    },
+    {
+      "$oid": "6a1542dd5c1f1072cc828d9e"
+    },
+    {
+      "$oid": "6a1542dd5c1f1072cc828d9f"
+    },
+    {
+      "$oid": "6a15b66c7d95a66e83d07f8b"
+    },
+    {
+      "$oid": "6a1548115c1f1072cc828dc5"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-26T15:16:57.967Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-26T15:16:57.967Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a15b9f97d95a66e83d080c8"
+  },
+  "salesInvoiceNo": "SALE-2026-05-26-0003",
+  "partyId": {
+    "$oid": "6a0b4b5185d384e22b982d0e"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-26T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a15b66c7d95a66e83d07f95"
+    },
+    {
+      "$oid": "6a15b66c7d95a66e83d07f96"
+    },
+    {
+      "$oid": "6a15b66c7d95a66e83d07f97"
+    },
+    {
+      "$oid": "6a15b66c7d95a66e83d07f98"
+    },
+    {
+      "$oid": "6a15b66c7d95a66e83d07f99"
+    },
+    {
+      "$oid": "6a15b66c7d95a66e83d07f90"
+    },
+    {
+      "$oid": "6a15b66c7d95a66e83d07f91"
+    },
+    {
+      "$oid": "6a15b66c7d95a66e83d07f93"
+    },
+    {
+      "$oid": "6a15b66c7d95a66e83d07f94"
+    },
+    {
+      "$oid": "6a15b66c7d95a66e83d07f8c"
+    },
+    {
+      "$oid": "6a15b66c7d95a66e83d07f8d"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-26T15:19:21.754Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-26T15:19:21.754Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a15ba3f7d95a66e83d080e5"
+  },
+  "salesInvoiceNo": "SALE-2026-05-26-0004",
+  "partyId": {
+    "$oid": "6a0b4b6685d384e22b982d14"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-26T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a15b66c7d95a66e83d07f92"
+    },
+    {
+      "$oid": "6a15b66c7d95a66e83d07f8e"
+    },
+    {
+      "$oid": "6a15b66c7d95a66e83d07f85"
+    },
+    {
+      "$oid": "6a15b66c7d95a66e83d07f86"
+    },
+    {
+      "$oid": "6a15b66c7d95a66e83d07f87"
+    },
+    {
+      "$oid": "6a15b66c7d95a66e83d07f88"
+    },
+    {
+      "$oid": "6a15b66c7d95a66e83d07f89"
+    },
+    {
+      "$oid": "6a15b66c7d95a66e83d07f8a"
+    },
+    {
+      "$oid": "6a15b66c7d95a66e83d07f82"
+    },
+    {
+      "$oid": "6a15b66c7d95a66e83d07f83"
+    },
+    {
+      "$oid": "6a15b66c7d95a66e83d07f84"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-26T15:20:31.285Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-26T15:24:04.807Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a15bd157d95a66e83d0815a"
+  },
+  "salesInvoiceNo": "SALE-2026-05-26-0005",
+  "partyId": {
+    "$oid": "6a15bd087d95a66e83d0812b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-26T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a103996a768c017ecc63a1e"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-26T15:32:37.967Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-26T15:32:37.967Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a16affc7d95a66e83d083fc"
+  },
+  "salesInvoiceNo": "SALE-2026-05-27-0001",
+  "partyId": {
+    "$oid": "6a15bd087d95a66e83d0812b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-27T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a16a0b77d95a66e83d08324"
+    },
+    {
+      "$oid": "6a16a0b77d95a66e83d0831f"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-27T08:49:00.654Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-27T08:49:00.654Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a170b717d95a66e83d08580"
+  },
+  "salesInvoiceNo": "SALE-2026-05-27-0002",
+  "partyId": {
+    "$oid": "6a11c9b1704df4ab8ecd3331"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-27T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a16a0b77d95a66e83d08322"
+    },
+    {
+      "$oid": "6a15b66c7d95a66e83d07f8f"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-27T15:19:13.785Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-27T15:19:13.785Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1726ee7d95a66e83d087cf"
+  },
+  "salesInvoiceNo": "SALE-2026-05-27-0003",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-27T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a170af37d95a66e83d08527"
+    },
+    {
+      "$oid": "6a170af37d95a66e83d08526"
+    },
+    {
+      "$oid": "6a170af37d95a66e83d08525"
+    },
+    {
+      "$oid": "6a170af37d95a66e83d08520"
+    },
+    {
+      "$oid": "6a170af37d95a66e83d0851f"
+    },
+    {
+      "$oid": "6a170af37d95a66e83d0851e"
+    },
+    {
+      "$oid": "6a170af37d95a66e83d0851d"
+    },
+    {
+      "$oid": "6a170af37d95a66e83d0851c"
+    },
+    {
+      "$oid": "6a170af37d95a66e83d0851b"
+    },
+    {
+      "$oid": "6a170af37d95a66e83d0851a"
+    },
+    {
+      "$oid": "6a170af37d95a66e83d08519"
+    },
+    {
+      "$oid": "6a170af37d95a66e83d08518"
+    },
+    {
+      "$oid": "6a170af37d95a66e83d08517"
+    },
+    {
+      "$oid": "6a1708b37d95a66e83d084df"
+    },
+    {
+      "$oid": "6a1708b37d95a66e83d084e1"
+    },
+    {
+      "$oid": "6a1708b37d95a66e83d084e0"
+    },
+    {
+      "$oid": "6a17087f7d95a66e83d084ca"
+    },
+    {
+      "$oid": "6a1708667d95a66e83d084b8"
+    },
+    {
+      "$oid": "6a16a3b57d95a66e83d08366"
+    },
+    {
+      "$oid": "6a16a3b57d95a66e83d08365"
+    },
+    {
+      "$oid": "6a16a3b57d95a66e83d08364"
+    },
+    {
+      "$oid": "6a16a3b57d95a66e83d08363"
+    },
+    {
+      "$oid": "6a16a3b57d95a66e83d08362"
+    },
+    {
+      "$oid": "6a16a0b77d95a66e83d08323"
+    },
+    {
+      "$oid": "6a16a0b77d95a66e83d08321"
+    },
+    {
+      "$oid": "6a16a0b77d95a66e83d08320"
+    },
+    {
+      "$oid": "6a15b7727d95a66e83d07fcc"
+    },
+    {
+      "$oid": "6a172b387d95a66e83d0885a"
+    },
+    {
+      "$oid": "6a172b387d95a66e83d08859"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-27T17:16:30.517Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-27T17:35:11.511Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a172a4b7d95a66e83d08821"
+  },
+  "salesInvoiceNo": "SALE-2026-05-27-0004",
+  "partyId": {
+    "$oid": "6a0b4d2785d384e22b982d79"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-27T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a1692c17d95a66e83d082f5"
+    },
+    {
+      "$oid": "6a1692827d95a66e83d082dd"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-27T17:30:51.996Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-27T17:30:51.996Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1867c77d95a66e83d089c6"
+  },
+  "salesInvoiceNo": "SALE-2026-05-28-0001",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-28T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a1692827d95a66e83d082dc"
+    },
+    {
+      "$oid": "6a1692d77d95a66e83d0830a"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed940"
+    },
+    {
+      "$oid": "6a1093965baf13d6251ed92f"
+    },
+    {
+      "$oid": "6a0da612b2e432ef7f6a360e"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-28T16:05:27.047Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-28T16:05:27.047Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a186dd27d95a66e83d08ab0"
+  },
+  "salesInvoiceNo": "SALE-2026-05-28-0002",
+  "partyId": {
+    "$oid": "6a0b4b5c85d384e22b982d11"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-28T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a186b9f7d95a66e83d08a6a"
+    },
+    {
+      "$oid": "6a186b9f7d95a66e83d08a66"
+    },
+    {
+      "$oid": "6a186b9f7d95a66e83d08a68"
+    },
+    {
+      "$oid": "6a186b9f7d95a66e83d08a69"
+    },
+    {
+      "$oid": "6a186b9f7d95a66e83d08a65"
+    },
+    {
+      "$oid": "6a186b9f7d95a66e83d08a64"
+    },
+    {
+      "$oid": "6a186b9f7d95a66e83d08a67"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-28T16:31:14.973Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-28T16:32:56.831Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a198bd20272a33fd2ec8b09"
+  },
+  "salesInvoiceNo": "SALE-2026-05-29-0002",
+  "partyId": {
+    "$oid": "6a198b700272a33fd2ec8a93"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-29T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a1971250272a33fd2ec8929"
+    },
+    {
+      "$oid": "6a19705e0272a33fd2ec88f1"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-29T12:51:30.280Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T12:51:30.280Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a198bfa0272a33fd2ec8b52"
+  },
+  "salesInvoiceNo": "SALE-2026-05-29-0003",
+  "partyId": {
+    "$oid": "6a198b700272a33fd2ec8a93"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-29T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a198bed0272a33fd2ec8b2d"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-29T12:52:10.594Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T12:52:10.594Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a198c050272a33fd2ec8b60"
+  },
+  "salesInvoiceNo": "SALE-2026-05-29-0004",
+  "partyId": {
+    "$oid": "6a198b700272a33fd2ec8a93"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-29T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a198bed0272a33fd2ec8b2c"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-29T12:52:21.406Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T12:52:21.406Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a198dd42e7ffe74bd839a5a"
+  },
+  "salesInvoiceNo": "SALE-2026-05-29-0005",
+  "partyId": {
+    "$oid": "6a198b700272a33fd2ec8a93"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-29T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a198dc32e7ffe74bd839a32"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-29T13:00:04.335Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T13:00:04.335Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a19966b6739540046062081"
+  },
+  "salesInvoiceNo": "SALE-2026-05-29-0006",
+  "partyId": {
+    "$oid": "6a198b700272a33fd2ec8a93"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-29T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a199641673954004606202c"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-29T13:36:43.672Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T13:36:43.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a19bdd867395400460621d9"
+  },
+  "salesInvoiceNo": "SALE-2026-05-29-0007",
+  "partyId": {
+    "$oid": "6a15bd087d95a66e83d0812b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-29T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a1937e27d95a66e83d08b71"
+    },
+    {
+      "$oid": "6a1937e27d95a66e83d08b73"
+    },
+    {
+      "$oid": "6a1937e27d95a66e83d08b74"
+    },
+    {
+      "$oid": "6a1937e27d95a66e83d08b75"
+    },
+    {
+      "$oid": "6a1937e27d95a66e83d08b76"
+    },
+    {
+      "$oid": "6a1937e27d95a66e83d08b77"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-29T16:24:56.539Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T16:24:56.539Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a19bfe4673954004606225a"
+  },
+  "salesInvoiceNo": "SALE-2026-05-29-0008",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-29T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a1869f87d95a66e83d08a13"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d08a12"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d08a11"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d08a10"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d08a0f"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d08a0e"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d08a0d"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d08a0c"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d08a0b"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d08a09"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d08a08"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d08a05"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d08a0a"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d08a07"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d08a06"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d08a04"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d08a03"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d08a02"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d08a00"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d089ff"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d08a01"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d089fe"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d089fd"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d089fc"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d089fb"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d089fa"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d089f9"
+    },
+    {
+      "$oid": "6a1869f87d95a66e83d089f8"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-29T16:33:40.290Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T16:33:40.290Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1a9ef03a5e70d9f2303830"
+  },
+  "salesInvoiceNo": "SALE-2026-05-30-0001",
+  "partyId": {
+    "$oid": "6a1a91f2d2d00ecb4f80d615"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a1a94c0d2d00ecb4f80d658"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-30T08:25:20.827Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T08:25:20.827Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1a9f563a5e70d9f230387c"
+  },
+  "salesInvoiceNo": "SALE-2026-05-30-0002",
+  "partyId": {
+    "$oid": "6a1a91f2d2d00ecb4f80d615"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a1a956cd2d00ecb4f80d6a4"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-30T08:27:02.402Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T08:27:02.402Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1aa0593a5e70d9f23038da"
+  },
+  "salesInvoiceNo": "SALE-2026-05-30-0003",
+  "partyId": {
+    "$oid": "6a1a91f2d2d00ecb4f80d615"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a1a9aced2d00ecb4f80d795"
+    },
+    {
+      "$oid": "6a1a9a45d2d00ecb4f80d73e"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-30T08:31:21.370Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T08:31:21.370Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1b0bb2eb63649759293faa"
+  },
+  "salesInvoiceNo": "SALE-2026-05-30-0004",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a1869f87d95a66e83d08a14"
+    },
+    {
+      "$oid": "6a1b00e1eb63649759293e49"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-30T16:09:22.807Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T16:09:22.807Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1b0cdceb63649759294062"
+  },
+  "salesInvoiceNo": "SALE-2026-05-30-0005",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-31T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a19bf506739540046062221"
+    },
+    {
+      "$oid": "6a19bf506739540046062220"
+    },
+    {
+      "$oid": "6a19bf50673954004606221f"
+    },
+    {
+      "$oid": "6a19bf50673954004606221e"
+    },
+    {
+      "$oid": "6a19bf50673954004606221c"
+    },
+    {
+      "$oid": "6a19bf50673954004606221b"
+    },
+    {
+      "$oid": "6a19bf50673954004606221a"
+    },
+    {
+      "$oid": "6a19bf506739540046062219"
+    },
+    {
+      "$oid": "6a19bf506739540046062218"
+    },
+    {
+      "$oid": "6a19bf506739540046062217"
+    },
+    {
+      "$oid": "6a19bf506739540046062216"
+    },
+    {
+      "$oid": "6a19bf506739540046062214"
+    },
+    {
+      "$oid": "6a19bf506739540046062213"
+    },
+    {
+      "$oid": "6a19bf506739540046062215"
+    },
+    {
+      "$oid": "6a19bf50673954004606221d"
+    },
+    {
+      "$oid": "6a19bf50673954004606220c"
+    },
+    {
+      "$oid": "6a19bf50673954004606220d"
+    },
+    {
+      "$oid": "6a19bf50673954004606220e"
+    },
+    {
+      "$oid": "6a19bf506739540046062209"
+    },
+    {
+      "$oid": "6a19bf506739540046062210"
+    },
+    {
+      "$oid": "6a19bf506739540046062211"
+    },
+    {
+      "$oid": "6a19bf506739540046062212"
+    },
+    {
+      "$oid": "6a19bf50673954004606220f"
+    },
+    {
+      "$oid": "6a19bf506739540046062207"
+    },
+    {
+      "$oid": "6a19bf506739540046062208"
+    },
+    {
+      "$oid": "6a19bf50673954004606220a"
+    },
+    {
+      "$oid": "6a19bf50673954004606220b"
+    },
+    {
+      "$oid": "6a19bf506739540046062206"
+    },
+    {
+      "$oid": "6a19bf506739540046062202"
+    },
+    {
+      "$oid": "6a19bf506739540046062205"
+    },
+    {
+      "$oid": "6a19bf506739540046062204"
+    },
+    {
+      "$oid": "6a19bf506739540046062203"
+    },
+    {
+      "$oid": "6a19bf506739540046062201"
+    },
+    {
+      "$oid": "6a19bd9a67395400460621b1"
+    },
+    {
+      "$oid": "6a19bd4b6739540046062193"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-30T16:14:20.831Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T17:00:55.864Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1b0cfceb63649759294078"
+  },
+  "salesInvoiceNo": "SALE-2026-05-30-0006",
+  "partyId": {
+    "$oid": "6a0b4b5185d384e22b982d0e"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a1b0156eb63649759293e61"
+    },
+    {
+      "$oid": "6a1b0156eb63649759293e62"
+    },
+    {
+      "$oid": "6a1b0156eb63649759293e5f"
+    },
+    {
+      "$oid": "6a1b0156eb63649759293e60"
+    },
+    {
+      "$oid": "6a1b0156eb63649759293e5b"
+    },
+    {
+      "$oid": "6a1b0156eb63649759293e5c"
+    },
+    {
+      "$oid": "6a1b0156eb63649759293e5d"
+    },
+    {
+      "$oid": "6a1b0156eb63649759293e5e"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-30T16:14:52.175Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T16:14:52.175Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1b1807eb636497592941b5"
+  },
+  "salesInvoiceNo": "SALE-2026-05-30-0007",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "paggaIds": [
+    {
+      "$oid": "6a1b17e5eb6364975929418a"
+    },
+    {
+      "$oid": "6a19bd9a67395400460621af"
+    },
+    {
+      "$oid": "6a19bd9a67395400460621b0"
+    },
+    {
+      "$oid": "6a19bd4b6739540046062191"
+    },
+    {
+      "$oid": "6a19bd4b6739540046062192"
+    },
+    {
+      "$oid": "6a19bd4b6739540046062194"
+    },
+    {
+      "$oid": "6a19bd4b6739540046062190"
+    },
+    {
+      "$oid": "6a19bd03673954004606217e"
+    },
+    {
+      "$oid": "6a1937e27d95a66e83d08b78"
+    },
+    {
+      "$oid": "6a1937e27d95a66e83d08b70"
+    }
+  ],
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-30T17:01:59.890Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T17:01:59.890Z"
+  },
+  "__v": 0
+}]

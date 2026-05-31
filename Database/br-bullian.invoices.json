@@ -1,0 +1,2304 @@
+[{
+  "_id": {
+    "$oid": "6a0b46d4053a8e1039e25ef1"
+  },
+  "invoiceNo": "INV-202605-0013",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-18T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-18T17:05:24.368Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-18T17:05:24.368Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0b4d9685d384e22b982d8e"
+  },
+  "invoiceNo": "INV-202605-0014",
+  "partyId": {
+    "$oid": "6a0b4d1885d384e22b982d76"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-18T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-18T17:34:14.095Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-18T17:34:14.095Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0b4dd285d384e22b982d9a"
+  },
+  "invoiceNo": "INV-202605-0015",
+  "partyId": {
+    "$oid": "6a0b4d2785d384e22b982d79"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-18T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-18T17:35:14.142Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-18T17:35:14.142Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0b4e4185d384e22b982da7"
+  },
+  "invoiceNo": "INV-202605-0016",
+  "partyId": {
+    "$oid": "6a0b14ac22c65c68d5b9e3a5"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-18T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-18T17:37:05.881Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-18T17:37:05.881Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0b4e5d85d384e22b982db6"
+  },
+  "invoiceNo": "INV-202605-0017",
+  "partyId": {
+    "$oid": "6a0b4d3785d384e22b982d7c"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-18T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-18T17:37:33.089Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-19T12:56:17.765Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0c121467286698432ed1f5"
+  },
+  "invoiceNo": "INV-202605-0018",
+  "partyId": {
+    "$oid": "6a0ac7d4d8360529bfac9b3b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-19T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-19T07:32:36.066Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-19T11:23:06.435Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0c249ca9d65380f5a09f8c"
+  },
+  "invoiceNo": "INV-202605-0019",
+  "partyId": {
+    "$oid": "6a0c2332a9d65380f5a09f7a"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-19T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-19T08:51:40.676Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-19T11:25:51.138Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0c2f76a9d65380f5a0a05d"
+  },
+  "invoiceNo": "INV-202605-0020",
+  "partyId": {
+    "$oid": "6a0c2dffa9d65380f5a0a04b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-19T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-19T09:37:58.456Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-19T11:49:48.321Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0c617017997035f5ecf77c"
+  },
+  "invoiceNo": "INV-202605-0021",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-19T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-19T13:11:12.749Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-19T13:35:33.058Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0ca87f2248e67e11abb7fa"
+  },
+  "invoiceNo": "INV-202605-0022",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-19T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-19T18:14:23.381Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-19T18:14:23.381Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0cacea2248e67e11abb818"
+  },
+  "invoiceNo": "INV-202605-0023",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-19T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-19T18:33:14.333Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-19T18:33:14.333Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0da4e2b2e432ef7f6a35df"
+  },
+  "invoiceNo": "INV-202605-0024",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-20T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-20T12:11:14.104Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-20T12:18:44.152Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0da612b2e432ef7f6a3607"
+  },
+  "invoiceNo": "INV-202605-0025",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-20T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-20T12:16:18.465Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-20T12:28:58.102Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0e09c6b2e432ef7f6a3724"
+  },
+  "invoiceNo": "INV-202605-0026",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-20T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-20T19:21:42.591Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-20T19:21:42.591Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0f3568a768c017ecc6387c"
+  },
+  "invoiceNo": "INV-202605-0028",
+  "partyId": {
+    "$oid": "6a0ac7d4d8360529bfac9b3b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-21T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-21T16:40:08.976Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T16:40:08.976Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0f3676a768c017ecc6389c"
+  },
+  "invoiceNo": "INV-202605-0029",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-21T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-21T16:44:38.317Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T16:44:38.317Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0f3fd7a768c017ecc638b2"
+  },
+  "invoiceNo": "INV-202605-0030",
+  "partyId": {
+    "$oid": "6a0ac7d4d8360529bfac9b3b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-21T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-21T17:24:39.230Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T17:24:39.230Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0f4075a768c017ecc638c0"
+  },
+  "invoiceNo": "INV-202605-0031",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-21T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-21T17:27:17.741Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T17:27:17.741Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0f4293a768c017ecc63917"
+  },
+  "invoiceNo": "INV-202605-0032",
+  "partyId": {
+    "$oid": "6a0b14ac22c65c68d5b9e3a5"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-20T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-21T17:36:19.712Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T17:36:19.712Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1013ada768c017ecc639ce"
+  },
+  "invoiceNo": "INV-202605-0033",
+  "partyId": {
+    "$oid": "6a0ac7d4d8360529bfac9b3b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-22T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-22T08:28:29.382Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T08:28:29.382Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a103996a768c017ecc63a1c"
+  },
+  "invoiceNo": "INV-202605-0034",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-22T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-22T11:10:14.400Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:10:14.400Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1039c6a768c017ecc63a4a"
+  },
+  "invoiceNo": "INV-202605-0035",
+  "partyId": {
+    "$oid": "6a0b4b6685d384e22b982d14"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-22T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-22T11:11:02.692Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:11:02.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1093965baf13d6251ed92d"
+  },
+  "invoiceNo": "INV-202605-0039",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-22T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-22T17:34:14.482Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T17:34:14.482Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1096c35baf13d6251ed9b7"
+  },
+  "invoiceNo": "INV-202605-0040",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-22T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-22T17:47:47.263Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T17:47:47.263Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11c690704df4ab8ecd323f"
+  },
+  "invoiceNo": "INV-202605-0041",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-23T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T15:24:00.429Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T16:58:53.567Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11c6e5704df4ab8ecd324c"
+  },
+  "invoiceNo": "INV-202605-0042",
+  "partyId": {
+    "$oid": "6a0ac7d4d8360529bfac9b3b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-23T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T15:25:25.540Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T16:41:05.486Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11c711704df4ab8ecd325a"
+  },
+  "invoiceNo": "INV-202605-0043",
+  "partyId": {
+    "$oid": "6a0ac7d4d8360529bfac9b3b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-23T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T15:26:09.658Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T15:26:09.658Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11c7c5704df4ab8ecd3267"
+  },
+  "invoiceNo": "INV-202605-0044",
+  "partyId": {
+    "$oid": "6a0ac7d4d8360529bfac9b3b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-23T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T15:29:09.740Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T15:29:09.740Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11c7fa704df4ab8ecd327c"
+  },
+  "invoiceNo": "INV-202605-0045",
+  "partyId": {
+    "$oid": "6a0ac7d4d8360529bfac9b3b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-23T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T15:30:02.793Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T16:54:46.591Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11c856704df4ab8ecd3289"
+  },
+  "invoiceNo": "INV-202605-0046",
+  "partyId": {
+    "$oid": "6a0b14ac22c65c68d5b9e3a5"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-23T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T15:31:34.435Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T15:31:34.435Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11c8bb704df4ab8ecd32b3"
+  },
+  "invoiceNo": "INV-202605-0047",
+  "partyId": {
+    "$oid": "6a11c881704df4ab8ecd329e"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-23T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T15:33:15.230Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T15:33:15.230Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11c8ce704df4ab8ecd32bf"
+  },
+  "invoiceNo": "INV-202605-0048",
+  "partyId": {
+    "$oid": "6a11c8a3704df4ab8ecd32a1"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-23T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T15:33:34.065Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T15:33:34.065Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11cce6704df4ab8ecd3464"
+  },
+  "invoiceNo": "INV-202605-0049",
+  "partyId": {
+    "$oid": "6a11cbdc704df4ab8ecd3430"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-23T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T15:51:02.487Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T15:51:02.487Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11cd10704df4ab8ecd3470"
+  },
+  "invoiceNo": "INV-202605-0050",
+  "partyId": {
+    "$oid": "6a11cc83704df4ab8ecd343c"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-23T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T15:51:44.960Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T15:51:44.960Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11cd4b704df4ab8ecd347c"
+  },
+  "invoiceNo": "INV-202605-0051",
+  "partyId": {
+    "$oid": "6a0c2dffa9d65380f5a0a04b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-23T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T15:52:43.616Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T15:52:43.616Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11cf5e704df4ab8ecd348e"
+  },
+  "invoiceNo": "INV-202605-0052",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-23T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T16:01:34.372Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T16:03:40.550Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11d10a704df4ab8ecd34f1"
+  },
+  "invoiceNo": "INV-202605-0053",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-23T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T16:08:42.850Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T16:08:42.850Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11d34a704df4ab8ecd3509"
+  },
+  "invoiceNo": "INV-202605-0054",
+  "partyId": {
+    "$oid": "6a11c9b1704df4ab8ecd3331"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-23T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T16:18:18.117Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T16:18:18.117Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11dd64d9260df8c0d9ad84"
+  },
+  "invoiceNo": "INV-202605-0055",
+  "partyId": {
+    "$oid": "6a11dd51d9260df8c0d9ad72"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-23T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T17:01:24.389Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T17:01:24.389Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a129d67f92e27dc70e8ded3"
+  },
+  "invoiceNo": "INV-202605-0056",
+  "partyId": {
+    "$oid": "6a0ac7d4d8360529bfac9b3b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-24T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-24T06:40:39.177Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-24T16:05:22.043Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a13e18b664e5d13f03c9bb2"
+  },
+  "invoiceNo": "INV-202605-0057",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-25T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-25T05:43:39.969Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T05:43:39.969Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a13e1a3664e5d13f03c9bd0"
+  },
+  "invoiceNo": "INV-202605-0058",
+  "partyId": {
+    "$oid": "6a0b4b5185d384e22b982d0e"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-25T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-25T05:44:03.797Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T05:44:03.797Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a13efce7cc140ddc78cc426"
+  },
+  "invoiceNo": "INV-202605-0067",
+  "partyId": {
+    "$oid": "6a0ac7d4d8360529bfac9b3b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-25T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-25T06:44:30.979Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T06:44:30.979Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1471b7522fd5a91f58810b"
+  },
+  "invoiceNo": "INV-202605-0068",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-25T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-25T15:58:48.103Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T15:58:48.103Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a14744a522fd5a91f5881d3"
+  },
+  "invoiceNo": "INV-202605-0069",
+  "partyId": {
+    "$oid": "6a0b4d3785d384e22b982d7c"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-25T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-25T16:09:46.839Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T16:09:46.839Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a149422c14284d8a665463a"
+  },
+  "invoiceNo": "INV-202605-0070",
+  "partyId": {
+    "$oid": "6a0ee3e4df9dbea7dd5d287b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-25T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-25T18:25:38.134Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T18:25:38.134Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a149450c14284d8a665466d"
+  },
+  "invoiceNo": "INV-202605-0071",
+  "partyId": {
+    "$oid": "6a0ee3e4df9dbea7dd5d287b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-25T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-25T18:26:24.464Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T18:26:24.464Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1542dd5c1f1072cc828d9b"
+  },
+  "invoiceNo": "INV-2026-05-26-0001",
+  "partyId": {
+    "$oid": "6a11cbdc704df4ab8ecd3430"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-26T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-26T06:51:09.648Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-26T06:51:09.648Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1548115c1f1072cc828dbe"
+  },
+  "invoiceNo": "INV-2026-05-26-0002",
+  "partyId": {
+    "$oid": "6a0ac7d4d8360529bfac9b3b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-26T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-26T07:13:21.571Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-26T07:13:21.571Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a154a1b5c1f1072cc828dd8"
+  },
+  "invoiceNo": "INV-2026-05-26-0003",
+  "partyId": {
+    "$oid": "6a0ac7d4d8360529bfac9b3b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-26T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-26T07:22:03.465Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-26T07:29:08.037Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a15b66c7d95a66e83d07f80"
+  },
+  "invoiceNo": "INV-2026-05-26-0004",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-26T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-26T15:04:12.641Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-27T00:10:29.616Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a15b7727d95a66e83d07fca"
+  },
+  "invoiceNo": "INV-2026-05-26-0005",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-26T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-26T15:08:34.014Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-26T15:08:34.014Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1692827d95a66e83d082da"
+  },
+  "invoiceNo": "INV-2026-05-27-0001",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-27T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-27T06:43:14.199Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-27T06:43:14.199Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1692c17d95a66e83d082f3"
+  },
+  "invoiceNo": "INV-2026-05-27-0002",
+  "partyId": {
+    "$oid": "6a0b4b5185d384e22b982d0e"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-27T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-27T06:44:17.718Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-27T06:44:17.718Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1692d77d95a66e83d08308"
+  },
+  "invoiceNo": "INV-2026-05-27-0003",
+  "partyId": {
+    "$oid": "6a0b4b6685d384e22b982d14"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-27T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-27T06:44:39.794Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-27T06:44:39.794Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a16a0b77d95a66e83d0831d"
+  },
+  "invoiceNo": "INV-2026-05-27-0004",
+  "partyId": {
+    "$oid": "6a0ac7d4d8360529bfac9b3b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-27T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-27T07:43:51.925Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-27T07:43:51.925Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a16a3b57d95a66e83d08360"
+  },
+  "invoiceNo": "INV-2026-05-27-0005",
+  "partyId": {
+    "$oid": "6a16a2737d95a66e83d08343"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-27T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-27T07:56:37.834Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-27T07:56:37.834Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1708667d95a66e83d084b6"
+  },
+  "invoiceNo": "INV-2026-05-27-0006",
+  "partyId": {
+    "$oid": "6a1708447d95a66e83d0849f"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-27T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-27T15:06:14.486Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-27T15:06:14.486Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a17087f7d95a66e83d084c8"
+  },
+  "invoiceNo": "INV-2026-05-27-0007",
+  "partyId": {
+    "$oid": "6a11c8a3704df4ab8ecd32a1"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-27T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-27T15:06:39.923Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-27T15:06:39.923Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1708b37d95a66e83d084dd"
+  },
+  "invoiceNo": "INV-2026-05-27-0008",
+  "partyId": {
+    "$oid": "6a11c9b1704df4ab8ecd3331"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-27T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-27T15:07:31.664Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-27T15:07:31.664Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a170af37d95a66e83d08515"
+  },
+  "invoiceNo": "INV-2026-05-27-0009",
+  "partyId": {
+    "$oid": "6a1709027d95a66e83d084f0"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-27T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-27T15:17:07.202Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-27T15:17:07.202Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a172b387d95a66e83d08857"
+  },
+  "invoiceNo": "INV-2026-05-27-0010",
+  "partyId": {
+    "$oid": "6a0b4d2785d384e22b982d79"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-27T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-27T17:34:48.112Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-27T17:34:48.112Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1869f87d95a66e83d089f6"
+  },
+  "invoiceNo": "INV-2026-05-28-0001",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-28T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-28T16:14:48.588Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-28T16:14:48.588Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a186b9f7d95a66e83d08a62"
+  },
+  "invoiceNo": "INV-2026-05-28-0002",
+  "partyId": {
+    "$oid": "6a186adf7d95a66e83d08a45"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-28T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-28T16:21:51.468Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-28T16:21:51.468Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1937e17d95a66e83d08b6e"
+  },
+  "invoiceNo": "INV-2026-05-29-0001",
+  "partyId": {
+    "$oid": "6a19367b7d95a66e83d08b57"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-29T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-29T06:53:21.993Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T16:20:02.527Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a19705e0272a33fd2ec88ef"
+  },
+  "invoiceNo": "INV-2026-05-29-0002",
+  "partyId": {
+    "$oid": "6a0ee3e4df9dbea7dd5d287b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-29T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-29T10:54:22.723Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T10:54:22.723Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1971250272a33fd2ec8927"
+  },
+  "invoiceNo": "INV-2026-05-29-0003",
+  "partyId": {
+    "$oid": "6a0ee3e4df9dbea7dd5d287b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-29T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-29T10:57:41.348Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T10:57:41.348Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1973ba0272a33fd2ec899b"
+  },
+  "invoiceNo": "INV-2026-05-29-0004",
+  "partyId": {
+    "$oid": "6a19727b0272a33fd2ec8954"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-29T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-29T11:08:42.804Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T11:08:42.804Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a19741e0272a33fd2ec89e6"
+  },
+  "invoiceNo": "INV-2026-05-29-0005",
+  "partyId": {
+    "$oid": "6a19727b0272a33fd2ec8954"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-29T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-29T11:10:22.880Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T11:10:22.880Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1974530272a33fd2ec8a23"
+  },
+  "invoiceNo": "INV-2026-05-29-0006",
+  "partyId": {
+    "$oid": "6a19727b0272a33fd2ec8954"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-29T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-29T11:11:15.235Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T11:11:15.235Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a198dc32e7ffe74bd839a30"
+  },
+  "invoiceNo": "INV-2026-05-29-0008",
+  "partyId": {
+    "$oid": "6a198b700272a33fd2ec8a93"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-29T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-29T12:59:47.224Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T12:59:47.224Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a19bd03673954004606217c"
+  },
+  "invoiceNo": "INV-2026-05-29-0010",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-29T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-29T16:21:23.327Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T16:21:23.327Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a19bd4b673954004606218e"
+  },
+  "invoiceNo": "INV-2026-05-29-0011",
+  "partyId": {
+    "$oid": "6a0b4d2785d384e22b982d79"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-29T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-29T16:22:35.285Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T16:22:35.285Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a19bd9a67395400460621ad"
+  },
+  "invoiceNo": "INV-2026-05-29-0012",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-29T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-29T16:23:54.415Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T16:23:54.415Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a19bf5067395400460621ff"
+  },
+  "invoiceNo": "INV-2026-05-29-0013",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-29T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-29T16:31:12.288Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T16:31:12.288Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1a94c0d2d00ecb4f80d656"
+  },
+  "invoiceNo": "INV-2026-05-30-0001",
+  "partyId": {
+    "$oid": "6a1a91e6d2d00ecb4f80d612"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-30T07:41:52.462Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T07:41:52.462Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1a956bd2d00ecb4f80d6a2"
+  },
+  "invoiceNo": "INV-2026-05-30-0002",
+  "partyId": {
+    "$oid": "6a1a91e6d2d00ecb4f80d612"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-30T07:44:44.006Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T07:44:44.006Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1a9a45d2d00ecb4f80d73c"
+  },
+  "invoiceNo": "INV-2026-05-30-0003",
+  "partyId": {
+    "$oid": "6a1a91e6d2d00ecb4f80d612"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-30T08:05:25.309Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T08:05:25.309Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1a9aced2d00ecb4f80d793"
+  },
+  "invoiceNo": "INV-2026-05-30-0004",
+  "partyId": {
+    "$oid": "6a1a91e6d2d00ecb4f80d612"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-30T08:07:42.660Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T08:07:42.660Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1b00e1eb63649759293e47"
+  },
+  "invoiceNo": "INV-2026-05-30-0005",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-30T15:23:13.187Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T15:23:13.187Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1b0156eb63649759293e59"
+  },
+  "invoiceNo": "INV-2026-05-30-0006",
+  "partyId": {
+    "$oid": "6a186adf7d95a66e83d08a45"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-30T15:25:10.272Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T15:25:10.272Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1b17e5eb63649759294188"
+  },
+  "invoiceNo": "INV-2026-05-30-0007",
+  "partyId": {
+    "$oid": "6a1709027d95a66e83d084f0"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-30T17:01:25.532Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T17:01:25.532Z"
+  },
+  "__v": 0
+}]

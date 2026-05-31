@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "username": "pankaj",
+  "email": "pankajsolanki6008@gmail.com",
+  "password": "$2a$10$e.3y71lf8J8eB31EEpin.e/ym.n83Jn4jGT0GgLSqc2FgJ/wMuFoG",
+  "role": "admin",
+  "permissions": [
+    "all"
+  ],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-05-16T09:11:46.078Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-16T09:11:46.078Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+}]

@@ -1,0 +1,669 @@
+[{
+  "_id": {
+    "$oid": "6a0ac7d4d8360529bfac9b3b"
+  },
+  "partyName": "Sonu Bhai",
+  "contactNo": "123",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-18T08:03:32.623Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-18T08:03:32.623Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0b14ac22c65c68d5b9e3a5"
+  },
+  "partyName": "Trilok Ji B",
+  "contactNo": "12365",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-18T13:31:24.857Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-18T13:31:24.857Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "partyName": "Vikas Bhai",
+  "contactNo": "134654",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-18T16:53:46.659Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-18T16:53:46.659Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "partyName": "Sushil Ji",
+  "contactNo": "55555555",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-18T17:24:20.574Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-18T17:24:20.574Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0b4b5185d384e22b982d0e"
+  },
+  "partyName": "Sanjay Ji",
+  "contactNo": "88888888",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-18T17:24:33.600Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-18T17:24:33.600Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0b4b5c85d384e22b982d11"
+  },
+  "partyName": "Abhay Ji",
+  "contactNo": "999999",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-18T17:24:44.406Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-18T17:24:44.406Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0b4b6685d384e22b982d14"
+  },
+  "partyName": "Akshay Ji",
+  "contactNo": "7777777",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-18T17:24:54.422Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-18T17:24:54.422Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0b4d1885d384e22b982d76"
+  },
+  "partyName": "Golu Bhai",
+  "contactNo": "5555555",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-18T17:32:08.940Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-18T17:32:08.940Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0b4d2785d384e22b982d79"
+  },
+  "partyName": "Soni Ji Tonch",
+  "contactNo": "89899898",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-18T17:32:23.411Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-18T17:32:23.411Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0b4d3785d384e22b982d7c"
+  },
+  "partyName": "Durgesh Ji",
+  "contactNo": "787887979787",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-18T17:32:39.941Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-18T17:32:39.941Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "partyName": "Dukan Stock",
+  "contactNo": "78799879",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-19T08:04:33.523Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-19T08:04:33.523Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0c2332a9d65380f5a09f7a"
+  },
+  "partyName": "Mahaveer Ji Bundi",
+  "contactNo": "787888778",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-19T08:45:38.361Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-19T08:45:38.361Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0c2dffa9d65380f5a0a04b"
+  },
+  "partyName": "Jethaji Bundi",
+  "contactNo": "78787787878",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "createdAt": {
+    "$date": "2026-05-19T09:31:43.325Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-19T09:31:43.325Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "6a0ee3e4df9dbea7dd5d287b"
+  },
+  "partyName": "Pankaj",
+  "contactNo": "8239879127",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-21T10:52:20.566Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T10:52:20.566Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11c881704df4ab8ecd329e"
+  },
+  "partyName": "akrm bhai",
+  "contactNo": "123654789",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T15:32:17.366Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T15:32:17.366Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11c8a3704df4ab8ecd32a1"
+  },
+  "partyName": "Bhola Shankar Ji",
+  "contactNo": "9874565212",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T15:32:51.123Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T15:32:51.123Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11c9b1704df4ab8ecd3331"
+  },
+  "partyName": "Mlku Bhai",
+  "contactNo": "852963741",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T15:37:21.791Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T15:37:21.791Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11cbdc704df4ab8ecd3430"
+  },
+  "partyName": "Ganesh Ji Bundi",
+  "contactNo": "97987874554",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T15:46:36.895Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T15:46:36.895Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11cc83704df4ab8ecd343c"
+  },
+  "partyName": "Omji  Totk Bundi",
+  "contactNo": "9874563232",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T15:49:23.397Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T15:49:23.397Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a11dd51d9260df8c0d9ad72"
+  },
+  "partyName": "sonu bhai kota",
+  "contactNo": "852369741",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-23T17:01:05.843Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T17:01:05.843Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a15bd087d95a66e83d0812b"
+  },
+  "partyName": "KP",
+  "contactNo": "123654898",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-26T15:32:24.062Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-26T15:32:24.062Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a16a2737d95a66e83d08343"
+  },
+  "partyName": "Hemant Ji Bhilwada",
+  "contactNo": "12365489",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-27T07:51:15.472Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-27T07:51:15.472Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1708447d95a66e83d0849f"
+  },
+  "partyName": "Umesh Soni K patan",
+  "contactNo": "798787878",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-27T15:05:40.508Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-27T15:05:40.508Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1709027d95a66e83d084f0"
+  },
+  "partyName": "Lokesh Ji Kota",
+  "contactNo": "789852369",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-27T15:08:50.018Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-27T15:08:50.018Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a186adf7d95a66e83d08a45"
+  },
+  "partyName": "V. RTM",
+  "contactNo": "9874563210",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-28T16:18:39.985Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-28T16:18:39.985Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a19367b7d95a66e83d08b57"
+  },
+  "partyName": "Lalu Bhai RTM",
+  "contactNo": "789521",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-29T06:47:23.665Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T06:47:23.665Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a19727b0272a33fd2ec8954"
+  },
+  "partyName": "Suresh Ji",
+  "contactNo": "98745632100",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-29T11:03:23.087Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T11:03:23.087Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a198b700272a33fd2ec8a93"
+  },
+  "partyName": "Surendra Ji",
+  "contactNo": "987456212",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-29T12:49:52.253Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T12:49:52.253Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1a91e6d2d00ecb4f80d612"
+  },
+  "partyName": "Vendor 1",
+  "contactNo": "12547789846",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-30T07:29:42.401Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T07:29:42.401Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1a91f2d2d00ecb4f80d615"
+  },
+  "partyName": "Customer 1",
+  "contactNo": "1232165458445",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-30T07:29:54.476Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T07:29:54.476Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1ad4469e9bdad41c1cedde"
+  },
+  "partyName": "MK thkral",
+  "contactNo": "987463212",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-30T12:12:54.294Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T12:12:54.294Z"
+  },
+  "__v": 0
+}]

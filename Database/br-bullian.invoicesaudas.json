@@ -1,0 +1,1512 @@
+[{
+  "_id": {
+    "$oid": "6a0ee56cdf9dbea7dd5d28c1"
+  },
+  "invoiceId": {
+    "$oid": "6a0ee56cdf9dbea7dd5d28ba"
+  },
+  "saudaId": {
+    "$oid": "6a0ee482df9dbea7dd5d2894"
+  },
+  "weight": 1000,
+  "fine": 258000000,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-21T10:58:52.901Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T10:58:52.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a0ee56cdf9dbea7dd5d28c2"
+  },
+  "invoiceId": {
+    "$oid": "6a0ee56cdf9dbea7dd5d28ba"
+  },
+  "saudaId": {
+    "$oid": "6a0ee49adf9dbea7dd5d289c"
+  },
+  "weight": 5000,
+  "fine": 1273000000,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-21T10:58:52.902Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T10:58:52.902Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a0ee56cdf9dbea7dd5d28c3"
+  },
+  "invoiceId": {
+    "$oid": "6a0ee56cdf9dbea7dd5d28ba"
+  },
+  "saudaId": {
+    "$oid": "6a0ee4aedf9dbea7dd5d28a4"
+  },
+  "weight": 120,
+  "fine": 30900000,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-21T10:58:52.902Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T10:58:52.902Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a0f3569a768c017ecc63892"
+  },
+  "invoiceId": {
+    "$oid": "6a0f3568a768c017ecc6387c"
+  },
+  "saudaId": {
+    "$oid": "6a0d927eb2e432ef7f6a358d"
+  },
+  "weight": 1000,
+  "fine": 2458000,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-21T16:40:09.095Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T16:40:09.095Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a0f3569a768c017ecc63893"
+  },
+  "invoiceId": {
+    "$oid": "6a0f3568a768c017ecc6387c"
+  },
+  "saudaId": {
+    "$oid": "6a0edf1adfcb11cfbf9eb7a0"
+  },
+  "weight": 1000,
+  "fine": 2540000,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-21T16:40:09.096Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T16:40:09.096Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a10462aa768c017ecc63ae1"
+  },
+  "invoiceId": {
+    "$oid": "6a10462aa768c017ecc63adb"
+  },
+  "saudaId": {
+    "$oid": "6a0ee4aedf9dbea7dd5d28a4"
+  },
+  "weight": 9880,
+  "fine": 25441000,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T12:03:54.931Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T12:03:54.931Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1046e6a768c017ecc63b5a"
+  },
+  "invoiceId": {
+    "$oid": "6a1046e6a768c017ecc63b54"
+  },
+  "saudaId": {
+    "$oid": "6a10467aa768c017ecc63af6"
+  },
+  "weight": 2500,
+  "fine": 6370000,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T12:07:02.863Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T12:07:02.863Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a10520da768c017ecc63b9d"
+  },
+  "invoiceId": {
+    "$oid": "6a10520da768c017ecc63b97"
+  },
+  "saudaId": {
+    "$oid": "6a10467aa768c017ecc63af6"
+  },
+  "weight": 150,
+  "fine": 382200,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T12:54:37.644Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T12:54:37.644Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a11cd4b704df4ab8ecd3485"
+  },
+  "invoiceId": {
+    "$oid": "6a11cd4b704df4ab8ecd347c"
+  },
+  "saudaId": {
+    "$oid": "6a0ed76edfcb11cfbf9eb798"
+  },
+  "weight": 0.6619762166405023,
+  "fine": 1686.7153999999998,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-23T15:52:43.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T15:52:43.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a13e18c664e5d13f03c9bc1"
+  },
+  "invoiceId": {
+    "$oid": "6a13e18b664e5d13f03c9bb2"
+  },
+  "saudaId": {
+    "$oid": "6a13dfc3664e5d13f03c9b70"
+  },
+  "weight": 7.615879094488189,
+  "fine": 19344.3329,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-25T05:43:40.122Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T05:43:40.122Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a13e5a6c0b6a47f7d8e5df1"
+  },
+  "invoiceId": {
+    "$oid": "6a13e5a3c0b6a47f7d8e5de2"
+  },
+  "saudaId": {
+    "$oid": "6a10467aa768c017ecc63af6"
+  },
+  "weight": 3951.3245580445955,
+  "fine": 2350,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-25T06:01:10.390Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T06:01:10.390Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a13e5a6c0b6a47f7d8e5df2"
+  },
+  "invoiceId": {
+    "$oid": "6a13e5a3c0b6a47f7d8e5de2"
+  },
+  "saudaId": {
+    "$oid": "6a104697a768c017ecc63afe"
+  },
+  "weight": 1681.4147055508918,
+  "fine": 1000,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-25T06:01:10.410Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T06:01:10.410Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a13e5a6c0b6a47f7d8e5df3"
+  },
+  "invoiceId": {
+    "$oid": "6a13e5a3c0b6a47f7d8e5de2"
+  },
+  "saudaId": {
+    "$oid": "6a1046aba768c017ecc63b06"
+  },
+  "weight": 4203.5367638772295,
+  "fine": 2500,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-25T06:01:10.410Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T06:01:10.410Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a13e6f47318281fe6abaad8"
+  },
+  "invoiceId": {
+    "$oid": "6a13e6f47318281fe6abaad2"
+  },
+  "saudaId": {
+    "$oid": "6a13e6c67318281fe6abaaa2"
+  },
+  "weight": 2568,
+  "fine": 2298,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-25T06:06:44.395Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T06:06:44.395Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a13e72a7318281fe6abab0c"
+  },
+  "invoiceId": {
+    "$oid": "6a13e72a7318281fe6abab05"
+  },
+  "saudaId": {
+    "$oid": "6a13e6c67318281fe6abaaa2"
+  },
+  "weight": 10876.560390763767,
+  "fine": 7432,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-25T06:07:38.809Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T06:07:38.809Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a13e72a7318281fe6abab0d"
+  },
+  "invoiceId": {
+    "$oid": "6a13e72a7318281fe6abab05"
+  },
+  "saudaId": {
+    "$oid": "6a13e6d87318281fe6abaab0"
+  },
+  "weight": 2306.4396092362344,
+  "fine": 1576,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-25T06:07:38.810Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T06:07:38.810Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a13e83cfb05b1f6157a6cf9"
+  },
+  "invoiceId": {
+    "$oid": "6a13e83bfb05b1f6157a6cf3"
+  },
+  "saudaId": {
+    "$oid": "6a13e6d87318281fe6abaab0"
+  },
+  "weight": 3414.5,
+  "fine": 2693.5,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-25T06:12:12.080Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T06:12:12.080Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a13e8acfb05b1f6157a6d86"
+  },
+  "invoiceId": {
+    "$oid": "6a13e8acfb05b1f6157a6d80"
+  },
+  "saudaId": {
+    "$oid": "6a13e86cfb05b1f6157a6d50"
+  },
+  "weight": 200,
+  "fine": 153,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-25T06:14:04.857Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T06:14:04.857Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a13e95cbc8f2bd548bb052a"
+  },
+  "invoiceId": {
+    "$oid": "6a13e95cbc8f2bd548bb0524"
+  },
+  "saudaId": {
+    "$oid": "6a13e86cfb05b1f6157a6d50"
+  },
+  "weight": 275,
+  "fine": 275,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-25T06:17:00.608Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T06:17:00.608Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a13e9a2bc8f2bd548bb055d"
+  },
+  "invoiceId": {
+    "$oid": "6a13e9a2bc8f2bd548bb0557"
+  },
+  "saudaId": {
+    "$oid": "6a13e86cfb05b1f6157a6d50"
+  },
+  "weight": 25,
+  "fine": 25,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-25T06:18:10.318Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T06:18:10.318Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a13e9a2bc8f2bd548bb055e"
+  },
+  "invoiceId": {
+    "$oid": "6a13e9a2bc8f2bd548bb0557"
+  },
+  "saudaId": {
+    "$oid": "6a13e880fb05b1f6157a6d5e"
+  },
+  "weight": 500,
+  "fine": 500,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-25T06:18:10.318Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T06:18:10.318Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a13efcf7cc140ddc78cc434"
+  },
+  "invoiceId": {
+    "$oid": "6a13efce7cc140ddc78cc426"
+  },
+  "saudaId": {
+    "$oid": "6a0d7aad1df38ea7e8c0e99b"
+  },
+  "weight": 1000,
+  "fine": 1000,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-25T06:44:31.049Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T06:44:31.049Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1471b8522fd5a91f588125"
+  },
+  "invoiceId": {
+    "$oid": "6a1471b7522fd5a91f58810b"
+  },
+  "saudaId": {
+    "$oid": "6a13dfc3664e5d13f03c9b70"
+  },
+  "weight": 14992,
+  "fine": 14992,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-25T15:58:48.389Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T15:58:48.389Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1471b8522fd5a91f588126"
+  },
+  "invoiceId": {
+    "$oid": "6a1471b7522fd5a91f58810b"
+  },
+  "saudaId": {
+    "$oid": "6a13dfd5664e5d13f03c9b7e"
+  },
+  "weight": 6000,
+  "fine": 6000,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-25T15:58:48.390Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T15:58:48.390Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a149422c14284d8a6654643"
+  },
+  "invoiceId": {
+    "$oid": "6a149422c14284d8a665463a"
+  },
+  "saudaId": {
+    "$oid": "6a149389c14284d8a6654606"
+  },
+  "weight": 498,
+  "fine": 498,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-25T18:25:38.184Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T18:25:38.184Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a149450c14284d8a6654673"
+  },
+  "invoiceId": {
+    "$oid": "6a149450c14284d8a665466d"
+  },
+  "saudaId": {
+    "$oid": "6a149389c14284d8a6654606"
+  },
+  "weight": 2,
+  "fine": 2,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-25T18:26:24.476Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T18:26:24.476Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a149450c14284d8a6654674"
+  },
+  "invoiceId": {
+    "$oid": "6a149450c14284d8a665466d"
+  },
+  "saudaId": {
+    "$oid": "6a1493a2c14284d8a6654611"
+  },
+  "weight": 250,
+  "fine": 250,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-25T18:26:24.476Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T18:26:24.476Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a149450c14284d8a6654675"
+  },
+  "invoiceId": {
+    "$oid": "6a149450c14284d8a665466d"
+  },
+  "saudaId": {
+    "$oid": "6a1493b9c14284d8a665461f"
+  },
+  "weight": 87,
+  "fine": 87,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-25T18:26:24.476Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-25T18:26:24.476Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1636757d95a66e83d081ce"
+  },
+  "invoiceId": {
+    "$oid": "6a15b66c7d95a66e83d07f80"
+  },
+  "saudaId": {
+    "$oid": "6a13dfc3664e5d13f03c9b70"
+  },
+  "weight": 0,
+  "fine": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-27T00:10:29.944Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-27T00:10:29.944Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1869f87d95a66e83d08a18"
+  },
+  "invoiceId": {
+    "$oid": "6a1869f87d95a66e83d089f6"
+  },
+  "saudaId": {
+    "$oid": "6a13dfc3664e5d13f03c9b70"
+  },
+  "weight": 0,
+  "fine": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-28T16:14:48.861Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-28T16:14:48.861Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a19705e0272a33fd2ec88f5"
+  },
+  "invoiceId": {
+    "$oid": "6a19705e0272a33fd2ec88ef"
+  },
+  "saudaId": {
+    "$oid": "6a1493b9c14284d8a665461f"
+  },
+  "weight": 31,
+  "fine": 31,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-29T10:54:22.802Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T10:54:22.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1971250272a33fd2ec892d"
+  },
+  "invoiceId": {
+    "$oid": "6a1971250272a33fd2ec8927"
+  },
+  "saudaId": {
+    "$oid": "6a1493b9c14284d8a665461f"
+  },
+  "weight": 60,
+  "fine": 60,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-29T10:57:41.363Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T10:57:41.363Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1973ba0272a33fd2ec89a1"
+  },
+  "invoiceId": {
+    "$oid": "6a1973ba0272a33fd2ec899b"
+  },
+  "saudaId": {
+    "$oid": "6a19737e0272a33fd2ec8975"
+  },
+  "weight": 8000,
+  "fine": 8000,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-29T11:08:42.832Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T11:08:42.832Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a19741e0272a33fd2ec89ec"
+  },
+  "invoiceId": {
+    "$oid": "6a19741e0272a33fd2ec89e6"
+  },
+  "saudaId": {
+    "$oid": "6a19737e0272a33fd2ec8975"
+  },
+  "weight": 2000,
+  "fine": 2000,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-29T11:10:22.902Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T11:10:22.902Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a19741e0272a33fd2ec89ed"
+  },
+  "invoiceId": {
+    "$oid": "6a19741e0272a33fd2ec89e6"
+  },
+  "saudaId": {
+    "$oid": "6a19738f0272a33fd2ec8980"
+  },
+  "weight": 5000,
+  "fine": 5000,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-29T11:10:22.902Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T11:10:22.902Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a19741e0272a33fd2ec89ee"
+  },
+  "invoiceId": {
+    "$oid": "6a19741e0272a33fd2ec89e6"
+  },
+  "saudaId": {
+    "$oid": "6a1973eb0272a33fd2ec89cb"
+  },
+  "weight": 3000.5,
+  "fine": 3000.5,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-29T11:10:22.902Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T11:10:22.902Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1974530272a33fd2ec8a29"
+  },
+  "invoiceId": {
+    "$oid": "6a1974530272a33fd2ec8a23"
+  },
+  "saudaId": {
+    "$oid": "6a1973eb0272a33fd2ec89cb"
+  },
+  "weight": 1999.5,
+  "fine": 1999.5,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-29T11:11:15.259Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T11:11:15.259Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1974530272a33fd2ec8a2a"
+  },
+  "invoiceId": {
+    "$oid": "6a1974530272a33fd2ec8a23"
+  },
+  "saudaId": {
+    "$oid": "6a1974360272a33fd2ec8a08"
+  },
+  "weight": 10000,
+  "fine": 10000,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-29T11:11:15.259Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T11:11:15.259Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a198dc32e7ffe74bd839a36"
+  },
+  "invoiceId": {
+    "$oid": "6a198dc32e7ffe74bd839a30"
+  },
+  "saudaId": {
+    "$oid": "6a198b930272a33fd2ec8acd"
+  },
+  "weight": 1424,
+  "fine": 1424,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-29T12:59:47.291Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T12:59:47.291Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a198dd42e7ffe74bd839a5f"
+  },
+  "invoiceId": {
+    "$oid": "6a198dd42e7ffe74bd839a5a"
+  },
+  "saudaId": {
+    "$oid": "6a198b930272a33fd2ec8acd"
+  },
+  "weight": 1424,
+  "fine": 1424,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-29T13:00:04.361Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T13:00:04.361Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a19966b6739540046062086"
+  },
+  "invoiceId": {
+    "$oid": "6a19966b6739540046062081"
+  },
+  "saudaId": {
+    "$oid": "6a198b930272a33fd2ec8acd"
+  },
+  "weight": 2152,
+  "fine": 2152,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-29T13:36:43.739Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T13:36:43.739Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a19966b6739540046062087"
+  },
+  "invoiceId": {
+    "$oid": "6a19966b6739540046062081"
+  },
+  "saudaId": {
+    "$oid": "6a198ba60272a33fd2ec8ad8"
+  },
+  "weight": 1770.5,
+  "fine": 1770.5,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-29T13:36:43.739Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T13:36:43.739Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a19bf506739540046062225"
+  },
+  "invoiceId": {
+    "$oid": "6a19bf5067395400460621ff"
+  },
+  "saudaId": {
+    "$oid": "6a13dfc3664e5d13f03c9b70"
+  },
+  "weight": 0,
+  "fine": 0,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-29T16:31:12.391Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-29T16:31:12.391Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1a94c0d2d00ecb4f80d65c"
+  },
+  "invoiceId": {
+    "$oid": "6a1a94c0d2d00ecb4f80d656"
+  },
+  "saudaId": {
+    "$oid": "6a1a9445d2d00ecb4f80d62d"
+  },
+  "weight": 5000,
+  "fine": 5000,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-30T07:41:52.526Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T07:41:52.526Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1a94c0d2d00ecb4f80d65d"
+  },
+  "invoiceId": {
+    "$oid": "6a1a94c0d2d00ecb4f80d656"
+  },
+  "saudaId": {
+    "$oid": "6a1a9458d2d00ecb4f80d638"
+  },
+  "weight": 2000,
+  "fine": 2000,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-30T07:41:52.527Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T07:41:52.527Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1a956cd2d00ecb4f80d6a8"
+  },
+  "invoiceId": {
+    "$oid": "6a1a956bd2d00ecb4f80d6a2"
+  },
+  "saudaId": {
+    "$oid": "6a1a9458d2d00ecb4f80d638"
+  },
+  "weight": 8000,
+  "fine": 8000,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-30T07:44:44.111Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T07:44:44.111Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1a956cd2d00ecb4f80d6a9"
+  },
+  "invoiceId": {
+    "$oid": "6a1a956bd2d00ecb4f80d6a2"
+  },
+  "saudaId": {
+    "$oid": "6a1a9527d2d00ecb4f80d687"
+  },
+  "weight": 6999.5,
+  "fine": 6999.5,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-30T07:44:44.111Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T07:44:44.111Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1a9a45d2d00ecb4f80d742"
+  },
+  "invoiceId": {
+    "$oid": "6a1a9a45d2d00ecb4f80d73c"
+  },
+  "saudaId": {
+    "$oid": "6a1a9527d2d00ecb4f80d687"
+  },
+  "weight": 3000.5,
+  "fine": 3000.5,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-30T08:05:25.457Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T08:05:25.457Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1a9a45d2d00ecb4f80d743"
+  },
+  "invoiceId": {
+    "$oid": "6a1a9a45d2d00ecb4f80d73c"
+  },
+  "saudaId": {
+    "$oid": "6a1a9a09d2d00ecb4f80d721"
+  },
+  "weight": 21999.5,
+  "fine": 21999.5,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-30T08:05:25.457Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T08:05:25.457Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1a9aced2d00ecb4f80d799"
+  },
+  "invoiceId": {
+    "$oid": "6a1a9aced2d00ecb4f80d793"
+  },
+  "saudaId": {
+    "$oid": "6a1a9a09d2d00ecb4f80d721"
+  },
+  "weight": 4999.5,
+  "fine": 4999.5,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-30T08:07:42.695Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T08:07:42.695Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1a9ef03a5e70d9f2303835"
+  },
+  "invoiceId": {
+    "$oid": "6a1a9ef03a5e70d9f2303830"
+  },
+  "saudaId": {
+    "$oid": "6a1a9ec63a5e70d9f2303802"
+  },
+  "weight": 5000,
+  "fine": 5000,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-30T08:25:20.882Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T08:25:20.882Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1a9ef03a5e70d9f2303836"
+  },
+  "invoiceId": {
+    "$oid": "6a1a9ef03a5e70d9f2303830"
+  },
+  "saudaId": {
+    "$oid": "6a1a9ed53a5e70d9f230380d"
+  },
+  "weight": 2000,
+  "fine": 2000,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-30T08:25:20.883Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T08:25:20.883Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1a9f563a5e70d9f2303881"
+  },
+  "invoiceId": {
+    "$oid": "6a1a9f563a5e70d9f230387c"
+  },
+  "saudaId": {
+    "$oid": "6a1a9ed53a5e70d9f230380d"
+  },
+  "weight": 8000,
+  "fine": 8000,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-30T08:27:02.486Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T08:27:02.486Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1a9f563a5e70d9f2303882"
+  },
+  "invoiceId": {
+    "$oid": "6a1a9f563a5e70d9f230387c"
+  },
+  "saudaId": {
+    "$oid": "6a1a9f203a5e70d9f2303859"
+  },
+  "weight": 6999.5,
+  "fine": 6999.5,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-30T08:27:02.487Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T08:27:02.487Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1aa0593a5e70d9f23038df"
+  },
+  "invoiceId": {
+    "$oid": "6a1aa0593a5e70d9f23038da"
+  },
+  "saudaId": {
+    "$oid": "6a1a9f203a5e70d9f2303859"
+  },
+  "weight": 13000.5,
+  "fine": 13000.5,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-30T08:31:21.398Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T08:31:21.398Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1aa0593a5e70d9f23038e0"
+  },
+  "invoiceId": {
+    "$oid": "6a1aa0593a5e70d9f23038da"
+  },
+  "saudaId": {
+    "$oid": "6a1aa0393a5e70d9f23038b7"
+  },
+  "weight": 16999,
+  "fine": 16999,
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-30T08:31:21.398Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T08:31:21.398Z"
+  }
+}]

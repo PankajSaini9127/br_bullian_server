@@ -1,0 +1,364 @@
+[{
+  "_id": {
+    "$oid": "6a1ad3339e9bdad41c1ced1e"
+  },
+  "paymentNo": "IN20260530001",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "paymentDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "amount": 10500000,
+  "paymentType": "incoming",
+  "paymentMode": "cash",
+  "remark": "Case",
+  "isActive": true,
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-30T12:08:19.203Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T12:08:19.203Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1ad34b9e9bdad41c1ced30"
+  },
+  "paymentNo": "IN20260530002",
+  "partyId": {
+    "$oid": "6a0b4b6685d384e22b982d14"
+  },
+  "paymentDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "amount": 1250000,
+  "paymentType": "incoming",
+  "paymentMode": "cash",
+  "remark": "cash",
+  "isActive": true,
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-30T12:08:43.193Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T12:08:43.193Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1ad36d9e9bdad41c1ced4b"
+  },
+  "paymentNo": "IN20260530003",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "paymentDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "amount": 2275000,
+  "paymentType": "incoming",
+  "paymentMode": "cash",
+  "remark": "mk hwala",
+  "isActive": true,
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-30T12:09:17.994Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T12:09:17.994Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1ad3869e9bdad41c1ced5d"
+  },
+  "paymentNo": "IN20260530004",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "paymentDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "amount": 3000000,
+  "paymentType": "incoming",
+  "paymentMode": "cash",
+  "remark": "mk jpr",
+  "isActive": true,
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-30T12:09:42.310Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T12:09:42.310Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1ad39c9e9bdad41c1ced6f"
+  },
+  "paymentNo": "IN20260530005",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "paymentDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "amount": 2000000,
+  "paymentType": "incoming",
+  "paymentMode": "cash",
+  "remark": "anurag",
+  "isActive": true,
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-30T12:10:04.104Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T12:10:04.104Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1ad3df9e9bdad41c1ced95"
+  },
+  "paymentNo": "OUT20260530001",
+  "partyId": {
+    "$oid": "6a186adf7d95a66e83d08a45"
+  },
+  "paymentDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "amount": 10000000,
+  "paymentType": "outgoing",
+  "paymentMode": "cash",
+  "remark": "cash",
+  "isActive": true,
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-30T12:11:11.797Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T12:11:11.797Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1ad3f69e9bdad41c1ceda4"
+  },
+  "paymentNo": "OUT20260530002",
+  "partyId": {
+    "$oid": "6a19367b7d95a66e83d08b57"
+  },
+  "paymentDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "amount": 1750000,
+  "paymentType": "outgoing",
+  "paymentMode": "cash",
+  "remark": "cash",
+  "isActive": true,
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-30T12:11:34.059Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T12:11:34.059Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1ad40c9e9bdad41c1cedb6"
+  },
+  "paymentNo": "OUT20260530003",
+  "partyId": {
+    "$oid": "6a0ac7d4d8360529bfac9b3b"
+  },
+  "paymentDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "amount": 1402200,
+  "paymentType": "outgoing",
+  "paymentMode": "cash",
+  "remark": "mk direct",
+  "isActive": true,
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-30T12:11:56.339Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T12:11:56.339Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1ad42b9e9bdad41c1cedd1"
+  },
+  "paymentNo": "OUT20260530004",
+  "partyId": {
+    "$oid": "6a0ac7d4d8360529bfac9b3b"
+  },
+  "paymentDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "amount": 5000000,
+  "paymentType": "outgoing",
+  "paymentMode": "cash",
+  "remark": "cash",
+  "isActive": true,
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-30T12:12:27.686Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T12:12:27.686Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1ad46a9e9bdad41c1cee01"
+  },
+  "paymentNo": "OUT20260530005",
+  "partyId": {
+    "$oid": "6a1ad4469e9bdad41c1cedde"
+  },
+  "paymentDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "amount": 4000,
+  "paymentType": "outgoing",
+  "paymentMode": "cash",
+  "remark": "khrcha",
+  "isActive": true,
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-30T12:13:30.203Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T12:13:30.203Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1adb29eb63649759293cda"
+  },
+  "paymentNo": "OUT20260530006",
+  "partyId": {
+    "$oid": "6a19727b0272a33fd2ec8954"
+  },
+  "paymentDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "amount": 10000,
+  "paymentType": "outgoing",
+  "paymentMode": "cash",
+  "remark": "teste",
+  "isActive": true,
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-30T12:42:17.540Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T12:42:17.540Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1adf03eb63649759293d43"
+  },
+  "paymentNo": "IN20260530006",
+  "partyId": {
+    "$oid": "6a1a91f2d2d00ecb4f80d615"
+  },
+  "paymentDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "amount": 10000,
+  "paymentType": "incoming",
+  "paymentMode": "cash",
+  "remark": "test",
+  "isActive": true,
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-30T12:58:43.085Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T12:58:43.085Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1b0385eb63649759293ec9"
+  },
+  "paymentNo": "OUT20260530007",
+  "partyId": {
+    "$oid": "6a1a91e6d2d00ecb4f80d612"
+  },
+  "paymentDate": {
+    "$date": "2026-05-30T00:00:00.000Z"
+  },
+  "amount": 50000,
+  "paymentType": "outgoing",
+  "paymentMode": "cash",
+  "remark": "test",
+  "isActive": true,
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-30T15:34:29.916Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-30T15:34:29.916Z"
+  },
+  "__v": 0
+}]
