@@ -200,7 +200,7 @@ const getPartyLedger = async (req, res) => {
 
     // Fetch sauda cuts for these invoices
     const invoiceSaudaCuts = await InvoiceSauda.find({ invoiceId: { $in: incomingInvoiceIds }, isDeleted: false })
-      .populate('saudaId', 'saudaNo saudaDate quantity delivered rate status');
+      .populate('saudaId', 'saudaNo saudaDate quantity delivered rate status isBhavCut');
 
     const saudaCutsByInvoice = {};
     invoiceSaudaCuts.forEach(cut => {
@@ -215,7 +215,8 @@ const getPartyLedger = async (req, res) => {
         rate: cut.saudaId.rate,
         status: cut.saudaId.status,
         cutWeight: cut.weight,
-        cutFine: cut.fine
+        cutFine: cut.fine,
+        isBhavCut: cut.saudaId.isBhavCut
       });
     });
 
@@ -227,7 +228,7 @@ const getPartyLedger = async (req, res) => {
 
     // Fetch sauda cuts for sales invoices
     const salesSaudaCuts = await InvoiceSauda.find({ invoiceId: { $in: salesInvoiceIds }, isDeleted: false })
-      .populate('saudaId', 'saudaNo saudaDate quantity delivered rate status');
+      .populate('saudaId', 'saudaNo saudaDate quantity delivered rate status isBhavCut');
 
     const salesSaudaCutsByInvoice = {};
     salesSaudaCuts.forEach(cut => {
@@ -242,7 +243,8 @@ const getPartyLedger = async (req, res) => {
         rate: cut.saudaId.rate,
         status: cut.saudaId.status,
         cutWeight: cut.weight,
-        cutFine: cut.fine
+        cutFine: cut.fine,
+        isBhavCut: cut.saudaId.isBhavCut
       });
     });
 

@@ -19014,4 +19014,2494 @@
   "updatedAt": {
     "$date": "2026-05-30T17:01:59.907Z"
   }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7d1"
+  },
+  "paggaNo": "1",
+  "weight": 10,
+  "touch": 10,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.915Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7d2"
+  },
+  "paggaNo": "2",
+  "weight": 10,
+  "touch": 20,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.917Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7d3"
+  },
+  "paggaNo": "3",
+  "weight": 10,
+  "touch": 30,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.917Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7d4"
+  },
+  "paggaNo": "4",
+  "weight": 10,
+  "touch": 40,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.918Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7d5"
+  },
+  "paggaNo": "5",
+  "weight": 10,
+  "touch": 50,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.918Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7d6"
+  },
+  "paggaNo": "6",
+  "weight": 10,
+  "touch": 60,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.919Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7d7"
+  },
+  "paggaNo": "7",
+  "weight": 10,
+  "touch": 70,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.919Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7d8"
+  },
+  "paggaNo": "8",
+  "weight": 10,
+  "touch": 80,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.920Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7d9"
+  },
+  "paggaNo": "9",
+  "weight": 10,
+  "touch": 90,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.920Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7da"
+  },
+  "paggaNo": "10",
+  "weight": 10,
+  "touch": 99,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.920Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7db"
+  },
+  "paggaNo": "11",
+  "weight": 20,
+  "touch": 10,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.920Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7dc"
+  },
+  "paggaNo": "12",
+  "weight": 20,
+  "touch": 20,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.920Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7dd"
+  },
+  "paggaNo": "13",
+  "weight": 13,
+  "touch": 13,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.921Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7de"
+  },
+  "paggaNo": "14",
+  "weight": 14,
+  "touch": 14,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.921Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7df"
+  },
+  "paggaNo": "15",
+  "weight": 15,
+  "touch": 15,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.921Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7e0"
+  },
+  "paggaNo": "16",
+  "weight": 16,
+  "touch": 16,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.921Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7e1"
+  },
+  "paggaNo": "17",
+  "weight": 17,
+  "touch": 17,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.921Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7e2"
+  },
+  "paggaNo": "18",
+  "weight": 18,
+  "touch": 18,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.921Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7e3"
+  },
+  "paggaNo": "19",
+  "weight": 19,
+  "touch": 19,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.922Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7e4"
+  },
+  "paggaNo": "20",
+  "weight": 20,
+  "touch": 20,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.922Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7e5"
+  },
+  "paggaNo": "21",
+  "weight": 21,
+  "touch": 21,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.922Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7e6"
+  },
+  "paggaNo": "22",
+  "weight": 22,
+  "touch": 22,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.922Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7e7"
+  },
+  "paggaNo": "23",
+  "weight": 23,
+  "touch": 23,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.923Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7e8"
+  },
+  "paggaNo": "24",
+  "weight": 24,
+  "touch": 24,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.923Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7e9"
+  },
+  "paggaNo": "25",
+  "weight": 25,
+  "touch": 25,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.923Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7ea"
+  },
+  "paggaNo": "26",
+  "weight": 26,
+  "touch": 26,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.923Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7eb"
+  },
+  "paggaNo": "27",
+  "weight": 27,
+  "touch": 27,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.923Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7ec"
+  },
+  "paggaNo": "28",
+  "weight": 28,
+  "touch": 28,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.924Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7ed"
+  },
+  "paggaNo": "29",
+  "weight": 29,
+  "touch": 29,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.924Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7ee"
+  },
+  "paggaNo": "30",
+  "weight": 30,
+  "touch": 30,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.925Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7ef"
+  },
+  "paggaNo": "31",
+  "weight": 31,
+  "touch": 31.3,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.925Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7f0"
+  },
+  "paggaNo": "2",
+  "weight": 32,
+  "touch": 32.3,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.925Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7f1"
+  },
+  "paggaNo": "3",
+  "weight": 33,
+  "touch": 33,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.925Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7f2"
+  },
+  "paggaNo": "34",
+  "weight": 34,
+  "touch": 34.3,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.925Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7f3"
+  },
+  "paggaNo": "4",
+  "weight": 35,
+  "touch": 35.3,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.925Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7f4"
+  },
+  "paggaNo": "5",
+  "weight": 36,
+  "touch": 36,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.925Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7f5"
+  },
+  "paggaNo": "37",
+  "weight": 37,
+  "touch": 37.3,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.926Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7f6"
+  },
+  "paggaNo": "38",
+  "weight": 38,
+  "touch": 38,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.927Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7f7"
+  },
+  "paggaNo": "39",
+  "weight": 39,
+  "touch": 39,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.927Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7f8"
+  },
+  "paggaNo": "40",
+  "weight": 40,
+  "touch": 40,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.927Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7f9"
+  },
+  "paggaNo": "41",
+  "weight": 41,
+  "touch": 41,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.928Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7fa"
+  },
+  "paggaNo": "42",
+  "weight": 42,
+  "touch": 42,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.928Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7fb"
+  },
+  "paggaNo": "43",
+  "weight": 43,
+  "touch": 43,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.928Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7fc"
+  },
+  "paggaNo": "44",
+  "weight": 44,
+  "touch": 44,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.928Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7fd"
+  },
+  "paggaNo": "45",
+  "weight": 45,
+  "touch": 45,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.931Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7fe"
+  },
+  "paggaNo": "46",
+  "weight": 46,
+  "touch": 46,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.931Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7ff"
+  },
+  "paggaNo": "47",
+  "weight": 47,
+  "touch": 47,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.931Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db800"
+  },
+  "paggaNo": "48",
+  "weight": 48,
+  "touch": 48.49,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.931Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db801"
+  },
+  "paggaNo": "49",
+  "weight": 49,
+  "touch": 49.5,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.931Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db802"
+  },
+  "paggaNo": "50",
+  "weight": 50,
+  "touch": 50,
+  "invoiceId": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "isActive": true,
+  "isSold": true,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.931Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:37:10.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db911"
+  },
+  "paggaNo": "8238",
+  "weight": 629,
+  "touch": 60.84,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.641Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.284Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db912"
+  },
+  "paggaNo": "8244",
+  "weight": 938,
+  "touch": 57.57,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.641Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.291Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db913"
+  },
+  "paggaNo": "8226",
+  "weight": 857,
+  "touch": 54.17,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.641Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.297Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db914"
+  },
+  "paggaNo": "3037",
+  "weight": 769,
+  "touch": 57.95,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.641Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.304Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db915"
+  },
+  "paggaNo": "4195",
+  "weight": 360,
+  "touch": 79.21,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.641Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.308Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db916"
+  },
+  "paggaNo": "3173",
+  "weight": 2644,
+  "touch": 63.18,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.641Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.312Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db917"
+  },
+  "paggaNo": "4196",
+  "weight": 579,
+  "touch": 84.65,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.641Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.318Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db918"
+  },
+  "paggaNo": "7730",
+  "weight": 590,
+  "touch": 58.5,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.641Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.323Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db919"
+  },
+  "paggaNo": "9460",
+  "weight": 1682,
+  "touch": 81.93,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.641Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.328Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db91a"
+  },
+  "paggaNo": "3040",
+  "weight": 2545,
+  "touch": 61.63,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.641Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.332Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db91b"
+  },
+  "paggaNo": "8205",
+  "weight": 1340,
+  "touch": 54.7,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.642Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.335Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db91c"
+  },
+  "paggaNo": "7705",
+  "weight": 1953,
+  "touch": 55.31,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.642Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.338Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db91d"
+  },
+  "paggaNo": "1414",
+  "weight": 1114,
+  "touch": 71.25,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.642Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.342Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db91e"
+  },
+  "paggaNo": "8290",
+  "weight": 222,
+  "touch": 55.47,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.643Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.345Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db91f"
+  },
+  "paggaNo": "3023",
+  "weight": 390,
+  "touch": 61.56,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.643Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.349Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db920"
+  },
+  "paggaNo": "8241",
+  "weight": 772,
+  "touch": 54.63,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.643Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.353Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db921"
+  },
+  "paggaNo": "2240",
+  "weight": 560,
+  "touch": 53.05,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.643Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.356Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db922"
+  },
+  "paggaNo": "6638",
+  "weight": 528,
+  "touch": 59.65,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.643Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.365Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db923"
+  },
+  "paggaNo": "550",
+  "weight": 1264,
+  "touch": 88.85,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.643Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.370Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db924"
+  },
+  "paggaNo": "3030",
+  "weight": 1138,
+  "touch": 54.84,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.643Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.373Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db925"
+  },
+  "paggaNo": "2726",
+  "weight": 1249,
+  "touch": 63.53,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.643Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.377Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db926"
+  },
+  "paggaNo": "3080",
+  "weight": 1070,
+  "touch": 53.77,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.643Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.379Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db927"
+  },
+  "paggaNo": "7525",
+  "weight": 1181,
+  "touch": 60.8,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.643Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.382Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db928"
+  },
+  "paggaNo": "3038",
+  "weight": 1757,
+  "touch": 64.06,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.643Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.385Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db929"
+  },
+  "paggaNo": "1690",
+  "weight": 4340,
+  "touch": 72.5,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.644Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.387Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db92a"
+  },
+  "paggaNo": "8179",
+  "weight": 5961,
+  "touch": 56.99,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.644Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.391Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db92b"
+  },
+  "paggaNo": "7154",
+  "weight": 4851,
+  "touch": 61.5,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.644Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.393Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db92c"
+  },
+  "paggaNo": "3017",
+  "weight": 10639,
+  "touch": 89.45,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.644Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.395Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db92d"
+  },
+  "paggaNo": "7155",
+  "weight": 13140,
+  "touch": 79.8,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.644Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.397Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db92e"
+  },
+  "paggaNo": "2727",
+  "weight": 10813,
+  "touch": 65.49,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.644Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.399Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db92f"
+  },
+  "paggaNo": "1914",
+  "weight": 1320,
+  "touch": 77.6,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.644Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.401Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db930"
+  },
+  "paggaNo": "6501",
+  "weight": 713,
+  "touch": 70.19,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.645Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.403Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db931"
+  },
+  "paggaNo": "3039",
+  "weight": 1417,
+  "touch": 58.86,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.645Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.405Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db932"
+  },
+  "paggaNo": "1411",
+  "weight": 1146,
+  "touch": 65.21,
+  "invoiceId": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.645Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.407Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c51d5532e0ccfd42db971"
+  },
+  "paggaNo": "629",
+  "weight": 2008,
+  "touch": 57.83,
+  "invoiceId": {
+    "$oid": "6a1c51d5532e0ccfd42db96f"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T15:20:53.289Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T15:20:53.289Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1c5227532e0ccfd42db9ad"
+  },
+  "paggaNo": "148",
+  "weight": 588.5,
+  "touch": 92.04,
+  "invoiceId": {
+    "$oid": "6a1c5227532e0ccfd42db9ab"
+  },
+  "isActive": true,
+  "isSold": false,
+  "isDukanStock": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-31T15:22:15.833Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T15:22:15.833Z"
+  }
 }]

@@ -666,4 +666,48 @@
     "$date": "2026-05-30T12:12:54.294Z"
   },
   "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1c1b65532e0ccfd42db786"
+  },
+  "partyName": "Vendor2",
+  "contactNo": "98765412321",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-31T11:28:37.501Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:28:37.501Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1c1b74532e0ccfd42db789"
+  },
+  "partyName": "Customer2",
+  "contactNo": "321654987",
+  "email": "",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-31T11:28:52.292Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:28:52.292Z"
+  },
+  "__v": 0
 }]

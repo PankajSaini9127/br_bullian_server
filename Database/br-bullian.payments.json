@@ -361,4 +361,200 @@
     "$date": "2026-05-30T15:34:29.916Z"
   },
   "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1c730389b581d93de7d66a"
+  },
+  "paymentNo": "IN20260531001",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "paymentDate": {
+    "$date": "2026-05-31T00:00:00.000Z"
+  },
+  "amount": 5000000,
+  "paymentType": "incoming",
+  "paymentMode": "cash",
+  "remark": "Cash",
+  "isActive": true,
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-31T17:42:27.468Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:42:27.468Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1c732789b581d93de7d67f"
+  },
+  "paymentNo": "IN20260531002",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "paymentDate": {
+    "$date": "2026-05-31T00:00:00.000Z"
+  },
+  "amount": 3500,
+  "paymentType": "incoming",
+  "paymentMode": "cash",
+  "remark": "rtm hwl",
+  "isActive": true,
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-31T17:43:03.691Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:43:03.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1c733a89b581d93de7d691"
+  },
+  "paymentNo": "IN20260531003",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "paymentDate": {
+    "$date": "2026-05-31T00:00:00.000Z"
+  },
+  "amount": 1000,
+  "paymentType": "incoming",
+  "paymentMode": "cash",
+  "remark": "ghar se dukan",
+  "isActive": true,
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-31T17:43:22.544Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:43:22.544Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1c734b89b581d93de7d6a3"
+  },
+  "paymentNo": "IN20260531004",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "paymentDate": {
+    "$date": "2026-05-31T00:00:00.000Z"
+  },
+  "amount": 2500000,
+  "paymentType": "incoming",
+  "paymentMode": "cash",
+  "remark": "cash",
+  "isActive": true,
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-31T17:43:39.483Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:43:39.483Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1c736089b581d93de7d6b5"
+  },
+  "paymentNo": "IN20260531005",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "paymentDate": {
+    "$date": "2026-05-31T00:00:00.000Z"
+  },
+  "amount": 100000,
+  "paymentType": "incoming",
+  "paymentMode": "cash",
+  "remark": "vipin ji sm",
+  "isActive": true,
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-31T17:44:00.208Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:44:00.208Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1c737189b581d93de7d6c4"
+  },
+  "paymentNo": "IN20260531006",
+  "partyId": {
+    "$oid": "6a0b4b5185d384e22b982d0e"
+  },
+  "paymentDate": {
+    "$date": "2026-05-31T00:00:00.000Z"
+  },
+  "amount": 600000,
+  "paymentType": "incoming",
+  "paymentMode": "cash",
+  "remark": "ss cash",
+  "isActive": true,
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-31T17:44:17.512Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:44:17.512Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1c738589b581d93de7d6da"
+  },
+  "paymentNo": "OUT20260531001",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "paymentDate": {
+    "$date": "2026-05-31T00:00:00.000Z"
+  },
+  "amount": 10700000,
+  "paymentType": "outgoing",
+  "paymentMode": "cash",
+  "remark": "cash",
+  "isActive": true,
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "createdAt": {
+    "$date": "2026-05-31T17:44:37.273Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:44:37.273Z"
+  },
+  "__v": 0
 }]

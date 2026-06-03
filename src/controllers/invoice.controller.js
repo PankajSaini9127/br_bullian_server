@@ -3,11 +3,14 @@ const Pugga = require('../models/Pugga.model');
 const Sauda = require('../models/Sauda.model');
 const InvoiceSauda = require('../models/InvoiceSauda.model');
 const { generateInvoiceNo } = require('../utils/invoiceGenerator');
+const { generateSaudaNo } = require('../utils/saudaGenerator');
 const { roundToHalf } = require('../utils/rounding.util');
 
 const createInvoice = async (req, res) => {
   try {
-    const { partyId, invoiceDate, totalAmount, paggaItems } = req.body;
+    const { partyId, invoiceDate, totalAmount, paggaItems,bhavcut } = req.body;
+
+    console.log("5454",req.body)
 
     if (!partyId || !invoiceDate) {
       return res.status(400).json({ 
@@ -25,6 +28,23 @@ const createInvoice = async (req, res) => {
       totalAmount: totalAmount || 0,
       createdBy: req.user._id
     });
+
+    // Create bhavcut sauda if provided with weight > 0
+    let bhavcutSauda = null;
+    if (bhavcut && bhavcut.weight > 0 && bhavcut.rate) {
+      const saudaNo = await generateSaudaNo();
+      bhavcutSauda = await Sauda.create({
+        saudaNo,
+        partyId,
+        saudaDate: new Date(),
+        quantity: bhavcut.weight,
+        rate: bhavcut.rate,
+        saudaType: 'purchase',
+        isBhavCut: true,
+        status: 'pending',
+        createdBy: req.user._id
+      });
+    }
 
     // Create pugga items if provided
     let createdPuggas = [];
@@ -51,6 +71,11 @@ const createInvoice = async (req, res) => {
       status: { $in: ['pending', 'partial'] },
       isDeleted: false
     }).sort({ saudaDate: 1 });
+
+    // Add bhavcut sauda to the beginning if it was created
+    if (bhavcutSauda) {
+      saudas.unshift(bhavcutSauda);
+    }
 
     // Distribute invoice fine across saudas by remaining quantity proportion
     let remainingFine = totalFine;

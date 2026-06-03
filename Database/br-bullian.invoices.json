@@ -2301,4 +2301,118 @@
     "$date": "2026-05-30T17:01:25.532Z"
   },
   "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1c1cb1532e0ccfd42db7cf"
+  },
+  "invoiceNo": "INV-2026-05-31-0001",
+  "partyId": {
+    "$oid": "6a1c1b65532e0ccfd42db786"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-31T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-31T11:34:09.795Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T11:34:09.795Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1c498a532e0ccfd42db90f"
+  },
+  "invoiceNo": "INV-2026-05-31-0002",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-31T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-31T14:45:30.540Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T17:10:51.181Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1c51d5532e0ccfd42db96f"
+  },
+  "invoiceNo": "INV-2026-05-31-0003",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-31T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-31T15:20:53.248Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T15:20:53.248Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1c5227532e0ccfd42db9ab"
+  },
+  "invoiceNo": "INV-2026-05-31-0004",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "invoiceDate": {
+    "$date": "2026-05-31T00:00:00.000Z"
+  },
+  "totalAmount": 0,
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-05-31T15:22:15.826Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T15:22:15.826Z"
+  },
+  "__v": 0
 }]

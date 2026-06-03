@@ -32,6 +32,10 @@ const saudaSchema = new mongoose.Schema({
     enum: ['sales', 'purchase'],
     required: true
   },
+  isBhavCut: {
+    type: Boolean,
+    default: false
+  },
   status: {
     type: String,
     enum: ['pending', 'delivered', 'closed', 'partial', 'cross'],
