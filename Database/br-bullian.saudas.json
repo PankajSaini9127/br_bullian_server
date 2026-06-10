@@ -28,7 +28,8 @@
   },
   "__v": 0,
   "isDeleted": false,
-  "delivered": 1000
+  "delivered": 1000,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -44,7 +45,7 @@
   "quantity": 1000,
   "rate": 254500,
   "saudaType": "purchase",
-  "status": "pending",
+  "status": "delivered",
   "isActive": true,
   "createdBy": {
     "$oid": "6a0834d26b0ed15e672ace1f"
@@ -56,10 +57,12 @@
     "$date": "2026-05-20T09:13:13.856Z"
   },
   "updatedAt": {
-    "$date": "2026-05-20T09:35:48.666Z"
+    "$date": "2026-06-05T16:35:22.995Z"
   },
   "__v": 0,
-  "isDeleted": false
+  "isDeleted": false,
+  "isBhavCut": false,
+  "delivered": 1000
 },
 {
   "_id": {
@@ -92,7 +95,8 @@
     "$date": "2026-05-21T16:40:09.076Z"
   },
   "__v": 0,
-  "delivered": 1000
+  "delivered": 1000,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -125,7 +129,8 @@
     "$date": "2026-05-23T15:52:43.649Z"
   },
   "__v": 0,
-  "delivered": 0.6619762166405023
+  "delivered": 0.6619762166405023,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -158,7 +163,8 @@
     "$date": "2026-05-21T16:40:09.076Z"
   },
   "__v": 0,
-  "delivered": 1000
+  "delivered": 1000,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -189,9 +195,10 @@
     "$date": "2026-05-25T05:36:03.601Z"
   },
   "updatedAt": {
-    "$date": "2026-05-31T17:10:51.423Z"
+    "$date": "2026-06-09T16:01:01.360Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -224,7 +231,8 @@
   "updatedAt": {
     "$date": "2026-05-25T15:58:48.315Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -257,7 +265,8 @@
   "updatedAt": {
     "$date": "2026-05-25T18:26:24.471Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -290,7 +299,8 @@
   "updatedAt": {
     "$date": "2026-05-25T18:26:24.471Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -323,7 +333,8 @@
   "updatedAt": {
     "$date": "2026-05-29T10:57:41.360Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -356,7 +367,8 @@
   "updatedAt": {
     "$date": "2026-05-29T11:10:22.894Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -389,7 +401,8 @@
   "updatedAt": {
     "$date": "2026-05-29T11:10:22.894Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -422,7 +435,8 @@
   "updatedAt": {
     "$date": "2026-05-29T11:11:15.253Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -455,7 +469,8 @@
   "updatedAt": {
     "$date": "2026-05-29T11:11:15.253Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -488,7 +503,8 @@
   "updatedAt": {
     "$date": "2026-05-29T13:36:43.692Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -521,7 +537,8 @@
   "updatedAt": {
     "$date": "2026-05-29T13:36:43.692Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -552,7 +569,8 @@
   "updatedAt": {
     "$date": "2026-05-29T12:51:05.158Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -585,7 +603,8 @@
   "updatedAt": {
     "$date": "2026-05-30T07:41:52.499Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -618,7 +637,8 @@
   "updatedAt": {
     "$date": "2026-05-30T07:44:44.080Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -651,7 +671,8 @@
   "updatedAt": {
     "$date": "2026-05-30T08:05:25.412Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -684,7 +705,8 @@
   "updatedAt": {
     "$date": "2026-05-30T08:07:42.685Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -715,7 +737,8 @@
   "updatedAt": {
     "$date": "2026-05-30T08:06:46.824Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -746,7 +769,8 @@
   "updatedAt": {
     "$date": "2026-05-30T08:07:01.542Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -779,7 +803,8 @@
   "updatedAt": {
     "$date": "2026-05-30T08:25:20.849Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -812,7 +837,8 @@
   "updatedAt": {
     "$date": "2026-05-30T08:27:02.446Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -845,7 +871,8 @@
   "updatedAt": {
     "$date": "2026-05-30T08:31:21.386Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -878,7 +905,8 @@
   "updatedAt": {
     "$date": "2026-05-30T08:31:21.386Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
@@ -911,23 +939,2300 @@
   "updatedAt": {
     "$date": "2026-05-31T11:34:10.123Z"
   },
-  "__v": 0
+  "__v": 0,
+  "isBhavCut": false
 },
 {
   "_id": {
-    "$oid": "6a1c1d49532e0ccfd42db842"
+    "$oid": "6a1d1c4db3405bd277f2db6b"
   },
-  "saudaNo": "SAUDA-2026-05-31-0002",
+  "saudaNo": "SAUDA-2026-06-01-0001",
   "partyId": {
-    "$oid": "6a1c1b74532e0ccfd42db789"
+    "$oid": "6a1d1c0bb3405bd277f2db50"
   },
   "saudaDate": {
-    "$date": "2026-05-31T00:00:00.000Z"
+    "$date": "2026-06-01T00:00:00.000Z"
+  },
+  "quantity": 1000,
+  "delivered": 1000,
+  "rate": 1117899,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:44:45.629Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T05:45:14.394Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1cb0b3405bd277f2dbca"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0002",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-02T00:00:00.000Z"
+  },
+  "quantity": 9890,
+  "delivered": 9890,
+  "rate": 235500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:46:24.468Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T06:58:25.013Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1cfbb3405bd277f2dbd8"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0003",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-06T00:00:00.000Z"
+  },
+  "quantity": 5000,
+  "delivered": 5000,
+  "rate": 237300,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:47:39.324Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T06:58:25.013Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1d1cb3405bd277f2dbe3"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0004",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-06T00:00:00.000Z"
+  },
+  "quantity": 5000,
+  "delivered": 5000,
+  "rate": 237300,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:48:12.066Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T06:58:25.013Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1d40b3405bd277f2dbee"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0005",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-06T00:00:00.000Z"
+  },
+  "quantity": 3000,
+  "delivered": 3000,
+  "rate": 237000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:48:48.119Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T06:58:25.013Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1d52b3405bd277f2dc02"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0006",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-06T00:00:00.000Z"
+  },
+  "quantity": 12000,
+  "delivered": 12000,
+  "rate": 236500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:49:06.189Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T07:02:39.851Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1d76b3405bd277f2dc13"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0007",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-07T00:00:00.000Z"
+  },
+  "quantity": 35000,
+  "delivered": 35000,
+  "rate": 233500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:49:42.391Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T07:16:26.776Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1d91b3405bd277f2dc1e"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0008",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-10T00:00:00.000Z"
+  },
+  "quantity": 20000,
+  "delivered": 20000,
+  "rate": 239000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:50:09.779Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T07:21:52.607Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1db2b3405bd277f2dc29"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0009",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-12T00:00:00.000Z"
+  },
+  "quantity": 5000,
+  "delivered": 5000,
+  "rate": 239500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:50:42.646Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T07:21:52.607Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1dcab3405bd277f2dc37"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0010",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-12T00:00:00.000Z"
+  },
+  "quantity": 15000,
+  "delivered": 15000,
+  "rate": 239500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:51:06.256Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T07:29:58.992Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1de4b3405bd277f2dc42"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0011",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-12T00:00:00.000Z"
+  },
+  "quantity": 5000,
+  "delivered": 5000,
+  "rate": 239500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:51:32.293Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T07:29:58.992Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1dfbb3405bd277f2dc50"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0012",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-12T00:00:00.000Z"
+  },
+  "quantity": 5000,
+  "delivered": 5000,
+  "rate": 239500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:51:55.863Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T07:29:58.992Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1e1ab3405bd277f2dc5e"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0013",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-15T00:00:00.000Z"
+  },
+  "quantity": 8932,
+  "delivered": 8932,
+  "rate": 246000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:52:26.740Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T07:29:58.992Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1e48b3405bd277f2dc69"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0014",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-16T00:00:00.000Z"
+  },
+  "quantity": 10000,
+  "delivered": 10000,
+  "rate": 247200,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:53:12.439Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T07:33:49.156Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1e5eb3405bd277f2dc77"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0015",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-16T00:00:00.000Z"
+  },
+  "quantity": 10000,
+  "delivered": 10000,
+  "rate": 247500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:53:34.684Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T07:33:49.156Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1e78b3405bd277f2dc85"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0016",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-16T00:00:00.000Z"
+  },
+  "quantity": 15000,
+  "delivered": 15000,
+  "rate": 247800,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:54:00.250Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T07:33:49.156Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1e8eb3405bd277f2dc93"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0017",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-16T00:00:00.000Z"
+  },
+  "quantity": 10000,
+  "delivered": 10000,
+  "rate": 247700,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:54:22.087Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T07:33:49.156Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1ea6b3405bd277f2dca4"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0018",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-17T00:00:00.000Z"
+  },
+  "quantity": 10000,
+  "delivered": 10000,
+  "rate": 246500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:54:46.752Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T07:41:35.926Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1ecfb3405bd277f2dcb5"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0019",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-21T00:00:00.000Z"
+  },
+  "quantity": 10000,
+  "delivered": 10000,
+  "rate": 248100,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:55:27.548Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T08:08:10.422Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1eeab3405bd277f2dcc3"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0020",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-21T00:00:00.000Z"
+  },
+  "quantity": 10000,
+  "delivered": 10000,
+  "rate": 247700,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:55:54.050Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T08:09:20.819Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1f06b3405bd277f2dcd1"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0021",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-21T00:00:00.000Z"
+  },
+  "quantity": 5000,
+  "delivered": 5000,
+  "rate": 247000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:56:22.605Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T08:09:20.819Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1f21b3405bd277f2dcdc"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0022",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-22T00:00:00.000Z"
+  },
+  "quantity": 15000,
+  "delivered": 15000,
+  "rate": 249000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:56:49.310Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T08:09:20.819Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1f3eb3405bd277f2dcea"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0023",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-22T00:00:00.000Z"
+  },
+  "quantity": 10000,
+  "delivered": 10000,
+  "rate": 249000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:57:18.561Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T08:18:22.360Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1f59b3405bd277f2dcfb"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0024",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-22T00:00:00.000Z"
+  },
+  "quantity": 20000,
+  "delivered": 20000,
+  "rate": 248000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:57:45.310Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T08:18:22.360Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1f73b3405bd277f2dd0c"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0025",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-23T00:00:00.000Z"
+  },
+  "quantity": 10000,
+  "delivered": 10000,
+  "rate": 243000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:58:11.941Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T08:18:22.360Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1f8ab3405bd277f2dd1a"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0026",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-23T00:00:00.000Z"
+  },
+  "quantity": 10000,
+  "delivered": 10000,
+  "rate": 246500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:58:34.891Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T08:20:53.458Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1fabb3405bd277f2dd25"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0027",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-24T00:00:00.000Z"
+  },
+  "quantity": 20000,
+  "delivered": 20000,
+  "rate": 245500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:59:07.071Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T08:25:36.738Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1fc2b3405bd277f2dd30"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0028",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-25T00:00:00.000Z"
+  },
+  "quantity": 20000,
+  "delivered": 20000,
+  "rate": 245700,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:59:30.679Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T08:25:36.738Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1fdeb3405bd277f2dd3b"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0029",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-25T00:00:00.000Z"
+  },
+  "quantity": 25000,
+  "delivered": 25000,
+  "rate": 245700,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T05:59:58.499Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T08:25:36.738Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d1ffeb3405bd277f2dd46"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0030",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-26T00:00:00.000Z"
+  },
+  "quantity": 6000,
+  "delivered": 6000,
+  "rate": 245500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:00:30.196Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T08:25:36.738Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d2018b3405bd277f2dd51"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0031",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-26T00:00:00.000Z"
+  },
+  "quantity": 6000,
+  "delivered": 6000,
+  "rate": 245500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:00:56.818Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T08:25:36.738Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d203ab3405bd277f2dd5f"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0032",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-26T00:00:00.000Z"
+  },
+  "quantity": 10000,
+  "delivered": 10000,
+  "rate": 245500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:01:30.143Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T08:25:36.738Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d2050b3405bd277f2dd6a"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0033",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-27T00:00:00.000Z"
+  },
+  "quantity": 16000,
+  "delivered": 16000,
+  "rate": 245800,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:01:52.568Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T08:28:13.948Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d206bb3405bd277f2dd75"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0034",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-27T00:00:00.000Z"
+  },
+  "quantity": 10000,
+  "delivered": 10000,
+  "rate": 246300,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:02:19.797Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T08:28:13.948Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d2085b3405bd277f2dd80"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0035",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-27T00:00:00.000Z"
+  },
+  "quantity": 12000,
+  "delivered": 12000,
+  "rate": 246200,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:02:45.672Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T08:28:13.948Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d20aeb3405bd277f2dd8b"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0036",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-29T00:00:00.000Z"
+  },
+  "quantity": 20000,
+  "delivered": 20000,
+  "rate": 241500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:03:26.730Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T08:32:46.290Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d20c7b3405bd277f2dd96"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0037",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-29T00:00:00.000Z"
+  },
+  "quantity": 10000,
+  "delivered": 10000,
+  "rate": 241500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:03:51.991Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T08:32:46.290Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d20e5b3405bd277f2dda1"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0038",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-29T00:00:00.000Z"
+  },
+  "quantity": 10000,
+  "delivered": 10000,
+  "rate": 241000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:04:21.839Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T08:32:46.290Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d20feb3405bd277f2ddac"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0039",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-30T00:00:00.000Z"
+  },
+  "quantity": 10000,
+  "delivered": 10000,
+  "rate": 243500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:04:46.949Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T09:25:46.586Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d2117b3405bd277f2ddb7"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0040",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-30T00:00:00.000Z"
   },
   "quantity": 30000,
-  "delivered": 474.5,
-  "rate": 256000,
-  "saudaType": "sales",
+  "delivered": 30000,
+  "rate": 244000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:05:11.811Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T09:25:46.586Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d2136b3405bd277f2ddc2"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0041",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-01T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 30000,
+  "rate": 243800,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:05:42.486Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T09:30:28.849Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d214cb3405bd277f2ddcd"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0042",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-01T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 30000,
+  "rate": 243800,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:06:04.212Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T09:31:59.433Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d2160b3405bd277f2ddd8"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0043",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-01T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 30000,
+  "rate": 247000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:06:24.503Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T09:31:59.433Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d2177b3405bd277f2dde3"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0044",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-02T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 30000,
+  "rate": 246400,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:06:47.767Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T09:34:33.154Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d2196b3405bd277f2ddee"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0045",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-03T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 30000,
+  "rate": 246400,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:07:18.837Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T09:39:02.630Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d21afb3405bd277f2ddf9"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0046",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-08T00:00:00.000Z"
+  },
+  "quantity": 5000,
+  "delivered": 5000,
+  "rate": 252000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:07:43.526Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T09:45:28.760Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d21c6b3405bd277f2de04"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0047",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-09T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 30000,
+  "rate": 252000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:08:06.085Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T09:45:28.760Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d221eb3405bd277f2de0f"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0048",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-11T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 30000,
+  "rate": 253000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:09:34.204Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T09:56:52.252Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d2236b3405bd277f2de1a"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0049",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-11T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 30000,
+  "rate": 253000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:09:58.794Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T09:58:13.396Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d224bb3405bd277f2de25"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0050",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-11T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 30000,
+  "rate": 253000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:10:19.450Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T09:58:13.396Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d2262b3405bd277f2de30"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0051",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-11T00:00:00.000Z"
+  },
+  "quantity": 10000,
+  "delivered": 10000,
+  "rate": 255500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:10:42.890Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-02T05:12:49.371Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d227cb3405bd277f2de3b"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0052",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-11T00:00:00.000Z"
+  },
+  "quantity": 20000,
+  "delivered": 20000,
+  "rate": 259000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:11:08.678Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T06:11:08.678Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d229ab3405bd277f2de46"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0053",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-11T00:00:00.000Z"
+  },
+  "quantity": 15000,
+  "delivered": 15000,
+  "rate": 260500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:11:38.732Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-02T05:12:49.371Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d22b4b3405bd277f2de51"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0054",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-11T00:00:00.000Z"
+  },
+  "quantity": 15000,
+  "delivered": 15000,
+  "rate": 260500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:12:04.930Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-02T05:30:32.056Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d22ceb3405bd277f2de5c"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0055",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-11T00:00:00.000Z"
+  },
+  "quantity": 33000,
+  "delivered": 33000,
+  "rate": 260500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:12:30.538Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-02T05:30:32.056Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d22e2b3405bd277f2de67"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0056",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-12T00:00:00.000Z"
+  },
+  "quantity": 20000,
+  "delivered": 20000,
+  "rate": 260000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:12:50.922Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-02T05:39:46.475Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d230fb3405bd277f2de78"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0057",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-13T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 30000,
+  "rate": 272500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:13:35.195Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-02T05:45:57.767Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d2327b3405bd277f2de83"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0058",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-14T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 30000,
+  "rate": 274500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:13:59.292Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-02T07:54:07.458Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d233bb3405bd277f2de8e"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0059",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-14T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 30000,
+  "rate": 274500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:14:19.156Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-02T07:54:07.458Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d2351b3405bd277f2de99"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0060",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-14T00:00:00.000Z"
+  },
+  "quantity": 10000,
+  "delivered": 10000,
+  "rate": 273000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:14:41.601Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-02T07:54:07.458Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d2367b3405bd277f2dea4"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0061",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-14T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 30000,
+  "rate": 273500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:15:03.507Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-02T07:54:07.458Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d237cb3405bd277f2deaf"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0062",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-14T00:00:00.000Z"
+  },
+  "quantity": 20000,
+  "delivered": 20000,
+  "rate": 273800,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:15:24.239Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-02T07:54:07.458Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d2393b3405bd277f2deba"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0063",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-15T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 30000,
+  "rate": 263500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:15:47.235Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-02T07:53:55.001Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d23a6b3405bd277f2dec5"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0064",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-15T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 30000,
+  "rate": 264000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:16:06.958Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-02T07:53:55.001Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d23c1b3405bd277f2ded0"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0065",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-15T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 30000,
+  "rate": 264500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:16:33.948Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-02T07:53:30.288Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d23e2b3405bd277f2dedb"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0066",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-15T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 30000,
+  "rate": 264500,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:17:06.888Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-02T07:53:30.288Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d23fab3405bd277f2dee6"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0067",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-17T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 30000,
+  "rate": 264300,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:17:30.277Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-02T06:17:08.974Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d240bb3405bd277f2def1"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0068",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-18T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 26768,
+  "rate": 264300,
+  "saudaType": "purchase",
   "status": "partial",
   "isActive": true,
   "createdBy": {
@@ -939,10 +3244,1989 @@
   "isDeleted": false,
   "deletedBy": null,
   "createdAt": {
-    "$date": "2026-05-31T11:36:41.920Z"
+    "$date": "2026-06-01T06:17:47.270Z"
   },
   "updatedAt": {
-    "$date": "2026-05-31T11:37:10.588Z"
+    "$date": "2026-06-02T06:17:08.974Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d242ab3405bd277f2defc"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0069",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-18T00:00:00.000Z"
+  },
+  "quantity": 10000,
+  "delivered": 0,
+  "rate": 264000,
+  "saudaType": "purchase",
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:18:18.559Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T06:18:18.559Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d2444b3405bd277f2df07"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0070",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-18T00:00:00.000Z"
+  },
+  "quantity": 20000,
+  "delivered": 0,
+  "rate": 265600,
+  "saudaType": "purchase",
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:18:44.462Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T06:18:44.462Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d245db3405bd277f2df12"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0071",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-18T00:00:00.000Z"
+  },
+  "quantity": 15000,
+  "delivered": 0,
+  "rate": 265600,
+  "saudaType": "purchase",
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:19:09.845Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T06:19:09.845Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d2473b3405bd277f2df1d"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0072",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-22T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 0,
+  "rate": 261500,
+  "saudaType": "purchase",
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:19:31.911Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T06:19:31.911Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d248cb3405bd277f2df28"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0073",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-22T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 0,
+  "rate": 261500,
+  "saudaType": "purchase",
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:19:56.169Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T06:43:07.076Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d24a2b3405bd277f2df33"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0074",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-22T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 0,
+  "rate": 261500,
+  "saudaType": "purchase",
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:20:18.159Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T06:20:18.159Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d24d4b3405bd277f2df3e"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0075",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-22T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 0,
+  "rate": 261500,
+  "saudaType": "purchase",
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:21:08.474Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T06:21:08.474Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d24f4b3405bd277f2df49"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0076",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-25T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 0,
+  "rate": 262700,
+  "saudaType": "purchase",
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:21:40.457Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T06:21:40.457Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d250ab3405bd277f2df54"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0077",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-25T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 0,
+  "rate": 262700,
+  "saudaType": "purchase",
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:22:02.086Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T06:22:02.086Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d2521b3405bd277f2df5f"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0078",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-25T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 0,
+  "rate": 262500,
+  "saudaType": "purchase",
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:22:25.842Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T06:22:25.842Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d2539b3405bd277f2df6a"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0079",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-25T00:00:00.000Z"
+  },
+  "quantity": 60000,
+  "delivered": 0,
+  "rate": 262700,
+  "saudaType": "purchase",
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:22:49.472Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T06:22:49.472Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d2595b3405bd277f2df79"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0080",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-05-22T00:00:00.000Z"
+  },
+  "quantity": 30000,
+  "delivered": 0,
+  "rate": 262200,
+  "saudaType": "sales",
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T06:24:21.125Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T06:24:21.125Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d388de3b4d168ffe89458"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0081",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-04-19T00:00:00.000Z"
+  },
+  "quantity": 16198.5,
+  "delivered": 16198,
+  "rate": 248000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T07:45:17.489Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T07:45:17.489Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1d56464aa37d758c8e5c7a"
+  },
+  "saudaNo": "SAUDA-2026-06-01-0082",
+  "partyId": {
+    "$oid": "6a1d1c0bb3405bd277f2db50"
+  },
+  "saudaDate": {
+    "$date": "2026-06-01T00:00:00.000Z"
+  },
+  "quantity": 807.5,
+  "delivered": 807.5,
+  "rate": 252000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-01T09:52:06.456Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-01T09:52:06.456Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1eb1b0d89eeb5a8af04e81"
+  },
+  "saudaNo": "SAUDA-2026-06-02-0001",
+  "partyId": {
+    "$oid": "6a1c1b65532e0ccfd42db786"
+  },
+  "saudaDate": {
+    "$date": "2026-06-02T00:00:00.000Z"
+  },
+  "quantity": 100,
+  "delivered": 0,
+  "rate": 250000,
+  "saudaType": "purchase",
+  "status": "pending",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": null,
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-02T10:34:24.526Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-02T10:34:24.526Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a1eb1d5d89eeb5a8af04eb6"
+  },
+  "saudaNo": "SAUDA-2026-06-02-0002",
+  "partyId": {
+    "$oid": "6a1c1b74532e0ccfd42db789"
+  },
+  "saudaDate": {
+    "$date": "2026-06-02T00:00:00.000Z"
+  },
+  "quantity": 100,
+  "delivered": 100,
+  "rate": 250000,
+  "saudaType": "purchase",
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-02T10:35:01.759Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-03T11:49:56.094Z"
+  },
+  "__v": 0,
+  "isBhavCut": false
+},
+{
+  "_id": {
+    "$oid": "6a20168b0746885bdad6330f"
+  },
+  "saudaNo": "SAUDA-2026-06-03-0001",
+  "partyId": {
+    "$oid": "6a1c1b74532e0ccfd42db789"
+  },
+  "saudaDate": {
+    "$date": "2026-06-03T11:56:59.853Z"
+  },
+  "quantity": 5,
+  "delivered": 5,
+  "rate": 1000,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-03T11:56:59.863Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-03T11:56:59.968Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a201db80746885bdad6341e"
+  },
+  "saudaNo": "SAUDA-2026-06-03-0002",
+  "partyId": {
+    "$oid": "6a1c1b74532e0ccfd42db789"
+  },
+  "saudaDate": {
+    "$date": "2026-06-03T12:27:36.261Z"
+  },
+  "quantity": 500,
+  "delivered": 500,
+  "rate": 250000,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-03T12:27:36.283Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-03T12:27:36.482Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a205a7a2bd9c512221fb08f"
+  },
+  "saudaNo": "SAUDA-2026-06-03-0003",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "saudaDate": {
+    "$date": "2026-06-03T16:46:50.996Z"
+  },
+  "quantity": 86771.12,
+  "delivered": 86771,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "partial",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-03T16:46:51.009Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-09T16:01:01.360Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a205bfc2bd9c512221fb0f3"
+  },
+  "saudaNo": "SAUDA-2026-06-03-0004",
+  "partyId": {
+    "$oid": "6a0b4b5c85d384e22b982d11"
+  },
+  "saudaDate": {
+    "$date": "2026-06-03T16:53:16.316Z"
+  },
+  "quantity": 5955,
+  "delivered": 5955,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-03T16:53:16.318Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-03T16:53:16.336Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a205c2e2bd9c512221fb114"
+  },
+  "saudaNo": "SAUDA-2026-06-03-0005",
+  "partyId": {
+    "$oid": "6a0c2332a9d65380f5a09f7a"
+  },
+  "saudaDate": {
+    "$date": "2026-06-03T16:54:06.754Z"
+  },
+  "quantity": 2637.5,
+  "delivered": 2637.5,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-03T16:54:06.755Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-03T16:54:06.770Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a205de12bd9c512221fb166"
+  },
+  "saudaNo": "SAUDA-2026-06-03-0006",
+  "partyId": {
+    "$oid": "6a186adf7d95a66e83d08a45"
+  },
+  "saudaDate": {
+    "$date": "2026-06-03T17:01:21.661Z"
+  },
+  "quantity": 58418.5,
+  "delivered": 58418.5,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-03T17:01:21.668Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-04T05:58:35.538Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a210b0b92affd2431ba1001"
+  },
+  "saudaNo": "SAUDA-2026-06-04-0001",
+  "partyId": {
+    "$oid": "6a186adf7d95a66e83d08a45"
+  },
+  "saudaDate": {
+    "$date": "2026-06-04T05:20:11.254Z"
+  },
+  "quantity": 149,
+  "delivered": 149,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-04T05:20:11.261Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-04T05:20:11.307Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a2116e2e1e1c042499d5886"
+  },
+  "saudaNo": "SAUDA-2026-06-04-0002",
+  "partyId": {
+    "$oid": "6a11c9b1704df4ab8ecd3331"
+  },
+  "saudaDate": {
+    "$date": "2026-06-04T06:10:42.254Z"
+  },
+  "quantity": 25520,
+  "delivered": 25520,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-04T06:10:42.257Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-04T06:10:42.324Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a21a9e867d5ac5df12326a1"
+  },
+  "saudaNo": "SAUDA-2026-06-04-0003",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "saudaDate": {
+    "$date": "2026-06-04T16:38:00.192Z"
+  },
+  "quantity": 80786.5,
+  "delivered": 80786.5,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-04T16:38:00.198Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-06T17:06:37.259Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a21aa2967d5ac5df12326ce"
+  },
+  "saudaNo": "SAUDA-2026-06-04-0004",
+  "partyId": {
+    "$oid": "6a11cbdc704df4ab8ecd3430"
+  },
+  "saudaDate": {
+    "$date": "2026-06-04T16:39:05.130Z"
+  },
+  "quantity": 2521.5,
+  "delivered": 2521.5,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-04T16:39:05.132Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-04T16:39:05.162Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a21aa4c67d5ac5df12326f5"
+  },
+  "saudaNo": "SAUDA-2026-06-04-0005",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "saudaDate": {
+    "$date": "2026-06-04T16:39:40.177Z"
+  },
+  "quantity": 589.5,
+  "delivered": 589.5,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-04T16:39:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-04T16:39:40.196Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a21aa9567d5ac5df1232719"
+  },
+  "saudaNo": "SAUDA-2026-06-04-0006",
+  "partyId": {
+    "$oid": "6a0b4d2785d384e22b982d79"
+  },
+  "saudaDate": {
+    "$date": "2026-06-04T16:40:53.618Z"
+  },
+  "quantity": 1011.5,
+  "delivered": 1011.5,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-04T16:40:53.619Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-04T16:40:53.635Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a21ab2267d5ac5df1232748"
+  },
+  "saudaNo": "SAUDA-2026-06-04-0007",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "saudaDate": {
+    "$date": "2026-06-04T16:43:14.274Z"
+  },
+  "quantity": 3895.5,
+  "delivered": 3895.5,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-04T16:43:14.278Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-04T16:43:14.305Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a22f9cf67d5ac5df1232a61"
+  },
+  "saudaNo": "SAUDA-2026-06-05-0001",
+  "partyId": {
+    "$oid": "6a0b4b6685d384e22b982d14"
+  },
+  "saudaDate": {
+    "$date": "2026-06-05T16:31:11.427Z"
+  },
+  "quantity": 7213.5,
+  "delivered": 7213.5,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-05T16:31:11.430Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-05T16:31:11.460Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a22fa4867d5ac5df1232a96"
+  },
+  "saudaNo": "SAUDA-2026-06-05-0002",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "saudaDate": {
+    "$date": "2026-06-05T16:33:12.607Z"
+  },
+  "quantity": 1050.5,
+  "delivered": 1050.5,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-05T16:33:12.608Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-05T16:33:12.620Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a22faca67d5ac5df1232ad2"
+  },
+  "saudaNo": "SAUDA-2026-06-05-0003",
+  "partyId": {
+    "$oid": "6a0b14ac22c65c68d5b9e3a5"
+  },
+  "saudaDate": {
+    "$date": "2026-06-05T16:35:22.982Z"
+  },
+  "quantity": 5521.5,
+  "delivered": 5521.5,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-05T16:35:22.984Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-05T16:35:22.995Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a22fafb67d5ac5df1232af8"
+  },
+  "saudaNo": "SAUDA-2026-06-05-0004",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "saudaDate": {
+    "$date": "2026-06-05T16:36:11.058Z"
+  },
+  "quantity": 550,
+  "delivered": 550,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-05T16:36:11.059Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-05T16:37:03.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a22fb2f67d5ac5df1232b1d"
+  },
+  "saudaNo": "SAUDA-2026-06-05-0005",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "saudaDate": {
+    "$date": "2026-06-05T16:37:03.611Z"
+  },
+  "quantity": 3989.5,
+  "delivered": 3989.5,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-05T16:37:03.611Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-05T16:37:03.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a22fc2f67d5ac5df1232b81"
+  },
+  "saudaNo": "SAUDA-2026-06-05-0006",
+  "partyId": {
+    "$oid": "6a22fb4a67d5ac5df1232b5e"
+  },
+  "saudaDate": {
+    "$date": "2026-06-05T16:41:19.407Z"
+  },
+  "quantity": 18368,
+  "delivered": 18368,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-05T16:41:19.408Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-05T16:41:19.428Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a23074267d5ac5df1232e3a"
+  },
+  "saudaNo": "SAUDA-2026-06-05-0007",
+  "partyId": {
+    "$oid": "6a186adf7d95a66e83d08a45"
+  },
+  "saudaDate": {
+    "$date": "2026-06-05T17:28:34.363Z"
+  },
+  "quantity": 58879,
+  "delivered": 58879,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-05T17:28:34.366Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-05T17:28:34.409Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a23c1fc67d5ac5df1232f1d"
+  },
+  "saudaNo": "SAUDA-2026-06-06-0001",
+  "partyId": {
+    "$oid": "6a0ac7d4d8360529bfac9b3b"
+  },
+  "saudaDate": {
+    "$date": "2026-06-06T06:45:16.434Z"
+  },
+  "quantity": 40662,
+  "delivered": 40662,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-06T06:45:16.439Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-06T06:45:16.496Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a243efcacf57129f19e6a7e"
+  },
+  "saudaNo": "SAUDA-2026-06-06-0002",
+  "partyId": {
+    "$oid": "6a22fb4a67d5ac5df1232b5e"
+  },
+  "saudaDate": {
+    "$date": "2026-06-06T15:38:36.749Z"
+  },
+  "quantity": 5542.5,
+  "delivered": 5542.5,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-06T15:38:36.754Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-06T15:38:36.801Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a243f1eacf57129f19e6aa0"
+  },
+  "saudaNo": "SAUDA-2026-06-06-0003",
+  "partyId": {
+    "$oid": "6a11c881704df4ab8ecd329e"
+  },
+  "saudaDate": {
+    "$date": "2026-06-06T15:39:10.666Z"
+  },
+  "quantity": 429,
+  "delivered": 429,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-06T15:39:10.669Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-06T15:39:10.704Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a243f61acf57129f19e6abe"
+  },
+  "saudaNo": "SAUDA-2026-06-06-0004",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "saudaDate": {
+    "$date": "2026-06-06T15:40:17.863Z"
+  },
+  "quantity": 9196,
+  "delivered": 9196,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-06T15:40:17.865Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-06T15:40:17.892Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a243fe3acf57129f19e6b56"
+  },
+  "saudaNo": "SAUDA-2026-06-06-0005",
+  "partyId": {
+    "$oid": "6a243f87acf57129f19e6b36"
+  },
+  "saudaDate": {
+    "$date": "2026-06-06T15:42:27.995Z"
+  },
+  "quantity": 2386,
+  "delivered": 2386,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-06T15:42:27.999Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-06T15:42:28.030Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a245297acf57129f19e6c24"
+  },
+  "saudaNo": "SAUDA-2026-06-06-0006",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "saudaDate": {
+    "$date": "2026-06-06T17:02:15.709Z"
+  },
+  "quantity": 12707,
+  "delivered": 12707,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-06T17:02:15.711Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-06T17:02:15.747Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a24539dacf57129f19e6c45"
+  },
+  "saudaNo": "SAUDA-2026-06-06-0007",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "saudaDate": {
+    "$date": "2026-06-06T17:06:37.165Z"
+  },
+  "quantity": 48027,
+  "delivered": 48027,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-06T17:06:37.167Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-07T15:31:27.218Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a2457efacf57129f19e6d64"
+  },
+  "saudaNo": "SAUDA-2026-06-06-0008",
+  "partyId": {
+    "$oid": "6a186adf7d95a66e83d08a45"
+  },
+  "saudaDate": {
+    "$date": "2026-06-06T17:25:03.760Z"
+  },
+  "quantity": 60103.5,
+  "delivered": 60103.5,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-06T17:25:03.762Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-06T17:25:03.862Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a258734b1de0d7d834052f0"
+  },
+  "saudaNo": "SAUDA-2026-06-07-0001",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "saudaDate": {
+    "$date": "2026-06-07T14:59:00.756Z"
+  },
+  "quantity": 25973.5,
+  "delivered": 25973.5,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-07T14:59:00.766Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-07T15:31:27.218Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a2696b3b1de0d7d83405547"
+  },
+  "saudaNo": "SAUDA-2026-06-08-0001",
+  "partyId": {
+    "$oid": "6a0b14ac22c65c68d5b9e3a5"
+  },
+  "saudaDate": {
+    "$date": "2026-06-08T10:17:23.130Z"
+  },
+  "quantity": 8129.5,
+  "delivered": 8129.5,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-08T10:17:23.137Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T16:16:40.764Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a26e45cb1de0d7d83405585"
+  },
+  "saudaNo": "SAUDA-2026-06-08-0002",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "saudaDate": {
+    "$date": "2026-06-08T15:48:44.310Z"
+  },
+  "quantity": 241,
+  "delivered": 241,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-08T15:48:44.313Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T15:48:44.404Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a26e526b1de0d7d834055a3"
+  },
+  "saudaNo": "SAUDA-2026-06-08-0003",
+  "partyId": {
+    "$oid": "6a0ac7d4d8360529bfac9b3b"
+  },
+  "saudaDate": {
+    "$date": "2026-06-08T15:52:06.567Z"
+  },
+  "quantity": 29925.5,
+  "delivered": 29925.5,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-08T15:52:06.571Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T15:52:06.670Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a26e75f6afd22ab857af2f2"
+  },
+  "saudaNo": "SAUDA-2026-06-08-0004",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "saudaDate": {
+    "$date": "2026-06-08T16:01:35.847Z"
+  },
+  "quantity": 50047,
+  "delivered": 50047,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-08T16:01:35.852Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T16:01:35.948Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a26e7916afd22ab857af325"
+  },
+  "saudaNo": "SAUDA-2026-06-08-0005",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "saudaDate": {
+    "$date": "2026-06-08T16:02:25.820Z"
+  },
+  "quantity": 2874.5,
+  "delivered": 2874.5,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-08T16:02:25.821Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T16:02:25.848Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a26e7ce6afd22ab857af344"
+  },
+  "saudaNo": "SAUDA-2026-06-08-0006",
+  "partyId": {
+    "$oid": "6a11cbdc704df4ab8ecd3430"
+  },
+  "saudaDate": {
+    "$date": "2026-06-08T16:03:26.830Z"
+  },
+  "quantity": 5683,
+  "delivered": 5683,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-08T16:03:26.832Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T16:03:26.869Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a282fa5938d656bcae814f3"
+  },
+  "saudaNo": "SAUDA-2026-06-09-0001",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "saudaDate": {
+    "$date": "2026-06-09T15:22:13.898Z"
+  },
+  "quantity": 2008.5,
+  "delivered": 2008.5,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-09T15:22:13.904Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-09T15:22:13.941Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a283027938d656bcae8156b"
+  },
+  "saudaNo": "SAUDA-2026-06-09-0002",
+  "partyId": {
+    "$oid": "6a282ff8938d656bcae8153d"
+  },
+  "saudaDate": {
+    "$date": "2026-06-09T15:24:23.666Z"
+  },
+  "quantity": 2479,
+  "delivered": 2479,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-09T15:24:23.667Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-09T15:24:23.674Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a283041938d656bcae8158b"
+  },
+  "saudaNo": "SAUDA-2026-06-09-0003",
+  "partyId": {
+    "$oid": "6a0c1991a9d65380f5a09ed8"
+  },
+  "saudaDate": {
+    "$date": "2026-06-09T15:24:49.746Z"
+  },
+  "quantity": 13,
+  "delivered": 13,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-09T15:24:49.747Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-09T15:24:49.756Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a283077938d656bcae815a9"
+  },
+  "saudaNo": "SAUDA-2026-06-09-0004",
+  "partyId": {
+    "$oid": "6a243f87acf57129f19e6b36"
+  },
+  "saudaDate": {
+    "$date": "2026-06-09T15:25:43.127Z"
+  },
+  "quantity": 4014,
+  "delivered": 4014,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-09T15:25:43.128Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-09T15:25:43.144Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a283195938d656bcae815c7"
+  },
+  "saudaNo": "SAUDA-2026-06-09-0005",
+  "partyId": {
+    "$oid": "6a0b441a053a8e1039e25ee1"
+  },
+  "saudaDate": {
+    "$date": "2026-06-09T15:30:29.526Z"
+  },
+  "quantity": 78998.5,
+  "delivered": 78312.5,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "partial",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-09T15:30:29.529Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-09T16:01:01.360Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a28358f938d656bcae815fb"
+  },
+  "saudaNo": "SAUDA-2026-06-09-0006",
+  "partyId": {
+    "$oid": "6a186adf7d95a66e83d08a45"
+  },
+  "saudaDate": {
+    "$date": "2026-06-09T15:47:27.045Z"
+  },
+  "quantity": 37333.5,
+  "delivered": 37333.5,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-09T15:47:27.047Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-09T15:47:27.107Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a283648938d656bcae81635"
+  },
+  "saudaNo": "SAUDA-2026-06-09-0007",
+  "partyId": {
+    "$oid": "6a2835ef938d656bcae81615"
+  },
+  "saudaDate": {
+    "$date": "2026-06-09T15:50:32.367Z"
+  },
+  "quantity": 21107,
+  "delivered": 21107,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-09T15:50:32.370Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-09T15:50:32.407Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a29029c2b801888edf62330"
+  },
+  "saudaNo": "SAUDA-2026-06-10-0001",
+  "partyId": {
+    "$oid": "6a0b4b4485d384e22b982d0b"
+  },
+  "saudaDate": {
+    "$date": "2026-06-10T06:22:20.607Z"
+  },
+  "quantity": 20451.5,
+  "delivered": 20451.5,
+  "rate": 0,
+  "saudaType": "purchase",
+  "isBhavCut": true,
+  "status": "delivered",
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-06-10T06:22:20.610Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-10T06:35:10.292Z"
   },
   "__v": 0
 }]

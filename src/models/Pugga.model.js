@@ -33,7 +33,7 @@ const puggaSchema = new mongoose.Schema({
   },
   isDukanStock: {
     type: Boolean,
-    default: true
+    default: false
   },
   createdBy: {
     type: mongoose.Schema.Types.ObjectId,

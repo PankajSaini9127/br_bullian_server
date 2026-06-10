@@ -4,7 +4,7 @@ const User = require('../models/User.model');
 
 const seedAdmin = async () => {
   try {
-    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/br-bullian');
+    await mongoose.connect(process.env.MONGODB_URI );
     console.log('Connected to MongoDB');
 
     // Check if admin already exists
