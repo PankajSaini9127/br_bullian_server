@@ -8,7 +8,7 @@ const Payment = require('../models/Payment.model');
 
 const createParty = async (req, res) => {
   try {
-    const { partyName, contactNo, address, email, gstin } = req.body;
+    const { partyName, contactNo, address, email, gstin, openingBalance } = req.body;
 
     if (!partyName || !contactNo) {
       return res.status(400).json({ 
@@ -23,6 +23,7 @@ const createParty = async (req, res) => {
       address,
       email,
       gstin,
+      openingBalance: openingBalance || 0,
       createdBy: req.user._id
     });
 
@@ -112,11 +113,12 @@ const getPartyById = async (req, res) => {
 
 const updateParty = async (req, res) => {
   try {
-    const { partyName, contactNo, address, email, gstin, isActive } = req.body;
+    const { partyName, contactNo, address, email, gstin, isActive, openingBalance } = req.body;
+
 
     const party = await Party.findByIdAndUpdate(
       req.params.id,
-      { partyName, contactNo, address, email, gstin, isActive, updatedBy: req.user._id },
+      { partyName, contactNo, address, email, gstin, isActive, openingBalance, updatedBy: req.user._id },
       { new: true, runValidators: true }
     );
 
@@ -321,7 +323,7 @@ const getPartyLedger = async (req, res) => {
     res.status(200).json({
       success: true,
       data: {
-        party: { _id: party._id, partyName: party.partyName, contactNo: party.contactNo },
+        party: { _id: party._id, partyName: party.partyName, contactNo: party.contactNo, openingBalance: party.openingBalance || 0 },
         entries,
         summary: {
           totalIncomingWeight,

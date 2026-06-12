@@ -24,6 +24,10 @@ const partySchema = new mongoose.Schema({
     type: String,
     trim: true
   },
+  openingBalance: {
+    type: Number,
+    default: 0
+  },
   isActive: {
     type: Boolean,
     default: true
