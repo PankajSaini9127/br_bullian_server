@@ -1,4 +1,5 @@
 const Sauda = require('../models/Sauda.model');
+const SaudaCrosscut = require('../models/SaudaCrosscut.model');
 const { generateSaudaNo } = require('../utils/saudaGenerator');
 
 const createSauda = async (req, res) => {
@@ -21,6 +22,113 @@ const createSauda = async (req, res) => {
 
     const saudaNo = await generateSaudaNo();
 
+    // Always check for available source saudas for cross cut
+    const sourceSaudaType = saudaType === 'sales' ? 'purchase' : 'sales';
+    
+    const sourceSaudas = await Sauda.find({
+      partyId,
+      saudaType: sourceSaudaType,
+      status: { $in: ['pending', 'partial', 'cross'] },
+      isDeleted: false,
+      isActive: true
+    }).sort({ saudaDate: -1 });
+
+    const availableSourceSaudas = sourceSaudas
+      .map(sauda => ({
+        _id: sauda._id,
+        saudaNo: sauda.saudaNo,
+        quantity: sauda.quantity,
+        delivered: sauda.delivered,
+        crossQuantity: sauda.crossQuantity,
+        availableQuantity: sauda.quantity - sauda.delivered - sauda.crossQuantity,
+        rate: sauda.rate
+      }))
+      .filter(sauda => sauda.availableQuantity > 0);
+
+    // If sufficient source saudas available, do cross cut
+    if (availableSourceSaudas.length > 0) {
+      const totalAvailableQuantity = availableSourceSaudas.reduce((sum, sauda) => sum + sauda.availableQuantity, 0);
+
+      if (totalAvailableQuantity >= quantity) {
+        // Distribute quantity across source saudas
+        let remainingQuantity = quantity;
+        const sourceSaudaDetails = [];
+        let totalProfitLoss = 0;
+
+        console.log(availableSourceSaudas)
+        for (const sourceSauda of availableSourceSaudas) {
+          if (remainingQuantity <= 0) break;
+
+          const crosscutQuantity = Math.min(remainingQuantity, sourceSauda.availableQuantity);
+          const sourceRate = sourceSauda.rate;
+          const targetRate = rate;
+          const targetQuantity = quantity;
+          const profitLoss = (targetRate * (targetQuantity / 1000)) - (sourceRate * (crosscutQuantity / 1000));
+          
+          totalProfitLoss += profitLoss;
+          remainingQuantity -= crosscutQuantity;
+
+          sourceSaudaDetails.push({
+            sourceSaudaId: sourceSauda._id,
+            sourceRate,
+            crosscutQuantity,
+            profitLoss
+          });
+        }
+
+        // Determine overall credit/debit type
+        const creditDebitType = totalProfitLoss >= 0 ? 'credit' : 'debit';
+        const amount = Math.abs(totalProfitLoss);
+
+        // Create cross cut record
+        const newSauda = await Sauda.create({
+          saudaNo,
+          partyId,
+          saudaDate,
+          quantity,
+          rate,
+          saudaType,
+          isCrosscut: true,
+          status: 'cross',
+          crossQuantity: quantity,
+          createdBy: req.user._id
+        });
+
+        // Create SaudaCrosscut records for each source sauda
+        for (const sourceDetail of sourceSaudaDetails) {
+          await SaudaCrosscut.create({
+            sourceSaudaId: sourceDetail.sourceSaudaId,
+            targetSaudaId: newSauda._id,
+            crosscutDate: new Date(),
+            crosscutQuantity: sourceDetail.crosscutQuantity,
+            sourceRate: sourceDetail.sourceRate,
+            targetRate: rate,
+            targetQuantity: quantity,
+            profitLoss: sourceDetail.profitLoss,
+            creditDebitType,
+            amount,
+            status: 'completed',
+            createdBy: req.user._id
+          });
+
+          // Update source sauda
+          const sourceSauda = await Sauda.findById(sourceDetail.sourceSaudaId);
+          await Sauda.findByIdAndUpdate(sourceDetail.sourceSaudaId, {
+            crossQuantity: sourceSauda.crossQuantity + sourceDetail.crosscutQuantity,
+            isCrosscut: true,
+            status: 'cross'
+          });
+        }
+
+        return res.status(201).json({
+          success: true,
+          message: 'Sauda created with cross cut successfully',
+          data: { sauda: newSauda }
+        });
+      }
+    }
+
+    // Normal sauda creation
     const sauda = await Sauda.create({
       saudaNo,
       partyId,
@@ -28,6 +136,7 @@ const createSauda = async (req, res) => {
       quantity,
       rate,
       saudaType,
+      isCrosscut: false,
       createdBy: req.user._id
     });
 
@@ -37,6 +146,7 @@ const createSauda = async (req, res) => {
       data: { sauda }
     });
   } catch (error) {
+    console.error('Create Sauda Error:', error);
     res.status(500).json({ 
       success: false, 
       message: 'Error creating sauda', 
@@ -47,13 +157,25 @@ const createSauda = async (req, res) => {
 
 const getAllSaudas = async (req, res) => {
   try {
-    const { partyId, saudaType, startDate, endDate, page = 1, limit = 10 } = req.query;
-    const filter = {   };
+    const { partyId, type, startDate, endDate, page = 1, limit = 10 } = req.query;
+
+    if (!type) {
+      return res.status(400).json({ 
+        success: false, 
+        message: 'Sauda type is required' 
+      });
+    }
+
+    if (!['sales', 'purchase'].includes(type)) {
+      return res.status(400).json({ 
+        success: false, 
+        message: 'Sauda type must be either sales or purchase' 
+      });
+    }
+
+    const filter = { isDeleted: false, saudaType: type };
     if (partyId) {
       filter.partyId = partyId;
-    }
-    if (saudaType) {
-      filter.saudaType = saudaType;
     }
     if (startDate && endDate) {
       filter.saudaDate = {
@@ -68,7 +190,9 @@ const getAllSaudas = async (req, res) => {
     
     const saudas = await Sauda.find(filter)
       .populate('partyId', 'partyName contactNo')
-      .sort({ createdAt: -1 });
+      .sort({ createdAt: -1 })
+      .skip(skip)
+      .limit(limitNum);
     
     const total = await Sauda.countDocuments(filter);
     
@@ -85,6 +209,7 @@ const getAllSaudas = async (req, res) => {
       }
     });
   } catch (error) {
+    console.error('Get All Saudas Error:', error);
     res.status(500).json({ 
       success: false, 
       message: 'Error fetching saudas', 
@@ -230,18 +355,18 @@ const getPartySaudaSummary = async (req, res) => {
       data: {
         partyId,
         purchase: {
-          totalQuantity: purchaseSummary.totalQuantity,
-          delivered: purchaseSummary.delivered,
-          remaining: purchaseSummary.remaining,
+          totalQuantity: parseFloat(purchaseSummary.totalQuantity.toFixed(1)),
+          delivered: parseFloat(purchaseSummary.delivered.toFixed(1)),
+          remaining: parseFloat(purchaseSummary.remaining.toFixed(1)),
           count: purchaseSummary.count
         },
         sales: {
-          totalQuantity: salesSummary.totalQuantity,
-          delivered: salesSummary.delivered,
-          remaining: salesSummary.remaining,
+          totalQuantity: parseFloat(salesSummary.totalQuantity.toFixed(1)),
+          delivered: parseFloat(salesSummary.delivered.toFixed(1)),
+          remaining: parseFloat(salesSummary.remaining.toFixed(1)),
           count: salesSummary.count
         },
-        totalRemaining: purchaseSummary.remaining + salesSummary.remaining
+        totalRemaining: parseFloat((purchaseSummary.remaining + salesSummary.remaining).toFixed(1))
       }
     });
   } catch (error) {

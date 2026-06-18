@@ -29,19 +29,20 @@ const createInvoice = async (req, res) => {
       createdBy: req.user._id
     });
 
-    // Create bhavcut sauda if provided with weight > 0
+    // Create sauda from bhavcut data if provided
     let bhavcutSauda = null;
     if (bhavcut && bhavcut.weight > 0 && bhavcut.rate) {
       const saudaNo = await generateSaudaNo();
       bhavcutSauda = await Sauda.create({
         saudaNo,
         partyId,
-        saudaDate: new Date(),
+        saudaDate: invoiceDate,
         quantity: bhavcut.weight,
+        delivered: bhavcut.weight,
         rate: bhavcut.rate,
         saudaType: 'purchase',
-        isBhavCut: true,
-        status: 'pending',
+        isBhavCut: false,
+        status: 'delivered',
         createdBy: req.user._id
       });
     }
@@ -109,6 +110,17 @@ const createInvoice = async (req, res) => {
       });
 
       remainingFine -= fineToUse;
+    }
+
+    // Link bhavcut sauda to invoice if it was created
+    if (bhavcutSauda) {
+      invoiceSaudaRecords.push({
+        invoiceId: invoice._id,
+        saudaId: bhavcutSauda._id,
+        weight: bhavcut.weight,
+        fine: bhavcut.weight,
+        createdBy: req.user._id
+      });
     }
 
     if (saudaUpdates.length > 0) {
@@ -252,13 +264,31 @@ const getInvoiceById = async (req, res) => {
 
 const updateInvoice = async (req, res) => {
   try {
-    const { invoiceNo, partyId, invoiceDate, totalAmount, isActive, paggaItems } = req.body;
+    const { invoiceNo, partyId, invoiceDate, totalAmount, isActive, paggaItems, bhavcut } = req.body;
 
     const invoice = await Invoice.findByIdAndUpdate(
       req.params.id,
       { invoiceNo, partyId, invoiceDate, totalAmount, isActive, updatedBy: req.user._id },
       { new: true, runValidators: true }
     );
+
+    // Create sauda from bhavcut data if provided
+    let bhavcutSauda = null;
+    if (bhavcut && bhavcut.weight > 0 && bhavcut.rate) {
+      const saudaNo = await generateSaudaNo();
+      bhavcutSauda = await Sauda.create({
+        saudaNo,
+        partyId: invoice.partyId,
+        saudaDate: invoiceDate,
+        quantity: bhavcut.weight,
+        delivered: bhavcut.weight,
+        rate: bhavcut.rate,
+        saudaType: 'purchase',
+        isBhavCut: false,
+        status: 'delivered',
+        createdBy: req.user._id
+      });
+    }
 
     if (!invoice) {
       return res.status(404).json({ 
@@ -337,6 +367,11 @@ const updateInvoice = async (req, res) => {
         isDeleted: false
       }).sort({ saudaDate: 1 });
 
+      // Add bhavcut sauda to the beginning if it was created
+      if (bhavcutSauda) {
+        saudas.unshift(bhavcutSauda);
+      }
+
       let remainingFine = totalFine;
       const saudaUpdates = [];
       const invoiceSaudaRecords = [];
@@ -368,6 +403,17 @@ const updateInvoice = async (req, res) => {
         });
 
         remainingFine -= fineToUse;
+      }
+
+      // Link bhavcut sauda to invoice if it was created
+      if (bhavcutSauda) {
+        invoiceSaudaRecords.push({
+          invoiceId: invoice._id,
+          saudaId: bhavcutSauda._id,
+          weight: bhavcut.weight,
+          fine: bhavcut.weight,
+          createdBy: req.user._id
+        });
       }
 
       if (saudaUpdates.length > 0) {

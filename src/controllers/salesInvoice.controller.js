@@ -3,16 +3,17 @@ const Pugga = require('../models/Pugga.model');
 const Sauda = require('../models/Sauda.model');
 const InvoiceSauda = require('../models/InvoiceSauda.model');
 const { generateSalesInvoiceNo } = require('../utils/salesInvoiceGenerator');
+const { generateSaudaNo } = require('../utils/saudaGenerator');
 const { roundToHalf } = require('../utils/rounding.util');
 
 const createSalesInvoice = async (req, res) => {
   try {
-    const { partyId, invoiceDate, paggaIds, totalAmount } = req.body;
+    const { partyId, invoiceDate, paggaIds, totalAmount, bhavcut } = req.body;
 
     if (!partyId || !invoiceDate || !paggaIds || !Array.isArray(paggaIds) || paggaIds.length === 0) {
-      return res.status(400).json({ 
-        success: false, 
-        message: 'Party id, invoice date, and pugga ids array are required' 
+      return res.status(400).json({
+        success: false,
+        message: 'Party id, invoice date, and pugga ids array are required'
       });
     }
 
@@ -27,6 +28,24 @@ const createSalesInvoice = async (req, res) => {
       createdBy: req.user._id
     });
 
+    // Create sauda from bhavcut data if provided
+    let bhavcutSauda = null;
+    if (bhavcut && bhavcut.weight > 0 && bhavcut.rate) {
+      const saudaNo = await generateSaudaNo();
+      bhavcutSauda = await Sauda.create({
+        saudaNo,
+        partyId,
+        saudaDate: invoiceDate,
+        quantity: bhavcut.weight,
+        delivered: bhavcut.weight,
+        rate: bhavcut.rate,
+        saudaType: 'sales',
+        isBhavCut: false,
+        status: 'delivered',
+        createdBy: req.user._id
+      });
+    }
+
     // Fetch puggas for fine calculation
     const puggas = await Pugga.find({ _id: { $in: paggaIds } });
 
@@ -40,6 +59,11 @@ const createSalesInvoice = async (req, res) => {
       status: { $in: ['pending', 'partial'] },
       isDeleted: false
     }).sort({ saudaDate: 1 });
+
+    // Add bhavcut sauda to the beginning if it was created
+    if (bhavcutSauda) {
+      saudas.unshift(bhavcutSauda);
+    }
 
     // Distribute sales invoice fine across sales saudas
     let remainingFine = totalFine;
@@ -73,6 +97,17 @@ const createSalesInvoice = async (req, res) => {
       });
 
       remainingFine -= fineToUse;
+    }
+
+    // Link bhavcut sauda to invoice if it was created
+    if (bhavcutSauda) {
+      invoiceSaudaRecords.push({
+        invoiceId: salesInvoice._id,
+        saudaId: bhavcutSauda._id,
+        weight: bhavcut.weight,
+        fine: bhavcut.weight,
+        createdBy: req.user._id
+      });
     }
 
     if (saudaUpdates.length > 0) {
@@ -200,7 +235,7 @@ const getSalesInvoiceById = async (req, res) => {
 
 const updateSalesInvoice = async (req, res) => {
   try {
-    const { partyId, invoiceDate, paggaIds, totalAmount, isActive } = req.body;
+    const { partyId, invoiceDate, paggaIds, totalAmount, isActive, bhavcut } = req.body;
 
     // Get existing sales invoice to find old paggaIds
     const existingSalesInvoice = await SalesInvoice.findById(req.params.id);
@@ -228,6 +263,24 @@ const updateSalesInvoice = async (req, res) => {
       { partyId, invoiceDate, paggaIds, totalAmount, isActive, updatedBy: req.user._id },
       { new: true, runValidators: true }
     );
+
+    // Create sauda from bhavcut data if provided
+    let bhavcutSauda = null;
+    if (bhavcut && bhavcut.weight > 0 && bhavcut.rate) {
+      const saudaNo = await generateSaudaNo();
+      bhavcutSauda = await Sauda.create({
+        saudaNo,
+        partyId: salesInvoice.partyId,
+        saudaDate: invoiceDate,
+        quantity: bhavcut.weight,
+        delivered: bhavcut.weight,
+        rate: bhavcut.rate,
+        saudaType: 'sales',
+        isBhavCut: false,
+        status: 'delivered',
+        createdBy: req.user._id
+      });
+    }
 
     // Mark newly added puggas as sold
     const oldPaggaIds = existingSalesInvoice.paggaIds.map(id => id.toString());
@@ -261,6 +314,11 @@ const updateSalesInvoice = async (req, res) => {
         isDeleted: false
       }).sort({ saudaDate: 1 });
 
+      // Add bhavcut sauda to the beginning if it was created
+      if (bhavcutSauda) {
+        saudas.unshift(bhavcutSauda);
+      }
+
       let remainingFine = totalFine;
       const saudaUpdates = [];
       const invoiceSaudaRecords = [];
@@ -292,6 +350,17 @@ const updateSalesInvoice = async (req, res) => {
         });
 
         remainingFine -= fineToUse;
+      }
+
+      // Link bhavcut sauda to invoice if it was created
+      if (bhavcutSauda) {
+        invoiceSaudaRecords.push({
+          invoiceId: salesInvoice._id,
+          saudaId: bhavcutSauda._id,
+          weight: bhavcut.weight,
+          fine: bhavcut.weight,
+          createdBy: req.user._id
+        });
       }
 
       if (saudaUpdates.length > 0) {

@@ -1,57 +1,57 @@
 const mongoose = require('mongoose');
 
-const saudaSchema = new mongoose.Schema({
-  saudaNo: {
-    type: String,
-    unique: true,
-    trim: true
-  },
-  partyId: {
+const saudaCrosscutSchema = new mongoose.Schema({
+  sourceSaudaId: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'Party',
+    ref: 'Sauda',
     required: true
   },
-  saudaDate: {
+  targetSaudaId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Sauda',
+    required: true
+  },
+  crosscutDate: {
     type: Date,
     required: true
   },
-  quantity: {
+  crosscutQuantity: {
     type: Number,
     required: true
   },
-  delivered: {
-    type: Number,
-    default: 0
-  },
-  crossQuantity: {
-    type: Number,
-    default: 0
-  },
-  rate: {
+  sourceRate: {
     type: Number,
     required: true
   },
-  saudaType: {
+  targetRate: {
+    type: Number,
+    required: true
+  },
+  targetQuantity: {
+    type: Number,
+    required: true
+  },
+  profitLoss: {
+    type: Number,
+    required: true
+  },
+  creditDebitType: {
     type: String,
-    enum: ['sales', 'purchase'],
+    enum: ['credit', 'debit'],
     required: true
   },
-  isBhavCut: {
-    type: Boolean,
-    default: false
+  amount: {
+    type: Number,
+    required: true
   },
-  isCrosscut: {
-    type: Boolean,
-    default: false
+  description: {
+    type: String,
+    trim: true
   },
   status: {
     type: String,
-    enum: ['pending', 'delivered', 'closed', 'partial', 'cross'],
+    enum: ['pending', 'completed', 'cancelled'],
     default: 'pending'
-  },
-  isActive: {
-    type: Boolean,
-    default: true
   },
   createdBy: {
     type: mongoose.Schema.Types.ObjectId,
@@ -76,4 +76,4 @@ const saudaSchema = new mongoose.Schema({
   timestamps: true
 });
 
-module.exports = mongoose.model('Sauda', saudaSchema);
+module.exports = mongoose.model('SaudaCrosscut', saudaCrosscutSchema);
