@@ -27,6 +27,10 @@ const saudaSchema = new mongoose.Schema({
     type: Number,
     default: 0
   },
+  returnedFine: {
+    type: Number,
+    default: 0
+  },
   rate: {
     type: Number,
     required: true

@@ -207,9 +207,30 @@ const deletePugga = async (req, res) => {
 
 const getPuggasForSale = async (req, res) => {
   try {
-    const { invoiceId } = req.query;
-    const filter = { isSold: false, isDukanStock: false, invoiceId: { $exists: true, $ne: null } };
-   
+    const { invoiceId, isReturn, partyId } = req.query;
+    let filter = { isSold: false, isDukanStock: false, invoiceId: { $exists: true, $ne: null } };
+
+    // If isReturn is true, show puggas sold to the specified party that are not returned
+    if (isReturn === 'true' && partyId) {
+      // Find sales invoices for this party
+      const salesInvoices = await SalesInvoice.find({
+        partyId,
+        isDeleted: false
+      });
+
+      // Get all pugga IDs from these sales invoices
+      const soldPuggaIds = salesInvoices.flatMap(si => si.paggaIds);
+
+      // Filter for puggas that are sold to this party and not returned
+      filter = {
+        _id: { $in: soldPuggaIds },
+        isSold: true,
+        isReturned: false
+      };
+    } else if (invoiceId) {
+      filter.invoiceId = invoiceId;
+    }
+
     const puggas = await Pugga.find(filter)
       .populate({
         path: 'invoiceId',
@@ -222,10 +243,10 @@ const getPuggasForSale = async (req, res) => {
       data: { puggas }
     });
   } catch (error) {
-    res.status(500).json({ 
-      success: false, 
-      message: 'Error fetching puggas for sale', 
-      error: error.message 
+    res.status(500).json({
+      success: false,
+      message: 'Error fetching puggas for sale',
+      error: error.message
     });
   }
 };

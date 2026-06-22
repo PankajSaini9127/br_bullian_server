@@ -309,15 +309,18 @@ const getPartyLedger = async (req, res) => {
       const puggas = si.paggaIds || [];
       const totalWeight = cuts.reduce((s, c) => s + (c.cutWeight || 0), 0);
       const totalFine = cuts.reduce((s, c) => s + (c.cutFine || 0), 0);
+      const isReturn = si.isReturn || false;
       entries.push({
         date: si.invoiceDate,
         createdAt: si.createdAt,
-        type: 'sales',
+        type: isReturn ? 'sales-return' : 'sales',
         invoiceNo: si.salesInvoiceNo,
-        totalWeight,
-        totalFine,
+        totalWeight: isReturn ? -totalWeight : totalWeight,
+        totalFine: isReturn ? -totalFine : totalFine,
         saudaCuts: cuts,
-        puggaCount: puggas.length
+        puggaCount: puggas.length,
+        isReturn,
+        creditDebitType: isReturn ? 'credit' : 'debit'
       });
     }
 
@@ -345,7 +348,9 @@ const getPartyLedger = async (req, res) => {
     const totalIncomingWeight = entries.filter(e => e.type === 'incoming').reduce((s, e) => s + e.totalWeight, 0);
     const totalIncomingFine = entries.filter(e => e.type === 'incoming').reduce((s, e) => s + e.totalFine, 0);
     const totalSalesWeight = entries.filter(e => e.type === 'sales').reduce((s, e) => s + e.totalWeight, 0);
+    const totalSalesReturnWeight = entries.filter(e => e.type === 'sales-return').reduce((s, e) => s + Math.abs(e.totalWeight), 0);
     const totalSalesFine = entries.filter(e => e.type === 'sales').reduce((s, e) => s + e.totalFine, 0);
+    const totalSalesReturnFine = entries.filter(e => e.type === 'sales-return').reduce((s, e) => s + Math.abs(e.totalFine), 0);
     const totalIncomingPayment = entries.filter(e => e.type === 'payment' && e.paymentType === 'incoming').reduce((s, e) => s + (e.amount || 0), 0);
     const totalOutgoingPayment = entries.filter(e => e.type === 'payment' && e.paymentType === 'outgoing').reduce((s, e) => s + (e.amount || 0), 0);
 
@@ -446,9 +451,11 @@ const getPartyLedger = async (req, res) => {
           totalIncomingWeight,
           totalIncomingFine,
           totalSalesWeight,
+          totalSalesReturnWeight,
           totalSalesFine,
-          balanceWeight: totalIncomingWeight - totalSalesWeight,
-          balanceFine: totalIncomingFine - totalSalesFine,
+          totalSalesReturnFine,
+          balanceWeight: totalIncomingWeight - totalSalesWeight + totalSalesReturnWeight,
+          balanceFine: totalIncomingFine - totalSalesFine + totalSalesReturnFine,
           totalIncomingPayment,
           totalOutgoingPayment,
           balancePayment: totalIncomingPayment - totalOutgoingPayment
