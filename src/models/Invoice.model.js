@@ -28,6 +28,15 @@ const invoiceSchema = new mongoose.Schema({
     type: Boolean,
     default: true
   },
+  isReturn: {
+    type: Boolean,
+    default: false
+  },
+  referenceInvoiceId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Invoice',
+    default: null
+  },
   createdBy: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',

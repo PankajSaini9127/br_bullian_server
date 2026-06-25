@@ -21,7 +21,12 @@ const puggaSchema = new mongoose.Schema({
   invoiceId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Invoice',
-    required: true
+    default: null
+  },
+  returnInvoiceId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Invoice',
+    default: null
   },
   isActive: {
     type: Boolean,
@@ -36,6 +41,10 @@ const puggaSchema = new mongoose.Schema({
     default: false
   },
   isReturned: {
+    type: Boolean,
+    default: false
+  },
+  isPurchaseReturn: {
     type: Boolean,
     default: false
   },

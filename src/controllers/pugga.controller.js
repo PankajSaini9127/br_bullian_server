@@ -1,5 +1,7 @@
 const Pugga = require('../models/Pugga.model');
 const SalesInvoice = require('../models/SalesInvoice.model');
+const Invoice = require('../models/Invoice.model');
+const { roundToHalf } = require('../utils/rounding.util');
 
 const createPugga = async (req, res) => {
   try {
@@ -250,6 +252,61 @@ const getPuggasForSale = async (req, res) => {
     });
   }
 };
+const getPuggasByParty = async (req, res) => {
+  try {
+    const { partyId } = req.params;
+
+    if (!partyId) {
+      return res.status(400).json({
+        success: false,
+        message: 'Party ID is required'
+      });
+    }
+
+    // Find all invoices for this party
+    const invoices = await Invoice.find({
+      partyId,
+      isDeleted: false
+    });
+
+    const invoiceIds = invoices.map(inv => inv._id);
+
+    // Build filter - only unsold puggas and not purchase returns
+    const filter = {
+      invoiceId: { $in: invoiceIds },
+      isSold: false,
+      isPurchaseReturn: false,
+      isDeleted: false
+    };
+
+    const puggas = await Pugga.find(filter)
+      .populate({
+        path: 'invoiceId',
+        select: 'invoiceNo invoiceDate partyId',
+        populate: { path: 'partyId', select: 'partyName' }
+      })
+      .sort({ createdAt: -1 });
+
+    // Add fine calculation
+    const puggasWithFine = puggas.map(p => {
+      const obj = p.toObject();
+      obj.fine = roundToHalf((Number(p.weight) * Number(p.touch)) / 100);
+      return obj;
+    });
+
+    res.status(200).json({
+      success: true,
+      data: { puggas: puggasWithFine }
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: 'Error fetching puggas by party',
+      error: error.message
+    });
+  }
+};
+
 
 module.exports = {
   createPugga,
@@ -257,5 +314,6 @@ module.exports = {
   getPuggaById,
   updatePugga,
   deletePugga,
-  getPuggasForSale
+  getPuggasForSale,
+  getPuggasByParty
 };

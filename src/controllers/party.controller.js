@@ -293,14 +293,17 @@ const getPartyLedger = async (req, res) => {
       const cuts = saudaCutsByInvoice[inv._id.toString()] || [];
       const totalWeight = cuts.reduce((s, c) => s + (c.cutWeight || 0), 0);
       const totalFine = cuts.reduce((s, c) => s + (c.cutFine || 0), 0);
+      const isReturn = inv.isReturn || false;
       entries.push({
         date: inv.invoiceDate,
         createdAt: inv.createdAt,
-        type: 'incoming',
+        type: isReturn ? 'Purchase Return' : 'Purchase',
         invoiceNo: inv.invoiceNo,
-        totalWeight,
-        totalFine,
-        saudaCuts: cuts
+        totalWeight: isReturn ? -totalWeight : totalWeight,
+        totalFine: isReturn ? -totalFine : totalFine,
+        saudaCuts: cuts,
+        isReturn,
+        creditDebitType: isReturn ? 'credit' : 'debit'
       });
     }
 
@@ -345,12 +348,12 @@ const getPartyLedger = async (req, res) => {
     entries.sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt));
 
     // Totals
-    const totalIncomingWeight = entries.filter(e => e.type === 'incoming').reduce((s, e) => s + e.totalWeight, 0);
-    const totalIncomingFine = entries.filter(e => e.type === 'incoming').reduce((s, e) => s + e.totalFine, 0);
+    const totalIncomingWeight = entries.filter(e => e.type === 'Purchase').reduce((s, e) => s + e.totalWeight, 0);
+    const totalIncomingFine = entries.filter(e => e.type === 'Purchase').reduce((s, e) => s + e.totalFine, 0);
     const totalSalesWeight = entries.filter(e => e.type === 'sales').reduce((s, e) => s + e.totalWeight, 0);
-    const totalSalesReturnWeight = entries.filter(e => e.type === 'sales-return').reduce((s, e) => s + Math.abs(e.totalWeight), 0);
+    const totalSalesReturnWeight = entries.filter(e => e.type === 'sales-return' || e.type === 'Purchase Return').reduce((s, e) => s + Math.abs(e.totalWeight), 0);
     const totalSalesFine = entries.filter(e => e.type === 'sales').reduce((s, e) => s + e.totalFine, 0);
-    const totalSalesReturnFine = entries.filter(e => e.type === 'sales-return').reduce((s, e) => s + Math.abs(e.totalFine), 0);
+    const totalSalesReturnFine = entries.filter(e => e.type === 'sales-return' || e.type === 'Purchase Return').reduce((s, e) => s + Math.abs(e.totalFine), 0);
     const totalIncomingPayment = entries.filter(e => e.type === 'payment' && e.paymentType === 'incoming').reduce((s, e) => s + (e.amount || 0), 0);
     const totalOutgoingPayment = entries.filter(e => e.type === 'payment' && e.paymentType === 'outgoing').reduce((s, e) => s + (e.amount || 0), 0);
 
