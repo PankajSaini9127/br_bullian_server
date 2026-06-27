@@ -4,14 +4,20 @@ const { generateSaudaNo } = require('../utils/saudaGenerator');
 
 const createSauda = async (req, res) => {
   try {
-    const { partyId, saudaDate, quantity, rate, saudaType } = req.body;
+    const { partyId, saudaDate, quantity, rate, saudaType, delivered } = req.body;
 
     if (!partyId || !saudaDate || !quantity || !rate || !saudaType) {
-      return res.status(400).json({ 
-        success: false, 
-        message: 'Party id, date, quantity, rate, and sauda type are required' 
+      return res.status(400).json({
+        success: false,
+        message: 'Party id, date, quantity, rate, and sauda type are required'
       });
     }
+
+    // Set default value for delivered
+    const deliveredValue = delivered || 0;
+
+    // Default status to pending
+    const statusValue = 'pending';
 
     if (!['sales', 'purchase'].includes(saudaType)) {
       return res.status(400).json({ 
@@ -132,6 +138,8 @@ const createSauda = async (req, res) => {
     const sauda = await Sauda.create({
       saudaNo,
       partyId,
+      delivered: deliveredValue,
+      status: statusValue,
       saudaDate,
       quantity,
       rate,
@@ -234,21 +242,42 @@ const getSaudaById = async (req, res) => {
       data: { sauda }
     });
   } catch (error) {
-    res.status(500).json({ 
-      success: false, 
-      message: 'Error fetching sauda', 
-      error: error.message 
+    res.status(500).json({
+      success: false,
+      message: 'Error fetching sauda',
+      error: error.message
     });
   }
 };
 
 const updateSauda = async (req, res) => {
   try {
-    const { partyId, saudaDate, quantity, rate, saudaType, isActive } = req.body;
+    const { partyId, saudaDate, quantity, rate, saudaType, isActive, delivered } = req.body;
+
+    const updateData = { partyId, saudaDate, quantity, rate, saudaType, isActive, updatedBy: req.user._id };
+
+    // Only update delivered if provided
+    if (delivered !== undefined) {
+      updateData.delivered = delivered;
+
+      // Calculate status based on delivered quantity
+      const existingSauda = await Sauda.findById(req.params.id);
+      const qtyToUse = quantity !== undefined ? quantity : existingSauda.quantity;
+
+      if (delivered === 0) {
+        updateData.status = 'pending';
+      } else if (delivered < Number(qtyToUse)) {
+        updateData.status = 'partial';
+      } else if (delivered === Number(qtyToUse)) {
+        updateData.status = 'delivered';
+      } else {
+        updateData.status = 'delivered'; // If delivered > quantity, still mark as delivered
+      }
+    }
 
     const sauda = await Sauda.findByIdAndUpdate(
       req.params.id,
-      { partyId, saudaDate, quantity, rate, saudaType, isActive, updatedBy: req.user._id },
+      updateData,
       { new: true, runValidators: true }
     );
 
