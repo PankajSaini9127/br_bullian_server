@@ -6,6 +6,8 @@ const InvoiceSauda = require('../models/InvoiceSauda.model');
 const Sauda = require('../models/Sauda.model');
 const SaudaCrosscut = require('../models/SaudaCrosscut.model');
 const Payment = require('../models/Payment.model');
+const Note = require('../models/Note.model');
+const { roundToHalf } = require('../utils/rounding.util');
 
 const createParty = async (req, res) => {
   try {
@@ -226,10 +228,12 @@ const getPartyLedger = async (req, res) => {
     const invoiceFilter = { partyId, isDeleted: false };
     const salesFilter = { partyId, isDeleted: false };
     const paymentFilter = { partyId, isDeleted: false };
+    const noteFilter = { partyId, isDeleted: false };
     if (startDate && endDate) {
       invoiceFilter.invoiceDate = dateFilter;
       salesFilter.invoiceDate = dateFilter;
       paymentFilter.paymentDate = dateFilter;
+      noteFilter.date = dateFilter;
     }
 
     // Fetch incoming invoices
@@ -344,6 +348,22 @@ const getPartyLedger = async (req, res) => {
       });
     }
 
+    // Fetch credit/debit notes
+    const notes = await Note.find(noteFilter).sort({ createdAt: -1 });
+
+    for (const note of notes) {
+      entries.push({
+        date: note.date,
+        createdAt: note.createdAt,
+        type: note.noteType === 'credit' ? 'credit-note' : 'debit-note',
+        noteNo: note.noteNo,
+        reason: note.reason,
+        amount: note.amount,
+        fine: note.fine,
+        creditDebitType: note.noteType === 'credit' ? 'credit' : 'debit'
+      });
+    }
+
     // Sort all entries by createdAt ascending (oldest first)
     entries.sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt));
 
@@ -356,6 +376,10 @@ const getPartyLedger = async (req, res) => {
     const totalSalesReturnFine = entries.filter(e => e.type === 'sales-return' || e.type === 'Purchase Return').reduce((s, e) => s + Math.abs(e.totalFine), 0);
     const totalIncomingPayment = entries.filter(e => e.type === 'payment' && e.paymentType === 'incoming').reduce((s, e) => s + (e.amount || 0), 0);
     const totalOutgoingPayment = entries.filter(e => e.type === 'payment' && e.paymentType === 'outgoing').reduce((s, e) => s + (e.amount || 0), 0);
+    const totalCreditNoteAmount = entries.filter(e => e.type === 'credit-note').reduce((s, e) => s + (e.amount || 0), 0);
+    const totalDebitNoteAmount = entries.filter(e => e.type === 'debit-note').reduce((s, e) => s + (e.amount || 0), 0);
+    const totalCreditNoteFine = entries.filter(e => e.type === 'credit-note').reduce((s, e) => s + (e.fine || 0), 0);
+    const totalDebitNoteFine = entries.filter(e => e.type === 'debit-note').reduce((s, e) => s + (e.fine || 0), 0);
 
     // Pending saudas for this party
     const pendingSaudas = await Sauda.find({
@@ -461,7 +485,11 @@ const getPartyLedger = async (req, res) => {
           balanceFine: totalIncomingFine - totalSalesFine + totalSalesReturnFine,
           totalIncomingPayment,
           totalOutgoingPayment,
-          balancePayment: totalIncomingPayment - totalOutgoingPayment
+          balancePayment: totalIncomingPayment - totalOutgoingPayment,
+          totalCreditNoteAmount,
+          totalDebitNoteAmount,
+          totalCreditNoteFine,
+          totalDebitNoteFine
         },
         pendingSaudas
       }

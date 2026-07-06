@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "6a48d16d93beee509d6a3828"
+  },
+  "userId": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "companyName": "BR",
+  "openingBalance": 15000009,
+  "openingBalanceDate": {
+    "$date": "2026-07-04T00:00:00.000Z"
+  },
+  "openingFine": 325000,
+  "openingFineDate": {
+    "$date": "2026-07-04T00:00:00.000Z"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "updatedBy": {
+    "$oid": "6a0834d26b0ed15e672ace1f"
+  },
+  "isDeleted": false,
+  "deletedBy": null,
+  "createdAt": {
+    "$date": "2026-07-04T09:25:01.801Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-04T09:36:57.489Z"
+  },
+  "__v": 0
+}]

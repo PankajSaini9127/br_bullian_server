@@ -15,13 +15,17 @@ const userSchema = new mongoose.Schema({
     lowercase: true,
     trim: true
   },
+  mobileNumber: {
+    type: String,
+    trim: true
+  },
   password: {
     type: String,
     required: true
   },
   role: {
     type: String,
-    enum: ['admin', 'manager', 'user'],
+    enum: ['super_admin','admin', 'manager', 'user'],
     default: 'user'
   },
   permissions: [{

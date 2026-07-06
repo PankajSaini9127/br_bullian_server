@@ -18,7 +18,13 @@ const createInvoice = async (req, res) => {
       });
     }
 
-    const invoiceNo = await generateInvoiceNo();
+    const hasBhavcut = !isReturn && bhavcut && bhavcut.weight > 0 && bhavcut.rate;
+
+    // Parallel: generate invoice no + sauda no (if bhavcut)
+    const [invoiceNo, saudaNo] = await Promise.all([
+      generateInvoiceNo(),
+      hasBhavcut ? generateSaudaNo() : Promise.resolve(null)
+    ]);
 
     const invoice = await Invoice.create({
       invoiceNo,
@@ -33,96 +39,56 @@ const createInvoice = async (req, res) => {
     let invoiceSaudaRecords = [];
     let totalFine = 0;
 
-    // If isReturn, reverse sauda cuts from the puggas' original invoice
     if (isReturn === true && puggaIds && puggaIds.length > 0) {
-      // Get the original invoice ID from the first pugga
-      const firstPugga = await Pugga.findById(puggaIds[0]);
-      if (firstPugga && firstPugga.invoiceId) {
-        const referenceInvoiceId = firstPugga.invoiceId;
-        console.log('[INVOICE RETURN] Reversing sauda cuts from original invoice:', referenceInvoiceId);
-
-        // Calculate total fine from puggas being returned
-        const returnedPuggas = await Pugga.find({ _id: { $in: puggaIds } });
-        totalFine = returnedPuggas.reduce((sum, p) => sum + roundToHalf((Number(p.weight) * Number(p.touch)) / 100), 0);
-        console.log('[INVOICE RETURN] Total fine from returned puggas:', totalFine);
-
-        // Fetch party's purchase saudas (partial and delivered) for reversal
-        const saudas = await Sauda.find({
+      // Parallel: fetch returned puggas + saudas for reversal
+      const [returnedPuggas, saudas] = await Promise.all([
+        Pugga.find({ _id: { $in: puggaIds } }).select('weight touch invoiceId').lean(),
+        Sauda.find({
           partyId,
           saudaType: 'purchase',
           status: { $in: ['partial', 'delivered'] },
           isDeleted: false
-        }).sort({ createdAt: -1 });
-        console.log('[INVOICE RETURN] Total saudas for reversal:', saudas);
-        saudas.forEach(s => {
-          console.log('[INVOICE RETURN] Sauda:', s._id, 'saudaDate:', s.saudaDate, 'delivered:', s.delivered, 'status:', s.status);
+        }).sort({ createdAt: -1 }).lean()
+      ]);
+
+      totalFine = returnedPuggas.reduce((sum, p) => sum + roundToHalf((Number(p.weight) * Number(p.touch)) / 100), 0);
+
+      let remainingFine = totalFine;
+      for (const sauda of saudas) {
+        const saudaRemainingQty = Number(sauda.delivered);
+        if (saudaRemainingQty <= 0) continue;
+
+        const fineToUse = roundToHalf(Math.min(remainingFine, saudaRemainingQty));
+        if (fineToUse <= 0) break;
+
+        const newDelivered = Math.max(0, Number(sauda.delivered) - fineToUse);
+        const newReturnedFine = Number(sauda.returnedFine || 0) + fineToUse;
+        const newStatus = newDelivered <= 0 ? 'pending' : newDelivered >= Number(sauda.quantity) ? 'delivered' : 'partial';
+
+        saudaUpdates.push({
+          updateOne: {
+            filter: { _id: sauda._id },
+            update: { delivered: newDelivered, returnedFine: newReturnedFine, status: newStatus, updatedBy: req.user._id }
+          }
         });
 
-        // Distribute fine reversal across saudas
-        let remainingFine = totalFine;
+        invoiceSaudaRecords.push({
+          invoiceId: invoice._id,
+          saudaId: sauda._id,
+          weight: fineToUse,
+          fine: fineToUse,
+          createdBy: req.user._id
+        });
 
-        for (const sauda of saudas) {
-          const saudaRemainingQty = Number(sauda.delivered);
-          console.log('[INVOICE RETURN] Processing sauda:', sauda._id, 'remainingQty:', saudaRemainingQty, 'remainingFine:', remainingFine);
-          if (saudaRemainingQty <= 0) {
-            console.log('[INVOICE RETURN] Skipping sauda - remainingQty <= 0');
-            continue;
-          }
-
-          const fineToUse = roundToHalf(Math.min(remainingFine, saudaRemainingQty));
-          const weightToUse = fineToUse;
-
-          console.log('[INVOICE RETURN] Reversing sauda:', sauda._id);
-          console.log('[INVOICE RETURN] Before - delivered:', sauda.delivered, 'returnedFine:', sauda.returnedFine, 'status:', sauda.status);
-
-          // Reverse: reduce delivered, add to returnedFine
-          const newDelivered = Math.max(0, Number(sauda.delivered) - weightToUse);
-          const newReturnedFine = Number(sauda.returnedFine || 0) + weightToUse;
-          const newStatus = newDelivered <= 0 ? 'pending' : newDelivered >= Number(sauda.quantity) ? 'delivered' : 'partial';
-
-          console.log('[INVOICE RETURN] After - delivered:', newDelivered, 'returnedFine:', newReturnedFine, 'status:', newStatus);
-
-          // Only push update if there's actual reversal
-          if (fineToUse > 0) {
-            saudaUpdates.push({
-              updateOne: {
-                filter: { _id: sauda._id },
-                update: {
-                  delivered: newDelivered,
-                  returnedFine: newReturnedFine,
-                  status: newStatus,
-                  updatedBy: req.user._id
-                }
-              }
-            });
-
-            invoiceSaudaRecords.push({
-              invoiceId: invoice._id,
-              saudaId: sauda._id,
-              weight: weightToUse,
-              fine: fineToUse,
-              createdBy: req.user._id
-            });
-          }
-
-          remainingFine -= fineToUse;
-        }
-
-        console.log('[INVOICE RETURN] Total fine reversed:', totalFine - remainingFine);
-        console.log('[INVOICE RETURN] Sauda reversal completed, total updates:', saudaUpdates.length);
-    } else {
-      console.log('[INVOICE RETURN] No original invoice found on pugga, skipping sauda reversal');
+        remainingFine -= fineToUse;
+      }
     }
-  }//
 
-    // Only create puggas and distribute to saudas if NOT a return invoice
     let createdPuggas = [];
     if (isReturn !== true) {
-      // Create sauda from bhavcut data if provided
-      let bhavcutSauda = null;
-      if (bhavcut && bhavcut.weight > 0 && bhavcut.rate) {
-        const saudaNo = await generateSaudaNo();
-        bhavcutSauda = await Sauda.create({
+      // Parallel: create bhavcut sauda + insert puggas
+      const [bhavcutSauda, insertedPuggas] = await Promise.all([
+        hasBhavcut ? Sauda.create({
           saudaNo,
           partyId,
           saudaDate: invoiceDate,
@@ -133,42 +99,35 @@ const createInvoice = async (req, res) => {
           isBhavCut: false,
           status: 'delivered',
           createdBy: req.user._id
-        });
-      }
+        }) : Promise.resolve(null),
+        (paggaItems && Array.isArray(paggaItems) && paggaItems.length > 0)
+          ? Pugga.insertMany(paggaItems.map(item => ({
+              paggaNo: item.paggaNo,
+              weight: item.weight,
+              touch: item.touch,
+              remark: item.remark,
+              invoiceId: invoice._id,
+              isDukanStock: false,
+              createdBy: req.user._id
+            })))
+          : Promise.resolve([])
+      ]);
 
-      // Create pugga items if provided
-      if (paggaItems && Array.isArray(paggaItems) && paggaItems.length > 0) {
-        const puggaData = paggaItems.map(item => ({
-          paggaNo: item.paggaNo,
-          weight: item.weight,
-          touch: item.touch,
-          remark: item.remark,
-          invoiceId: invoice._id,
-          isDukanStock: false,
-          createdBy: req.user._id
-        }));
-        createdPuggas = await Pugga.insertMany(puggaData);
-      }
-
-      // Calculate total fine from puggas (each rounded to nearest 0.5)
+      createdPuggas = insertedPuggas;
       totalFine = createdPuggas.reduce((sum, p) => sum + roundToHalf((Number(p.weight) * Number(p.touch)) / 100), 0);
 
-      // Find party's pending/partial purchase saudas, oldest first
       const saudas = await Sauda.find({
         partyId,
         saudaType: 'purchase',
         status: { $in: ['pending', 'partial'] },
         isDeleted: false
-      }).sort({ saudaDate: 1 });
+      }).sort({ saudaDate: 1 }).lean();
 
-      // Add bhavcut sauda to the beginning if it was created
       if (bhavcutSauda) {
-        saudas.unshift(bhavcutSauda);
+        saudas.unshift(bhavcutSauda.toObject());
       }
 
-      // Distribute invoice fine across saudas by remaining quantity proportion
       let remainingFine = totalFine;
-
       for (const sauda of saudas) {
         if (remainingFine <= 0) break;
 
@@ -176,8 +135,7 @@ const createInvoice = async (req, res) => {
         if (saudaRemainingQty <= 0) continue;
 
         const fineToUse = roundToHalf(Math.min(remainingFine, saudaRemainingQty));
-        const weightToUse = fineToUse;
-        const newDelivered = sauda.delivered + weightToUse;
+        const newDelivered = sauda.delivered + fineToUse;
         const newStatus = newDelivered >= sauda.quantity ? 'delivered' : 'partial';
 
         saudaUpdates.push({
@@ -190,7 +148,7 @@ const createInvoice = async (req, res) => {
         invoiceSaudaRecords.push({
           invoiceId: invoice._id,
           saudaId: sauda._id,
-          weight: weightToUse,
+          weight: fineToUse,
           fine: fineToUse,
           createdBy: req.user._id
         });
@@ -198,7 +156,6 @@ const createInvoice = async (req, res) => {
         remainingFine -= fineToUse;
       }
 
-      // Link bhavcut sauda to invoice if it was created
       if (bhavcutSauda) {
         invoiceSaudaRecords.push({
           invoiceId: invoice._id,
@@ -209,34 +166,20 @@ const createInvoice = async (req, res) => {
         });
       }
     } else {
-      // For return invoices, update existing puggas with returnInvoiceId and isPurchaseReturn flag
       if (puggaIds && Array.isArray(puggaIds) && puggaIds.length > 0) {
         await Pugga.updateMany(
           { _id: { $in: puggaIds } },
-          {
-            returnInvoiceId: invoice._id,
-            isPurchaseReturn: true,
-            updatedBy: req.user._id
-          }
+          { returnInvoiceId: invoice._id, isPurchaseReturn: true, updatedBy: req.user._id }
         );
-        createdPuggas = await Pugga.find({ _id: { $in: puggaIds } });
+        createdPuggas = await Pugga.find({ _id: { $in: puggaIds } }).lean();
       }
     }
 
-    if (saudaUpdates.length > 0) {
-      console.log('[INVOICE RETURN] Sauda updates to apply:', saudaUpdates.length);
-      console.log('[INVOICE RETURN] Sauda updates:', JSON.stringify(saudaUpdates, null, 2));
-      try {
-        const result = await Sauda.bulkWrite(saudaUpdates);
-        console.log('[INVOICE RETURN] BulkWrite result:', result);
-      } catch (error) {
-        console.error('[INVOICE RETURN] BulkWrite error:', error);
-        throw error;
-      }
-    }
-    if (invoiceSaudaRecords.length > 0) {
-      await InvoiceSauda.insertMany(invoiceSaudaRecords);
-    }
+    // Parallel: bulk write saudas + insert invoice-sauda records
+    const writeOps = [];
+    if (saudaUpdates.length > 0) writeOps.push(Sauda.bulkWrite(saudaUpdates));
+    if (invoiceSaudaRecords.length > 0) writeOps.push(InvoiceSauda.insertMany(invoiceSaudaRecords));
+    if (writeOps.length > 0) await Promise.all(writeOps);
 
     const invoiceObj = invoice.toObject();
     invoiceObj.items = createdPuggas;
@@ -249,7 +192,7 @@ const createInvoice = async (req, res) => {
     });
   } catch (error) {
     res.status(500).json({ 
-      success: false, 
+      success: false,
       message: 'Error creating invoice', 
       error: error.message 
     });

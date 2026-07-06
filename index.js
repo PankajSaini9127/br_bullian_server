@@ -12,6 +12,8 @@ const salesInvoiceRoutes = require('./src/routes/salesInvoice.routes');
 const saudaRoutes = require('./src/routes/sauda.routes');
 const dashboardRoutes = require('./src/routes/dashboard.routes');
 const paymentRoutes = require('./src/routes/payment.routes');
+const noteRoutes = require('./src/routes/note.routes');
+const profileRoutes = require('./src/routes/profile.routes');
 
 const app = express();
 const PORT = process.env.PORT || 8080;
@@ -23,6 +25,7 @@ connectDB();
 app.use(cors({
    origin: [
     "http://localhost:3000",
+    "http://192.168.1.4:3000",
     "http://15.206.168.54:3030"
   ],
   credentials: true,
@@ -42,6 +45,8 @@ app.use('/api/sales-invoices', salesInvoiceRoutes);
 app.use('/api/sauda', saudaRoutes);
 app.use('/api/dashboard', dashboardRoutes);
 app.use('/api/payments', paymentRoutes);
+app.use('/api/notes', noteRoutes);
+app.use('/api/profile', profileRoutes);
 
 // Health check route
 app.get('/health', (req, res) => {

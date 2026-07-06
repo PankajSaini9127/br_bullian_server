@@ -19,6 +19,40 @@ const createSalesInvoice = async (req, res) => {
       });
     }
 
+    // Validation: check if any pugga is already sold or already in another sales invoice (skip for return invoices)
+    if (!isReturn) {
+      const existingPuggas = await Pugga.find({ _id: { $in: paggaIds }, isDeleted: { $ne: true } });
+      const alreadySold = existingPuggas.filter(p => p.isSold);
+      if (alreadySold.length > 0) {
+        const soldPaggaNos = alreadySold.map(p => p.paggaNo).join(', ');
+        return res.status(400).json({
+          success: false,
+          message: `These puggas are already sold: ${soldPaggaNos}`
+        });
+      }
+
+      const existingSalesInvoices = await SalesInvoice.find({
+        paggaIds: { $in: paggaIds },
+        isDeleted: false,
+        isReturn: false
+      }).populate('paggaIds', 'paggaNo');
+
+      if (existingSalesInvoices.length > 0) {
+        const duplicatePaggaNos = new Set();
+        for (const si of existingSalesInvoices) {
+          for (const p of si.paggaIds) {
+            if (paggaIds.includes(p._id.toString())) {
+              duplicatePaggaNos.add(p.paggaNo);
+            }
+          }
+        }
+        return res.status(400).json({
+          success: false,
+          message: `These puggas are already in another sales invoice: ${[...duplicatePaggaNos].join(', ')}`
+        });
+      }
+    }
+
     const salesInvoiceNo = await generateSalesInvoiceNo();
 
     const salesInvoice = await SalesInvoice.create({
