@@ -4,7 +4,7 @@ const { generateSaudaNo } = require('../utils/saudaGenerator');
 
 const createSauda = async (req, res) => {
   try {
-    const { partyId, saudaDate, quantity, rate, saudaType, delivered } = req.body;
+    const { partyId, saudaDate, quantity, rate, saudaType, delivered, saudaCategory } = req.body;
 
     if (!partyId || !saudaDate || !quantity || !rate || !saudaType) {
       return res.status(400).json({
@@ -94,6 +94,7 @@ const createSauda = async (req, res) => {
           quantity,
           rate,
           saudaType,
+          saudaCategory: saudaCategory || 'kachi',
           isCrosscut: true,
           status: 'cross',
           crossQuantity: quantity,
@@ -144,6 +145,7 @@ const createSauda = async (req, res) => {
       quantity,
       rate,
       saudaType,
+      saudaCategory: saudaCategory || 'kachi',
       isCrosscut: false,
       createdBy: req.user._id
     });
@@ -252,9 +254,10 @@ const getSaudaById = async (req, res) => {
 
 const updateSauda = async (req, res) => {
   try {
-    const { partyId, saudaDate, quantity, rate, saudaType, isActive, delivered } = req.body;
+    const { partyId, saudaDate, quantity, rate, saudaType, isActive, delivered, saudaCategory } = req.body;
 
     const updateData = { partyId, saudaDate, quantity, rate, saudaType, isActive, updatedBy: req.user._id };
+    if (saudaCategory) updateData.saudaCategory = saudaCategory;
 
     // Only update delivered if provided
     if (delivered !== undefined) {

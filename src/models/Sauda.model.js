@@ -40,6 +40,11 @@ const saudaSchema = new mongoose.Schema({
     enum: ['sales', 'purchase'],
     required: true
   },
+  saudaCategory: {
+    type: String,
+    enum: ['kachi', 'chorsa-999', 'bank-9999'],
+    default: 'kachi'
+  },
   isBhavCut: {
     type: Boolean,
     default: false

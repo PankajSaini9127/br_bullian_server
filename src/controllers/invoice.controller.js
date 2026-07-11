@@ -96,6 +96,7 @@ const createInvoice = async (req, res) => {
           delivered: bhavcut.weight,
           rate: bhavcut.rate,
           saudaType: 'purchase',
+          saudaCategory: 'kachi',
           isBhavCut: false,
           status: 'delivered',
           createdBy: req.user._id
@@ -247,14 +248,12 @@ const getAllInvoices = async (req, res) => {
           const key = invoiceId.toString();
           if (!puggasByInvoice[key]) puggasByInvoice[key] = [];
           puggasByInvoice[key].push(pugga);
-          break;
         }
         // If invoice is normal, group by invoiceId
         else if (!invoice.isReturn && pugga.invoiceId && pugga.invoiceId.toString() === invoiceId.toString()) {
           const key = invoiceId.toString();
           if (!puggasByInvoice[key]) puggasByInvoice[key] = [];
           puggasByInvoice[key].push(pugga);
-          break;
         }
       }
     });
@@ -279,7 +278,6 @@ const getAllInvoices = async (req, res) => {
           if (!populatedPuggasByInvoice[key]) populatedPuggasByInvoice[key] = [];
           const populated = populatedPuggas.find(p => p._id.toString() === pugga._id.toString());
           if (populated) populatedPuggasByInvoice[key].push(populated);
-          break;
         }
         // If invoice is normal, group by invoiceId
         else if (!invoice.isReturn && pugga.invoiceId && pugga.invoiceId.toString() === invoiceId.toString()) {
@@ -287,7 +285,6 @@ const getAllInvoices = async (req, res) => {
           if (!populatedPuggasByInvoice[key]) populatedPuggasByInvoice[key] = [];
           const populated = populatedPuggas.find(p => p._id.toString() === pugga._id.toString());
           if (populated) populatedPuggasByInvoice[key].push(populated);
-          break;
         }
       }
     });
@@ -398,6 +395,7 @@ const updateInvoice = async (req, res) => {
         delivered: bhavcut.weight,
         rate: bhavcut.rate,
         saudaType: 'purchase',
+        saudaCategory: 'kachi',
         isBhavCut: false,
         status: 'delivered',
         createdBy: req.user._id
@@ -423,7 +421,27 @@ const updateInvoice = async (req, res) => {
     }
     await InvoiceSauda.deleteMany({ invoiceId: invoice._id });
 
-    // Get existing puggas for this invoice
+    // Get existing puggas for this invoice (skip for return invoices - their puggas are linked via returnInvoiceId)
+    if (invoice.isReturn) {
+      // For return invoices, only update returnInvoiceId puggas if provided
+      if (paggaItems && Array.isArray(paggaItems)) {
+        for (const item of paggaItems) {
+          if (item._id) {
+            await Pugga.findByIdAndUpdate(
+              item._id,
+              {
+                paggaNo: item.paggaNo,
+                weight: item.weight,
+                touch: item.touch,
+                remark: item.remark,
+                updatedBy: req.user._id
+              },
+              { new: true, runValidators: true }
+            );
+          }
+        }
+      }
+    } else {
     const existingPuggas = await Pugga.find({ invoiceId: invoice._id,     });
     const existingPuggaIds = existingPuggas.map(p => p._id.toString());
     
@@ -536,6 +554,8 @@ const updateInvoice = async (req, res) => {
       if (invoiceSaudaRecords.length > 0) {
         await InvoiceSauda.insertMany(invoiceSaudaRecords);
       }
+    }
+
     }
 
     res.status(200).json({

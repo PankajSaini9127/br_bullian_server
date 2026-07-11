@@ -32,6 +32,10 @@ const invoiceSchema = new mongoose.Schema({
     type: Boolean,
     default: false
   },
+  isMetalPalta: {
+    type: Boolean,
+    default: false
+  },
   referenceInvoiceId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Invoice',

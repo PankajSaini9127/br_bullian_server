@@ -225,7 +225,7 @@ const getPartyLedger = async (req, res) => {
       dateFilter.$lte = new Date(endDate);
     }
 
-    const invoiceFilter = { partyId, isDeleted: false };
+    const invoiceFilter = { partyId, isDeleted: false, isMetalPalta: { $ne: true } };
     const salesFilter = { partyId, isDeleted: false };
     const paymentFilter = { partyId, isDeleted: false };
     const noteFilter = { partyId, isDeleted: false };

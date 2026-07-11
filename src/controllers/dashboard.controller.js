@@ -3,6 +3,7 @@ const Pugga = require('../models/Pugga.model');
 const SalesInvoice = require('../models/SalesInvoice.model');
 const CompanyProfile = require('../models/CompanyProfile.model');
 const Payment = require('../models/Payment.model');
+const PhysicalStockVerification = require('../models/PhysicalStockVerification.model');
 const { roundToHalf } = require('../utils/rounding.util');
 
 const calcFine = (puggas) => puggas.reduce((sum, p) => sum + roundToHalf((Number(p.weight) * Number(p.touch)) / 100), 0);
@@ -23,7 +24,8 @@ const getDashboard = async (req, res) => {
       allIncomingInvoices,
       allSalesInvoices,
       companyProfile,
-      paymentAgg
+      paymentAgg,
+      latestPhysicalStock
     ] = await Promise.all([
       Pugga.find({ isSold: false, isDukanStock: false, isActive: true, isDeleted: false }).select('weight touch').lean(),
       Pugga.find({ isDukanStock: true, isActive: true, isDeleted: false }).select('weight touch').lean(),
@@ -35,7 +37,8 @@ const getDashboard = async (req, res) => {
       Payment.aggregate([
         { $match: { isActive: true, isDeleted: false } },
         { $group: { _id: '$paymentType', total: { $sum: '$amount' } } }
-      ])
+      ]),
+      PhysicalStockVerification.findOne({ isDeleted: false }).sort({ date: -1 }).select('date physicalFine999 physicalBalance').lean()
     ]);
 
     // Process Round 1 results
@@ -112,7 +115,7 @@ const getDashboard = async (req, res) => {
           openingBalance,
           incomingAmount,
           outgoingAmount,
-          balanceAmount: cashInHand,
+          balanceAmount: latestPhysicalStock ? latestPhysicalStock.physicalBalance : cashInHand,
           openingFine,
           balanceFine: cashInHandFine
         },

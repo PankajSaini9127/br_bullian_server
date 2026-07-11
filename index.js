@@ -14,6 +14,8 @@ const dashboardRoutes = require('./src/routes/dashboard.routes');
 const paymentRoutes = require('./src/routes/payment.routes');
 const noteRoutes = require('./src/routes/note.routes');
 const profileRoutes = require('./src/routes/profile.routes');
+const physicalStockVerificationRoutes = require('./src/routes/physicalStockVerification.routes');
+const metalBadlaRoutes = require('./src/routes/metalBadla.routes');
 
 const app = express();
 const PORT = process.env.PORT || 8080;
@@ -47,6 +49,8 @@ app.use('/api/dashboard', dashboardRoutes);
 app.use('/api/payments', paymentRoutes);
 app.use('/api/notes', noteRoutes);
 app.use('/api/profile', profileRoutes);
+app.use('/api/physical-stock-verification', physicalStockVerificationRoutes);
+app.use('/api/metal-badla', metalBadlaRoutes);
 
 // Health check route
 app.get('/health', (req, res) => {

@@ -31,26 +31,6 @@ const createSalesInvoice = async (req, res) => {
         });
       }
 
-      const existingSalesInvoices = await SalesInvoice.find({
-        paggaIds: { $in: paggaIds },
-        isDeleted: false,
-        isReturn: false
-      }).populate('paggaIds', 'paggaNo');
-
-      if (existingSalesInvoices.length > 0) {
-        const duplicatePaggaNos = new Set();
-        for (const si of existingSalesInvoices) {
-          for (const p of si.paggaIds) {
-            if (paggaIds.includes(p._id.toString())) {
-              duplicatePaggaNos.add(p.paggaNo);
-            }
-          }
-        }
-        return res.status(400).json({
-          success: false,
-          message: `These puggas are already in another sales invoice: ${[...duplicatePaggaNos].join(', ')}`
-        });
-      }
     }
 
     const salesInvoiceNo = await generateSalesInvoiceNo();
@@ -77,6 +57,7 @@ const createSalesInvoice = async (req, res) => {
         delivered: bhavcut.weight,
         rate: bhavcut.rate,
         saudaType: 'sales',
+        saudaCategory: 'kachi',
         isBhavCut: false,
         status: 'delivered',
         createdBy: req.user._id
@@ -400,6 +381,7 @@ const updateSalesInvoice = async (req, res) => {
         delivered: bhavcut.weight,
         rate: bhavcut.rate,
         saudaType: 'sales',
+        saudaCategory: 'kachi',
         isBhavCut: false,
         status: 'delivered',
         createdBy: req.user._id
