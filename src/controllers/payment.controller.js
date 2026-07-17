@@ -1,6 +1,7 @@
 const Payment = require('../models/Payment.model');
 const Party = require('../models/Party.model');
 const { generatePaymentNo } = require('../utils/paymentGenerator');
+const { calculateCashInHand } = require('./dashboard.controller');
 
 const createPayment = async (req, res) => {
   try {
@@ -198,6 +199,9 @@ const getCashBook = async (req, res) => {
     const totalOutgoing = outgoingPayments.reduce((sum, p) => sum + Number(p.amount), 0);
     const balance = totalIncoming - totalOutgoing;
 
+    // Calculate actual live Cash in Hand (incorporating opening balance/latest verification)
+    const cashInHand = await calculateCashInHand(req.user._id, new Date());
+
     res.status(200).json({
       success: true,
       data: {
@@ -210,7 +214,8 @@ const getCashBook = async (req, res) => {
           payments: outgoingPayments,
           total: totalOutgoing
         },
-        balance
+        balance,
+        cashInHand
       }
     });
   } catch (error) {

@@ -64,4 +64,7 @@ const invoiceSchema = new mongoose.Schema({
   timestamps: true
 });
 
+invoiceSchema.index({ isDeleted: 1, invoiceDate: 1 });
+invoiceSchema.index({ partyId: 1, isDeleted: 1 });
+
 module.exports = mongoose.model('Invoice', invoiceSchema);

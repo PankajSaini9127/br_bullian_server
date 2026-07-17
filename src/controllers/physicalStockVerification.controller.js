@@ -1,21 +1,72 @@
 const PhysicalStockVerification = require('../models/PhysicalStockVerification.model');
+const PakkiSalePurchase = require('../models/PakkiSalePurchase.model');
 
 const createPhysicalStockVerification = async (req, res) => {
   try {
-    const { date, physicalFine999, physicalBalance, remark } = req.body;
+    const { date, physicalFine999, physicalBalance, remark, chorsa999, bank9999, cash } = req.body;
 
-    if (!date || physicalFine999 === undefined || physicalBalance === undefined) {
+    if (!date) {
       return res.status(400).json({
         success: false,
-        message: 'Date, physicalFine999, and physicalBalance are required'
+        message: 'Date is required'
       });
     }
 
+    const verificationDate = new Date(date);
+
+    // Calculate system stock from PakkiSalePurchase up to this date
+    const [chorsaBuy, chorsaSell, bankBuy, bankSell] = await Promise.all([
+      PakkiSalePurchase.aggregate([
+        { $match: { chorsaType: 'chorsa-999', type: 'buy', isDeleted: false, date: { $lte: verificationDate } } },
+        { $group: { _id: null, totalWeight: { $sum: '$weight' }, totalPcs: { $sum: '$pcs' } } }
+      ]),
+      PakkiSalePurchase.aggregate([
+        { $match: { chorsaType: 'chorsa-999', type: 'sell', isDeleted: false, date: { $lte: verificationDate } } },
+        { $group: { _id: null, totalWeight: { $sum: '$weight' }, totalPcs: { $sum: '$pcs' } } }
+      ]),
+      PakkiSalePurchase.aggregate([
+        { $match: { chorsaType: 'bank-9999', type: 'buy', isDeleted: false, date: { $lte: verificationDate } } },
+        { $group: { _id: null, totalWeight: { $sum: '$weight' }, totalPcs: { $sum: '$pcs' } } }
+      ]),
+      PakkiSalePurchase.aggregate([
+        { $match: { chorsaType: 'bank-9999', type: 'sell', isDeleted: false, date: { $lte: verificationDate } } },
+        { $group: { _id: null, totalWeight: { $sum: '$weight' }, totalPcs: { $sum: '$pcs' } } }
+      ])
+    ]);
+
+    const chorsaSystemWeight = (chorsaBuy[0]?.totalWeight || 0) - (chorsaSell[0]?.totalWeight || 0);
+    const chorsaSystemPcs = (chorsaBuy[0]?.totalPcs || 0) - (chorsaSell[0]?.totalPcs || 0);
+    const bankSystemWeight = (bankBuy[0]?.totalWeight || 0) - (bankSell[0]?.totalWeight || 0);
+    const bankSystemPcs = (bankBuy[0]?.totalPcs || 0) - (bankSell[0]?.totalPcs || 0);
+
     const record = await PhysicalStockVerification.create({
       date,
-      physicalFine999,
-      physicalBalance,
-      remark,
+      physicalFine999: physicalFine999 || 0,
+      physicalBalance: physicalBalance || 0,
+      chorsa999: {
+        systemWeight: chorsa999?.systemWeight !== undefined ? chorsa999.systemWeight : chorsaSystemWeight,
+        systemPcs: chorsa999?.systemPcs !== undefined ? chorsa999.systemPcs : chorsaSystemPcs,
+        systemBuy: chorsa999?.systemBuy || 0,
+        systemSell: chorsa999?.systemSell || 0,
+        physicalWeight: chorsa999?.physicalWeight || 0,
+        remark: chorsa999?.remark || ''
+      },
+      bank9999: {
+        systemWeight: bank9999?.systemWeight !== undefined ? bank9999.systemWeight : bankSystemWeight,
+        systemPcs: bank9999?.systemPcs !== undefined ? bank9999.systemPcs : bankSystemPcs,
+        systemBuy: bank9999?.systemBuy || 0,
+        systemSell: bank9999?.systemSell || 0,
+        physicalWeight: bank9999?.physicalWeight || 0,
+        remark: bank9999?.remark || ''
+      },
+      cash: {
+        systemIn: cash?.systemIn || 0,
+        systemOut: cash?.systemOut || 0,
+        systemNet: cash?.systemNet || 0,
+        physicalBalance: cash?.physicalBalance || physicalBalance || 0,
+        remark: cash?.remark || remark || ''
+      },
+      remark: remark || '',
       createdBy: req.user._id
     });
 
@@ -103,11 +154,68 @@ const getPhysicalStockVerificationById = async (req, res) => {
 
 const updatePhysicalStockVerification = async (req, res) => {
   try {
-    const { date, physicalFine999, physicalBalance, remark, isActive } = req.body;
+    const { date, physicalFine999, physicalBalance, remark, chorsa999, bank9999, cash, isActive } = req.body;
+
+    const verificationDate = new Date(date);
+
+    // Recalculate system stock from PakkiSalePurchase up to this date
+    const [chorsaBuy, chorsaSell, bankBuy, bankSell] = await Promise.all([
+      PakkiSalePurchase.aggregate([
+        { $match: { chorsaType: 'chorsa-999', type: 'buy', isDeleted: false, date: { $lte: verificationDate } } },
+        { $group: { _id: null, totalWeight: { $sum: '$weight' }, totalPcs: { $sum: '$pcs' } } }
+      ]),
+      PakkiSalePurchase.aggregate([
+        { $match: { chorsaType: 'chorsa-999', type: 'sell', isDeleted: false, date: { $lte: verificationDate } } },
+        { $group: { _id: null, totalWeight: { $sum: '$weight' }, totalPcs: { $sum: '$pcs' } } }
+      ]),
+      PakkiSalePurchase.aggregate([
+        { $match: { chorsaType: 'bank-9999', type: 'buy', isDeleted: false, date: { $lte: verificationDate } } },
+        { $group: { _id: null, totalWeight: { $sum: '$weight' }, totalPcs: { $sum: '$pcs' } } }
+      ]),
+      PakkiSalePurchase.aggregate([
+        { $match: { chorsaType: 'bank-9999', type: 'sell', isDeleted: false, date: { $lte: verificationDate } } },
+        { $group: { _id: null, totalWeight: { $sum: '$weight' }, totalPcs: { $sum: '$pcs' } } }
+      ])
+    ]);
+
+    const chorsaSystemWeight = (chorsaBuy[0]?.totalWeight || 0) - (chorsaSell[0]?.totalWeight || 0);
+    const chorsaSystemPcs = (chorsaBuy[0]?.totalPcs || 0) - (chorsaSell[0]?.totalPcs || 0);
+    const bankSystemWeight = (bankBuy[0]?.totalWeight || 0) - (bankSell[0]?.totalWeight || 0);
+    const bankSystemPcs = (bankBuy[0]?.totalPcs || 0) - (bankSell[0]?.totalPcs || 0);
 
     const record = await PhysicalStockVerification.findByIdAndUpdate(
       req.params.id,
-      { date, physicalFine999, physicalBalance, remark, isActive, updatedBy: req.user._id },
+      {
+        date,
+        physicalFine999,
+        physicalBalance,
+        chorsa999: {
+          systemWeight: chorsa999?.systemWeight !== undefined ? chorsa999.systemWeight : chorsaSystemWeight,
+          systemPcs: chorsa999?.systemPcs !== undefined ? chorsa999.systemPcs : chorsaSystemPcs,
+          systemBuy: chorsa999?.systemBuy || 0,
+          systemSell: chorsa999?.systemSell || 0,
+          physicalWeight: chorsa999?.physicalWeight || 0,
+          remark: chorsa999?.remark || ''
+        },
+        bank9999: {
+          systemWeight: bank9999?.systemWeight !== undefined ? bank9999.systemWeight : bankSystemWeight,
+          systemPcs: bank9999?.systemPcs !== undefined ? bank9999.systemPcs : bankSystemPcs,
+          systemBuy: bank9999?.systemBuy || 0,
+          systemSell: bank9999?.systemSell || 0,
+          physicalWeight: bank9999?.physicalWeight || 0,
+          remark: bank9999?.remark || ''
+        },
+        cash: {
+          systemIn: cash?.systemIn || 0,
+          systemOut: cash?.systemOut || 0,
+          systemNet: cash?.systemNet || 0,
+          physicalBalance: cash?.physicalBalance || physicalBalance || 0,
+          remark: cash?.remark || remark || ''
+        },
+        remark,
+        isActive,
+        updatedBy: req.user._id
+      },
       { new: true, runValidators: true }
     );
 

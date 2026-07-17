@@ -96,7 +96,7 @@ const createSauda = async (req, res) => {
           saudaType,
           saudaCategory: saudaCategory || 'kachi',
           isCrosscut: true,
-          status: 'cross',
+          status: 'delivered',
           crossQuantity: quantity,
           createdBy: req.user._id
         });
@@ -120,10 +120,13 @@ const createSauda = async (req, res) => {
 
           // Update source sauda
           const sourceSauda = await Sauda.findById(sourceDetail.sourceSaudaId);
+          const newCrossQuantity = sourceSauda.crossQuantity + sourceDetail.crosscutQuantity;
+          const isFullySettled = (Number(sourceSauda.delivered || 0) + newCrossQuantity) >= Number(sourceSauda.quantity);
+          const newStatus = isFullySettled ? 'delivered' : 'cross';
           await Sauda.findByIdAndUpdate(sourceDetail.sourceSaudaId, {
-            crossQuantity: sourceSauda.crossQuantity + sourceDetail.crosscutQuantity,
+            crossQuantity: newCrossQuantity,
             isCrosscut: true,
-            status: 'cross'
+            status: newStatus
           });
         }
 
@@ -410,11 +413,152 @@ const getPartySaudaSummary = async (req, res) => {
   }
 };
 
+const getPartyPendingKachiSaudas = async (req, res) => {
+  try {
+    const { partyId } = req.params;
+    const { saudaType } = req.query; // optional filter
+
+    if (!partyId) {
+      return res.status(400).json({ success: false, message: 'Party id is required' });
+    }
+
+    const baseFilter = {
+      partyId,
+      saudaCategory: 'kachi',
+      status: { $in: ['pending', 'partial', 'cross'] },
+      isDeleted: false
+    };
+
+    if (saudaType) baseFilter.saudaType = saudaType;
+
+    const saudas = await Sauda.find(baseFilter)
+      .sort({ saudaDate: 1 })
+      .lean();
+
+    // Group by saudaType
+    const grouped = {};
+    for (const sauda of saudas) {
+      const key = `${sauda.saudaType}`;
+      const remaining = Number(sauda.quantity) - Number(sauda.delivered) - (sauda.crossQuantity || 0);
+      if (remaining <= 0) continue;
+
+      if (!grouped[key]) {
+        grouped[key] = {
+          saudaType: sauda.saudaType,
+          saudas: [],
+          totalQuantity: 0,
+          totalDelivered: 0,
+          totalRemaining: 0
+        };
+      }
+      grouped[key].saudas.push({
+        _id: sauda._id,
+        saudaNo: sauda.saudaNo,
+        saudaDate: sauda.saudaDate,
+        quantity: sauda.quantity,
+        delivered: sauda.delivered,
+        remaining: parseFloat(remaining.toFixed(2)),
+        rate: sauda.rate,
+        status: sauda.status,
+        saudaCategory: sauda.saudaCategory
+      });
+      grouped[key].totalQuantity += Number(sauda.quantity);
+      grouped[key].totalDelivered += Number(sauda.delivered);
+      grouped[key].totalRemaining += remaining;
+    }
+
+    const groups = Object.values(grouped).map(g => ({
+      ...g,
+      totalQuantity: parseFloat(g.totalQuantity.toFixed(2)),
+      totalDelivered: parseFloat(g.totalDelivered.toFixed(2)),
+      totalRemaining: parseFloat(g.totalRemaining.toFixed(2))
+    }));
+
+    res.status(200).json({ success: true, data: { groups, partyId } });
+  } catch (error) {
+    res.status(500).json({ success: false, message: 'Error fetching party pending kachi saudas', error: error.message });
+  }
+};
+const getPartyPendingPakkiSaudas = async (req, res) => {
+  try {
+    const { partyId } = req.params;
+    const { saudaType, saudaCategory } = req.query; // optional filters
+
+    if (!partyId) {
+      return res.status(400).json({ success: false, message: 'Party id is required' });
+    }
+
+    const baseFilter = {
+      partyId,
+      status: { $in: ['pending', 'partial', 'cross'] },
+      isDeleted: false,
+    };
+    
+    if (saudaCategory) {
+      baseFilter.saudaCategory = saudaCategory;
+    } else {
+      baseFilter.saudaCategory = { $in: ['chorsa-999', 'bank-9999'] };
+    }
+    
+    if (saudaType) baseFilter.saudaType = saudaType;
+
+    const saudas = await Sauda.find(baseFilter)
+      .sort({ saudaDate: 1 })
+      .lean();
+
+    const grouped = {};
+    for (const sauda of saudas) {
+      const key = `${sauda.saudaType}-${sauda.saudaCategory}`;
+      const remaining = Number(sauda.quantity) - Number(sauda.delivered) - (sauda.crossQuantity || 0);
+      if (remaining <= 0) continue;
+
+      if (!grouped[key]) {
+        grouped[key] = {
+          saudaType: sauda.saudaType,
+          saudaCategory: sauda.saudaCategory,
+          saudas: [],
+          totalQuantity: 0,
+          totalDelivered: 0,
+          totalRemaining: 0,
+        };
+      }
+      grouped[key].saudas.push({
+        _id: sauda._id,
+        saudaNo: sauda.saudaNo,
+        saudaDate: sauda.saudaDate,
+        quantity: sauda.quantity,
+        delivered: sauda.delivered,
+        remaining: parseFloat(remaining.toFixed(2)),
+        rate: sauda.rate,
+        status: sauda.status,
+        saudaCategory: sauda.saudaCategory,
+      });
+      grouped[key].totalQuantity += Number(sauda.quantity);
+      grouped[key].totalDelivered += Number(sauda.delivered);
+      grouped[key].totalRemaining += remaining;
+    }
+
+    const groups = Object.values(grouped).map(g => ({
+      ...g,
+      totalQuantity: parseFloat(g.totalQuantity.toFixed(2)),
+      totalDelivered: parseFloat(g.totalDelivered.toFixed(2)),
+      totalRemaining: parseFloat(g.totalRemaining.toFixed(2)),
+    }));
+
+    res.status(200).json({ success: true, data: { groups, partyId } });
+  } catch (error) {
+    res.status(500).json({ success: false, message: 'Error fetching party pending pakki saudas', error: error.message });
+  }
+};
+
 module.exports = {
   createSauda,
   getAllSaudas,
   getSaudaById,
   updateSauda,
   deleteSauda,
-  getPartySaudaSummary
+  getPartySaudaSummary,
+  getPartyPendingPakkiSaudas,
+  getPartyPendingKachiSaudas
 };
+

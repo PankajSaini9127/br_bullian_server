@@ -6,6 +6,7 @@ const { generateSaudaNo } = require('../utils/saudaGenerator');
 const { generateInvoiceNo } = require('../utils/invoiceGenerator');
 const { roundToHalf } = require('../utils/rounding.util');
 
+
 const generateBadlaNo = async () => {
   try {
     const today = new Date();
@@ -129,6 +130,12 @@ const createMetalBadla = async (req, res) => {
         status: 'delivered',
         createdBy: req.user._id
       });
+      // Adjust Chorsa 999 stock by deducting the silver given (negative adjustment)
+      const CompanyProfile = require('../models/CompanyProfile.model');
+      await CompanyProfile.updateOne(
+        { userId: req.user._id, isDeleted: false },
+        { $inc: { openingFine: -Math.abs(silverDifference) } }
+      );
       metalBadla.bhavCutSaudaId = bhavCutSauda._id;
       await metalBadla.save();
     }
@@ -171,6 +178,7 @@ const getAllMetalBadla = async (req, res) => {
 
     const records = await MetalBadla.find(filter)
       .populate('partyId', 'partyName contactNo address email gstin')
+      .populate('paggaIds')
       .sort({ createdAt: -1 })
       .skip(skip)
       .limit(limitNum);

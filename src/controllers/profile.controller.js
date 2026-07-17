@@ -32,7 +32,7 @@ const getProfile = async (req, res) => {
 
 const updateProfile = async (req, res) => {
   try {
-    const { username, email, mobileNumber, companyName, openingBalance, openingBalanceDate, openingFine, openingFineDate } = req.body;
+    const { username, email, mobileNumber, companyName, openingBalance, openingBalanceDate, openingFine, openingFineDate, openingFine9999, openingFine9999Date } = req.body;
 
     // Update user fields
     const userUpdateData = { updatedBy: req.user._id };
@@ -53,6 +53,8 @@ const updateProfile = async (req, res) => {
     if (openingBalanceDate !== undefined) companyUpdateData.openingBalanceDate = openingBalanceDate;
     if (openingFine !== undefined) companyUpdateData.openingFine = openingFine;
     if (openingFineDate !== undefined) companyUpdateData.openingFineDate = openingFineDate;
+    if (openingFine9999 !== undefined) companyUpdateData.openingFine9999 = openingFine9999;
+    if (openingFine9999Date !== undefined) companyUpdateData.openingFine9999Date = openingFine9999Date;
 
     let companyProfile = await CompanyProfile.findOne({ userId: req.user._id, isDeleted: false });
 
@@ -70,6 +72,8 @@ const updateProfile = async (req, res) => {
         openingBalanceDate: openingBalanceDate || null,
         openingFine: openingFine || 0,
         openingFineDate: openingFineDate || null,
+        openingFine9999: openingFine9999 || 0,
+        openingFine9999Date: openingFine9999Date || null,
         createdBy: req.user._id
       });
     }

@@ -100,4 +100,7 @@ const metalBadlaSchema = new mongoose.Schema({
   timestamps: true
 });
 
+metalBadlaSchema.index({ isDeleted: 1, date: 1 });
+metalBadlaSchema.index({ partyId: 1, isDeleted: 1 });
+
 module.exports = mongoose.model('MetalBadla', metalBadlaSchema);

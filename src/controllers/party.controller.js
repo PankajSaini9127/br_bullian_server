@@ -7,6 +7,7 @@ const Sauda = require('../models/Sauda.model');
 const SaudaCrosscut = require('../models/SaudaCrosscut.model');
 const Payment = require('../models/Payment.model');
 const Note = require('../models/Note.model');
+const PakkiSalePurchase = require('../models/PakkiSalePurchase.model');
 const { roundToHalf } = require('../utils/rounding.util');
 
 const createParty = async (req, res) => {
@@ -229,11 +230,13 @@ const getPartyLedger = async (req, res) => {
     const salesFilter = { partyId, isDeleted: false };
     const paymentFilter = { partyId, isDeleted: false };
     const noteFilter = { partyId, isDeleted: false };
+    const pakkiFilter = { partyId, isDeleted: false };
     if (startDate && endDate) {
       invoiceFilter.invoiceDate = dateFilter;
       salesFilter.invoiceDate = dateFilter;
       paymentFilter.paymentDate = dateFilter;
       noteFilter.date = dateFilter;
+      pakkiFilter.date = dateFilter;
     }
 
     // Fetch incoming invoices
@@ -290,6 +293,32 @@ const getPartyLedger = async (req, res) => {
       });
     });
 
+    // Fetch PakkiSalePurchase records
+    const pakkiRecords = await PakkiSalePurchase.find(pakkiFilter).sort({ date: -1 });
+    const pakkiRecordIds = pakkiRecords.map(r => r._id);
+
+    // Fetch sauda cuts for pakki records
+    const pakkiSaudaCuts = await InvoiceSauda.find({ invoiceId: { $in: pakkiRecordIds }, isDeleted: false })
+      .populate('saudaId', 'saudaNo saudaDate quantity delivered rate status isBhavCut');
+
+    const saudaCutsByPakki = {};
+    pakkiSaudaCuts.forEach(cut => {
+      const key = cut.invoiceId.toString();
+      if (!saudaCutsByPakki[key]) saudaCutsByPakki[key] = [];
+      saudaCutsByPakki[key].push({
+        saudaId: cut.saudaId._id,
+        saudaNo: cut.saudaId.saudaNo,
+        saudaDate: cut.saudaId.saudaDate,
+        quantity: cut.saudaId.quantity,
+        delivered: cut.saudaId.delivered,
+        rate: cut.saudaId.rate,
+        status: cut.saudaId.status,
+        cutWeight: cut.weight,
+        cutFine: cut.fine,
+        isBhavCut: cut.saudaId.isBhavCut
+      });
+    });
+
     // Build ledger entries
     const entries = [];
 
@@ -328,6 +357,24 @@ const getPartyLedger = async (req, res) => {
         puggaCount: puggas.length,
         isReturn,
         creditDebitType: isReturn ? 'credit' : 'debit'
+      });
+    }
+
+    for (const record of pakkiRecords) {
+      const cuts = saudaCutsByPakki[record._id.toString()] || [];
+      const totalWeight = cuts.reduce((s, c) => s + (c.cutWeight || 0), 0);
+      const totalFine = cuts.reduce((s, c) => s + (c.cutFine || 0), 0);
+      const isBuy = record.type === 'buy';
+      entries.push({
+        date: record.date,
+        createdAt: record.createdAt,
+        type: isBuy ? 'Purchase' : 'sales',
+        invoiceNo: record.invoiceNo,
+        totalWeight: totalWeight || record.weight,
+        totalFine: totalFine || record.weight,
+        saudaCuts: cuts,
+        isReturn: false,
+        creditDebitType: isBuy ? 'debit' : 'credit'
       });
     }
 

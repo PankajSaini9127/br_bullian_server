@@ -60,4 +60,7 @@ const paymentSchema = new mongoose.Schema({
   timestamps: true
 });
 
+paymentSchema.index({ isDeleted: 1, paymentDate: 1 });
+paymentSchema.index({ partyId: 1, isDeleted: 1 });
+
 module.exports = mongoose.model('Payment', paymentSchema);

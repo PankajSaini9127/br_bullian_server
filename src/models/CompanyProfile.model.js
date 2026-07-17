@@ -27,6 +27,14 @@ const companyProfileSchema = new mongoose.Schema({
     type: Date,
     default: null
   },
+  openingFine9999: {
+    type: Number,
+    default: 0
+  },
+  openingFine9999Date: {
+    type: Date,
+    default: null
+  },
   isActive: {
     type: Boolean,
     default: true

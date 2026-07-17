@@ -1,9 +1,13 @@
 const mongoose = require('mongoose');
 
-const salesInvoiceSchema = new mongoose.Schema({
-  salesInvoiceNo: {
+const pakkiSalePurchaseSchema = new mongoose.Schema({
+  invoiceNo: {
     type: String,
     unique: true,
+    trim: true
+  },
+  partyName: {
+    type: String,
     trim: true
   },
   partyId: {
@@ -11,21 +15,27 @@ const salesInvoiceSchema = new mongoose.Schema({
     ref: 'Party',
     required: true
   },
-  invoiceDate: {
+  date: {
     type: Date,
     required: true
   },
-  paggaIds: [{
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'Pugga'
-  }],
-  totalAmount: {
+  weight: {
     type: Number,
     default: 0
   },
-  isReturn: {
-    type: Boolean,
-    default: false
+  pcs: {
+    type: Number,
+    default: 0
+  },
+  type: {
+    type: String,
+    enum: ['buy', 'sell'],
+    required: true
+  },
+  chorsaType: {
+    type: String,
+    enum: ['chorsa-999', 'bank-9999'],
+    default: 'chorsa-999'
   },
   isActive: {
     type: Boolean,
@@ -54,7 +64,7 @@ const salesInvoiceSchema = new mongoose.Schema({
   timestamps: true
 });
 
-salesInvoiceSchema.index({ isDeleted: 1, invoiceDate: 1 });
-salesInvoiceSchema.index({ partyId: 1, isDeleted: 1 });
+pakkiSalePurchaseSchema.index({ isDeleted: 1, date: 1 });
+pakkiSalePurchaseSchema.index({ partyId: 1, isDeleted: 1 });
 
-module.exports = mongoose.model('SalesInvoice', salesInvoiceSchema);
+module.exports = mongoose.model('PakkiSalePurchase', pakkiSalePurchaseSchema);

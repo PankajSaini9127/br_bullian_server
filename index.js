@@ -16,6 +16,8 @@ const noteRoutes = require('./src/routes/note.routes');
 const profileRoutes = require('./src/routes/profile.routes');
 const physicalStockVerificationRoutes = require('./src/routes/physicalStockVerification.routes');
 const metalBadlaRoutes = require('./src/routes/metalBadla.routes');
+const pakkiSalePurchaseRoutes = require('./src/routes/pakkiSalePurchase.routes');
+const reportRoutes = require('./src/routes/report.routes');
 
 const app = express();
 const PORT = process.env.PORT || 8080;
@@ -27,6 +29,7 @@ connectDB();
 app.use(cors({
    origin: [
     "http://localhost:3000",
+    "http://localhost:3001",
     "http://192.168.1.4:3000",
     "http://15.206.168.54:3030"
   ],
@@ -51,6 +54,8 @@ app.use('/api/notes', noteRoutes);
 app.use('/api/profile', profileRoutes);
 app.use('/api/physical-stock-verification', physicalStockVerificationRoutes);
 app.use('/api/metal-badla', metalBadlaRoutes);
+app.use('/api/pakki-sale-purchase', pakkiSalePurchaseRoutes);
+app.use('/api/reports', reportRoutes);
 
 // Health check route
 app.get('/health', (req, res) => {
