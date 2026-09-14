@@ -24,6 +24,15 @@ const invoiceSchema = new mongoose.Schema({
     enum: ['pending', 'delivered', 'partial', 'closed', 'cross'],
     default: 'pending'
   },
+  paymentStatus: {
+    type: String,
+    enum: ['unpaid', 'partial', 'paid'],
+    default: 'unpaid'
+  },
+  paidAmount: {
+    type: Number,
+    default: 0
+  },
   isActive: {
     type: Boolean,
     default: true

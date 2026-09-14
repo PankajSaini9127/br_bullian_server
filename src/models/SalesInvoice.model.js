@@ -23,6 +23,15 @@ const salesInvoiceSchema = new mongoose.Schema({
     type: Number,
     default: 0
   },
+  paymentStatus: {
+    type: String,
+    enum: ['unpaid', 'partial', 'paid'],
+    default: 'unpaid'
+  },
+  paidAmount: {
+    type: Number,
+    default: 0
+  },
   isReturn: {
     type: Boolean,
     default: false

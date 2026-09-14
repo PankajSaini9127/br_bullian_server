@@ -1,6 +1,8 @@
 const Sauda = require('../models/Sauda.model');
 const SaudaCrosscut = require('../models/SaudaCrosscut.model');
+const Party = require('../models/Party.model');
 const { generateSaudaNo } = require('../utils/saudaGenerator');
+const { sendSaudaCreatedMessage } = require('../utils/whatsapp.service');
 
 const createSauda = async (req, res) => {
   try {
@@ -130,6 +132,19 @@ const createSauda = async (req, res) => {
           });
         }
 
+        // Trigger WhatsApp notification asynchronously
+        Party.findById(partyId)
+          .then(party => {
+            if (party && party.contactNo) {
+              sendSaudaCreatedMessage(party, newSauda).catch(err => {
+                console.error('Failed to send WhatsApp message for crosscut sauda:', err);
+              });
+            }
+          })
+          .catch(err => {
+            console.error('Failed to fetch party for WhatsApp message (crosscut):', err);
+          });
+
         return res.status(201).json({
           success: true,
           message: 'Sauda created with cross cut successfully',
@@ -152,6 +167,19 @@ const createSauda = async (req, res) => {
       isCrosscut: false,
       createdBy: req.user._id
     });
+
+    // Trigger WhatsApp notification asynchronously
+    Party.findById(partyId)
+      .then(party => {
+        if (party && party.contactNo) {
+          sendSaudaCreatedMessage(party, sauda).catch(err => {
+            console.error('Failed to send WhatsApp message for sauda:', err);
+          });
+        }
+      })
+      .catch(err => {
+        console.error('Failed to fetch party for WhatsApp message:', err);
+      });
 
     res.status(201).json({
       success: true,

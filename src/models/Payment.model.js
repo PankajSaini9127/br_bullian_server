@@ -19,6 +19,10 @@ const paymentSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
+  advanceRemaining: {
+    type: Number,
+    default: 0
+  },
   paymentType: {
     type: String,
     enum: ['incoming', 'outgoing'],

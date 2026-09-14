@@ -49,6 +49,15 @@ const saudaSchema = new mongoose.Schema({
     type: Boolean,
     default: false
   },
+  paymentStatus: {
+    type: String,
+    enum: ['unpaid', 'partial', 'paid'],
+    default: 'unpaid'
+  },
+  paidAmount: {
+    type: Number,
+    default: 0
+  },
   isCrosscut: {
     type: Boolean,
     default: false
