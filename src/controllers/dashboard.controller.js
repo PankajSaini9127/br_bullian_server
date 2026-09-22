@@ -81,6 +81,7 @@ const calculateKachiStock = async (targetDate) => {
   // Created puggas
   const createdPuggas = await Pugga.find({
     isDeleted: false,
+    isPurchaseReturn: false,
     $or: [
       { invoiceId: { $in: purchaseIds } },
       { _id: { $in: badlaPuggaIds } }

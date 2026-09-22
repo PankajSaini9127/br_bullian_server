@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { createPugga, getAllPuggas, getPuggaById, updatePugga, deletePugga, getPuggasForSale, getPuggasByParty } = require('../controllers/pugga.controller');
+const { createPugga, getAllPuggas, getPuggaById, updatePugga, deletePugga, getPuggasForSale, getPuggasByParty, getKachiStockReport } = require('../controllers/pugga.controller');
 const authMiddleware = require('../middleware/auth.middleware');
 
 // All pugga routes require authentication
@@ -8,6 +8,7 @@ router.use(authMiddleware);
 
 router.post('/', createPugga);
 router.get('/', getAllPuggas);
+router.get('/kachi-stock', getKachiStockReport);
 router.get('/for-sale', getPuggasForSale);
 router.get('/party/:partyId', getPuggasByParty);
 router.get('/:id', getPuggaById);

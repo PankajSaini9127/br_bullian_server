@@ -20,7 +20,7 @@ const pakkiSalePurchaseRoutes = require('./src/routes/pakkiSalePurchase.routes')
 const reportRoutes = require('./src/routes/report.routes');
 
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8081;
 
 // Connect to database
 connectDB();
@@ -99,9 +99,24 @@ app.use((req, res) => {
 });
 
 // Start server
-app.listen(PORT,"0.0.0.0", () => {
-  console.log(`Server is running on port ${PORT}`);
-  console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
-});
+// Start server
+const startServer = (port) => {
+  const numericPort = Number(port) || 8081;
+  const server = app.listen(numericPort, "0.0.0.0", () => {
+    console.log(`Server is running on port ${numericPort}`);
+    console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
+  });
+  server.on('error', (err) => {
+    if (err.code === 'EADDRINUSE') {
+      const newPort = numericPort + 1;
+      console.warn(`Port ${numericPort} in use, trying ${newPort}`);
+      startServer(newPort);
+    } else {
+      console.error('Server error:', err);
+      process.exit(1);
+    }
+  });
+};
+startServer(PORT);
 
 module.exports = app;

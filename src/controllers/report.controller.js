@@ -4,6 +4,7 @@ const Pugga = require('../models/Pugga.model');
 const MetalBadla = require('../models/MetalBadla.model');
 const PakkiSalePurchase = require('../models/PakkiSalePurchase.model');
 const Party = require('../models/Party.model');
+const { roundToHalf } = require('../utils/rounding.util');
 
 // Generate Report Summary Grouped by Party for a Selected Date
 const getReportSummary = async (req, res) => {
@@ -173,6 +174,88 @@ const getReportSummary = async (req, res) => {
   }
 };
 
+// Daily stock report: aggregates Kachi fine, Chorsa, Bank per day
+const getDailyStockReport = async (req, res) => {
+  try {
+    const { start, end } = req.query;
+    const startDate = start ? new Date(start) : new Date();
+    const endDate = end ? new Date(end) : new Date();
+    startDate.setHours(0,0,0,0);
+    endDate.setHours(23,59,59,999);
+
+    // Kachi stock (unsold) up to endDate
+    const purchases = await Invoice.find({ isDeleted: false, isReturn: false, invoiceDate: { $lte: endDate } })
+      .select('_id invoiceDate')
+      .lean();
+    const purchaseIds = purchases.map(p => p._id);
+    const badlas = await MetalBadla.find({ isDeleted: false, date: { $lte: endDate } })
+      .select('paggaIds date')
+      .lean();
+    const badlaPuggaIds = badlas.flatMap(b => b.paggaIds || []);
+    const createdPuggas = await Pugga.find({
+      isDeleted: false,
+      $or: [
+        { invoiceId: { $in: purchaseIds } },
+        { _id: { $in: badlaPuggaIds } }
+      ]
+    }).lean();
+
+    const salesInvoices = await SalesInvoice.find({ isDeleted: false, isReturn: false, invoiceDate: { $lte: endDate } })
+      .select('paggaIds')
+      .lean();
+    const soldPuggaIds = new Set(salesInvoices.flatMap(si => si.paggaIds || []).map(id => id.toString()));
+    const remainingPuggas = createdPuggas.filter(p => !soldPuggaIds.has(p._id.toString()));
+
+    const kachiEntries = remainingPuggas.map(p => {
+      let entryDate = p.createdAt;
+      if (p.invoiceId) {
+        const inv = purchases.find(i => i._id.toString() === p.invoiceId.toString());
+        if (inv && inv.invoiceDate) entryDate = inv.invoiceDate;
+      } else if (badlaPuggaIds.includes(p._id)) {
+        const mb = badlas.find(b => (b.paggaIds || []).some(id => id.toString() === p._id.toString()));
+        if (mb && mb.date) entryDate = mb.date;
+      }
+      const fine = roundToHalf((Number(p.weight) * Number(p.touch)) / 100);
+      return { date: entryDate, fine };
+    });
+
+    const kachiMap = {};
+    kachiEntries.forEach(e => {
+      const ds = new Date(e.date).toISOString().split('T')[0];
+      kachiMap[ds] = (kachiMap[ds] || 0) + e.fine;
+    });
+
+    // Pakki records (Chorsa / Bank)
+    const pakkiFilter = { isDeleted: false, date: { $gte: startDate, $lte: endDate } };
+    const pakkiRecords = await PakkiSalePurchase.find(pakkiFilter).lean();
+    const pakkiMap = {};
+    pakkiRecords.forEach(r => {
+      const ds = new Date(r.date).toISOString().split('T')[0];
+      if (!pakkiMap[ds]) pakkiMap[ds] = { chorsa: 0, bank: 0 };
+      const w = Number(r.weight) || 0;
+      if (r.chorsaType === 'bank-9999') {
+        pakkiMap[ds].bank += r.type === 'buy' ? w : -w;
+      } else {
+        pakkiMap[ds].chorsa += r.type === 'buy' ? w : -w;
+      }
+    });
+
+    const allDates = new Set([...Object.keys(kachiMap), ...Object.keys(pakkiMap)]);
+    const report = Array.from(allDates).sort().map(ds => ({
+      date: ds,
+      kachiFine: kachiMap[ds] || 0,
+      chorsaStock: (pakkiMap[ds] && pakkiMap[ds].chorsa) || 0,
+      bankStock: (pakkiMap[ds] && pakkiMap[ds].bank) || 0
+    }));
+
+    res.status(200).json({ success: true, data: report });
+  } catch (error) {
+    console.error('Error generating daily stock report:', error);
+    res.status(500).json({ success: false, message: 'Error generating daily stock report', error: error.message });
+  }
+};
+
 module.exports = {
-  getReportSummary
+  getReportSummary,
+  getDailyStockReport,
 };

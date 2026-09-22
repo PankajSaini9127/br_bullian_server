@@ -1,6 +1,7 @@
 const Pugga = require('../models/Pugga.model');
 const SalesInvoice = require('../models/SalesInvoice.model');
 const Invoice = require('../models/Invoice.model');
+const MetalBadla = require('../models/MetalBadla.model');
 const { roundToHalf } = require('../utils/rounding.util');
 
 const createPugga = async (req, res) => {
@@ -210,7 +211,7 @@ const deletePugga = async (req, res) => {
 const getPuggasForSale = async (req, res) => {
   try {
     const { invoiceId, isReturn, partyId } = req.query;
-    let filter = { isSold: false, isDukanStock: false, invoiceId: { $exists: true, $ne: null } };
+    let filter = { isSold: false, isDukanStock: false, isPurchaseReturn: false, invoiceId: { $exists: true, $ne: null } };
 
     // If isReturn is true, show puggas sold to the specified party that are not returned
     if (isReturn === 'true' && partyId) {
@@ -308,6 +309,114 @@ const getPuggasByParty = async (req, res) => {
 };
 
 
+const getKachiStockReport = async (req, res) => {
+  try {
+    const { date } = req.query;
+    const endOfDate = date ? new Date(date) : new Date();
+    endOfDate.setHours(23, 59, 59, 999);
+
+    // Invoices (Purchase Kachi)
+    const purchases = await Invoice.find({ isDeleted: false, isReturn: false, invoiceDate: { $lte: endOfDate } })
+      .populate('partyId', 'partyName')
+      .select('_id invoiceNo invoiceDate partyId')
+      .lean();
+    const purchaseMap = {};
+    purchases.forEach(p => {
+      purchaseMap[p._id.toString()] = p;
+    });
+    const purchaseIds = purchases.map(p => p._id);
+
+    // Metal Badlas (Exchange Kachi)
+    const badlas = await MetalBadla.find({ isDeleted: false, date: { $lte: endOfDate } })
+      .populate('partyId', 'partyName')
+      .select('_id badlaNo date partyId paggaIds')
+      .lean();
+    const badlaMap = {};
+    const badlaPuggaIds = [];
+    badlas.forEach(b => {
+      (b.paggaIds || []).forEach(pid => {
+        badlaPuggaIds.push(pid);
+        badlaMap[pid.toString()] = b;
+      });
+    });
+
+    // Created puggas
+    const createdPuggas = await Pugga.find({
+      isDeleted: false,
+      $or: [
+        { invoiceId: { $in: purchaseIds } },
+        { _id: { $in: badlaPuggaIds } }
+      ]
+    }).lean();
+
+    // Sold puggas (Sales Kachi)
+    const salesInvoices = await SalesInvoice.find({ isDeleted: false, isReturn: false, invoiceDate: { $lte: endOfDate } }).select('paggaIds').lean();
+    const soldPuggaIds = new Set(salesInvoices.reduce((acc, s) => acc.concat((s.paggaIds || []).map(id => id.toString())), []));
+
+    // Remaining puggas in stock
+    const remainingPuggas = createdPuggas.filter(p => !soldPuggaIds.has(p._id.toString()));
+
+    const puggasWithDetails = remainingPuggas.map(p => {
+      const weight = Number(p.weight) || 0;
+      const touch = Number(p.touch) || 0;
+      const fine = roundToHalf((weight * touch) / 100);
+
+      let source = 'Direct';
+      let sourceNo = '-';
+      let partyName = 'Unknown';
+      let recordDate = p.createdAt;
+
+      if (p.invoiceId && purchaseMap[p.invoiceId.toString()]) {
+        const inv = purchaseMap[p.invoiceId.toString()];
+        source = 'Purchase';
+        sourceNo = inv.invoiceNo || '-';
+        partyName = inv.partyId?.partyName || 'Unknown';
+        recordDate = inv.invoiceDate || p.createdAt;
+      } else if (badlaMap[p._id.toString()]) {
+        const mb = badlaMap[p._id.toString()];
+        source = 'Exchange';
+        sourceNo = mb.badlaNo || '-';
+        partyName = mb.partyId?.partyName || 'Unknown';
+        recordDate = mb.date || p.createdAt;
+      }
+
+      return {
+        ...p,
+        weight,
+        touch,
+        fine,
+        source,
+        sourceNo,
+        boughtFrom: partyName,
+        date: recordDate
+      };
+    });
+
+    // Sort newest first
+    puggasWithDetails.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    const totalWeight = puggasWithDetails.reduce((sum, p) => sum + p.weight, 0);
+    const totalFine = puggasWithDetails.reduce((sum, p) => sum + p.fine, 0);
+
+    res.status(200).json({
+      success: true,
+      data: {
+        totalPuggas: puggasWithDetails.length,
+        totalWeight,
+        totalFine,
+        puggas: puggasWithDetails
+      }
+    });
+  } catch (error) {
+    console.error('Error fetching kachi stock report:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Error fetching kachi stock report',
+      error: error.message
+    });
+  }
+};
+
 module.exports = {
   createPugga,
   getAllPuggas,
@@ -315,5 +424,6 @@ module.exports = {
   updatePugga,
   deletePugga,
   getPuggasForSale,
-  getPuggasByParty
+  getPuggasByParty,
+  getKachiStockReport
 };
