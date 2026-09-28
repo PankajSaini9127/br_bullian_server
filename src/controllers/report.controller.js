@@ -204,7 +204,21 @@ const getDailyStockReport = async (req, res) => {
       .select('paggaIds')
       .lean();
     const soldPuggaIds = new Set(salesInvoices.flatMap(si => si.paggaIds || []).map(id => id.toString()));
-    const remainingPuggas = createdPuggas.filter(p => !soldPuggaIds.has(p._id.toString()));
+
+    const returnInvoices = await Invoice.find({ isDeleted: false, isReturn: true, invoiceDate: { $lte: endDate } })
+      .select('_id')
+      .lean();
+    const returnInvoiceIds = new Set(returnInvoices.map(r => r._id.toString()));
+
+    const remainingPuggas = createdPuggas.filter(p => {
+      if (soldPuggaIds.has(p._id.toString())) return false;
+      if (p.isPurchaseReturn) {
+        if (!p.returnInvoiceId || returnInvoiceIds.has(p.returnInvoiceId.toString())) return false;
+      } else if (p.returnInvoiceId && returnInvoiceIds.has(p.returnInvoiceId.toString())) {
+        return false;
+      }
+      return true;
+    });
 
     const kachiEntries = remainingPuggas.map(p => {
       let entryDate = p.createdAt;

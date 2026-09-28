@@ -299,10 +299,41 @@ const getAllPakkiSalePurchase = async (req, res) => {
 
     const total = await PakkiSalePurchase.countDocuments(filter);
 
+    // Fetch sauda cuts for these pakki records
+    const recordIds = records.map(r => r._id);
+    const saudaCuts = await InvoiceSauda.find({ invoiceId: { $in: recordIds }, isDeleted: false })
+      .populate('saudaId', 'saudaNo saudaDate quantity delivered rate status isBhavCut');
+
+    const cutsByRecord = {};
+    saudaCuts.forEach(cut => {
+      const key = cut.invoiceId.toString();
+      if (!cutsByRecord[key]) cutsByRecord[key] = [];
+      if (cut.saudaId) {
+        cutsByRecord[key].push({
+          saudaId: cut.saudaId._id,
+          saudaNo: cut.saudaId.saudaNo,
+          saudaDate: cut.saudaId.saudaDate,
+          quantity: cut.saudaId.quantity,
+          delivered: cut.saudaId.delivered,
+          rate: cut.saudaId.rate,
+          status: cut.saudaId.status,
+          cutWeight: cut.weight,
+          cutFine: cut.fine,
+          isBhavCut: cut.saudaId.isBhavCut
+        });
+      }
+    });
+
+    const recordsWithCuts = records.map(r => {
+      const obj = r.toObject();
+      obj.saudaCuts = cutsByRecord[r._id.toString()] || [];
+      return obj;
+    });
+
     res.status(200).json({
       success: true,
       data: {
-        records,
+        records: recordsWithCuts,
         pagination: {
           currentPage: pageNum,
           totalPages: Math.ceil(total / limitNum),
@@ -332,9 +363,26 @@ const getPakkiSalePurchaseById = async (req, res) => {
       });
     }
 
+    const saudaCuts = await InvoiceSauda.find({ invoiceId: record._id, isDeleted: false })
+      .populate('saudaId', 'saudaNo saudaDate quantity delivered rate status isBhavCut');
+
+    const recordObj = record.toObject();
+    recordObj.saudaCuts = saudaCuts.map(cut => ({
+      saudaId: cut.saudaId?._id,
+      saudaNo: cut.saudaId?.saudaNo,
+      saudaDate: cut.saudaId?.saudaDate,
+      quantity: cut.saudaId?.quantity,
+      delivered: cut.saudaId?.delivered,
+      rate: cut.saudaId?.rate,
+      status: cut.saudaId?.status,
+      cutWeight: cut.weight,
+      cutFine: cut.fine,
+      isBhavCut: cut.saudaId?.isBhavCut
+    }));
+
     res.status(200).json({
       success: true,
-      data: { record }
+      data: { record: recordObj }
     });
   } catch (error) {
     res.status(500).json({

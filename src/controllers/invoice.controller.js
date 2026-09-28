@@ -604,6 +604,14 @@ const deleteInvoice = async (req, res) => {
     }
     await InvoiceSauda.deleteMany({ invoiceId: invoice._id });
 
+    // If return invoice is deleted, revert purchase-returned puggas
+    if (invoice.isReturn) {
+      await Pugga.updateMany(
+        { returnInvoiceId: invoice._id },
+        { returnInvoiceId: null, isPurchaseReturn: false, updatedBy: req.user._id }
+      );
+    }
+
     res.status(200).json({
       success: true,
       message: 'Invoice deleted successfully'

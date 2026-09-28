@@ -74,6 +74,11 @@ const getAllPuggas = async (req, res) => {
         select: 'invoiceNo invoiceDate partyId',
         populate: { path: 'partyId', select: 'partyName' }
       })
+      .populate({
+        path: 'returnInvoiceId',
+        select: 'invoiceNo invoiceDate partyId',
+        populate: { path: 'partyId', select: 'partyName' }
+      })
       .sort({ createdAt: -1 })
       .skip(skip)
       .limit(limitNum);
@@ -100,6 +105,9 @@ const getAllPuggas = async (req, res) => {
       const obj = p.toObject();
       obj.boughtFrom = obj.invoiceId && obj.invoiceId.partyId ? obj.invoiceId.partyId.partyName : 'Unknown';
       obj.soldTo = p.isSold ? (salesInvoiceMap[p._id.toString()] || 'Unknown') : null;
+      if (p.isPurchaseReturn) {
+        obj.purchaseReturnedTo = obj.returnInvoiceId?.partyId?.partyName || obj.boughtFrom || 'Vendor';
+      }
       obj.fine = (Number(p.weight) * Number(p.touch)) / 100;
       return obj;
     });
@@ -316,7 +324,7 @@ const getKachiStockReport = async (req, res) => {
     endOfDate.setHours(23, 59, 59, 999);
 
     // Invoices (Purchase Kachi)
-    const purchases = await Invoice.find({ isDeleted: false, isReturn: false, invoiceDate: { $lte: endOfDate } })
+    const purchases = await Invoice.find({ isDeleted: false, isReturn: false,isActive:true, invoiceDate: { $lte: endOfDate } })
       .populate('partyId', 'partyName')
       .select('_id invoiceNo invoiceDate partyId')
       .lean();
@@ -353,8 +361,26 @@ const getKachiStockReport = async (req, res) => {
     const salesInvoices = await SalesInvoice.find({ isDeleted: false, isReturn: false, invoiceDate: { $lte: endOfDate } }).select('paggaIds').lean();
     const soldPuggaIds = new Set(salesInvoices.reduce((acc, s) => acc.concat((s.paggaIds || []).map(id => id.toString())), []));
 
-    // Remaining puggas in stock
-    const remainingPuggas = createdPuggas.filter(p => !soldPuggaIds.has(p._id.toString()));
+    // Purchase Returns (Purchase Return Kachi)
+    const returnInvoices = await Invoice.find({ isDeleted: false, isReturn: true, invoiceDate: { $lte: endOfDate } }).select('_id').lean();
+    const returnInvoiceIds = new Set(returnInvoices.map(r => r._id.toString()));
+
+    // Remaining puggas in stock (exclude sold puggas and purchase returned puggas)
+    const remainingPuggas = createdPuggas.filter(p => {
+      // Exclude if sold on or before endOfDate
+      if (soldPuggaIds.has(p._id.toString())) return false;
+
+      // Exclude if purchase returned on or before endOfDate
+      if (p.isPurchaseReturn) {
+        if (!p.returnInvoiceId || returnInvoiceIds.has(p.returnInvoiceId.toString())) {
+          return false;
+        }
+      } else if (p.returnInvoiceId && returnInvoiceIds.has(p.returnInvoiceId.toString())) {
+        return false;
+      }
+
+      return true;
+    });
 
     const puggasWithDetails = remainingPuggas.map(p => {
       const weight = Number(p.weight) || 0;
